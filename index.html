@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Manrope:wght@400;500;600;700&display=swap"
+    />
+    <title>Coachie App - Admin</title>
+    <!--
+      GitHub Pages has no server-side rewrites, so a deep link
+      (app.coachieapp.fit/clients) 404s on a real page load - GitHub serves
+      404.html for that, which redirects here with the real path encoded in
+      a query param (?/clients). This restores it via history.replaceState
+      before React Router ever reads location, so a refresh/bookmark on a
+      real route works. Standard spa-github-pages technique
+      (github.com/rafgraph/spa-github-pages) - pairs with dist/404.html.
+    -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, '', redirect);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-CWHXH8sL.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CEX2PREG.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
