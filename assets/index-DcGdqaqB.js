@@ -401,89 +401,93 @@ Until the Polish socials start, keep Poland low-effort:
   socials start.
 
 The Polish copy written in this audit is kept as the PL version in sections 7–11.
-`,oMe=`# 3. Pricing: audit of the demo prices (UK, GBP)
-
-Skill: \`pricing-strategist\`. Jan's decision: **the demo prices stay for now.** This section checks them against the
-goals and the UK market; it does not redesign them.
-
-Both markets use the same tiers. The UK figures are below; Poland uses Start 49 zł, Pro 99 zł, Studio 179 zł and
-Premium 34.99 zł. In zł, Pro is cheaper for Polish PTs than the dollar-priced tools, which is a real argument there.
-
-**Strategy type:** Hybrid.
-- **Trainers:** SaaS tiered by number of clients (B2B, value metric = clients managed).
-- **AI-mode clients:** one consumer subscription (B2C).
-- **Clients with a trainer:** always free.
-
-**Why this structure works:** the price grows with the trainer's own income. Free clients remove the biggest
-objection: "I'm not asking my clients to pay for another app."
-
----
-
-### Start: £9.99/mo | £99.90/yr (2 months free, 17%)
-- **Who it's for:** newly qualified Level 3 PTs and part-timers with up to 5 clients (the course-provider channel,
-  section 2).
-- **What's included:** up to 5 clients, workout and meal plans, bookings, chat. No AI plan generator.
-- **Justification:** less than a fifth of one PT session (UK sessions commonly cost £30–60). The trainer won't think
-  twice.
-
-### Pro (hero): £19.99/mo | £199.90/yr
-- **Who it's for:** the core ICP, a PT with 10–25 clients. **The 20-clients-per-trainer goal (20,000 ÷ 1,000) lands
-  exactly here**, so most revenue comes from Pro.
-- **What's new:** up to 25 clients, AI plan generator, budget tools.
-- **Justification:**
-  - about 6.5 h saved a month at 10 clients (estimate);
-  - one hour of a PT's time pays for the month;
-  - about the same as Trainerize Pro (about $23 ≈ £18) and well below TrueCoach Standard for 20 clients
-    ($53–70), with meal plans, payments and bookings included instead of add-ons (section 4).
-
-### Studio: £34.99/mo | £349.90/yr
-- **Who it's for:** PTs with 25+ clients, small studios, gym teams.
-- **What's new:** unlimited clients, own branding, priority support.
-- **Justification:** the anchor that makes £19.99 look reasonable, and a clean deal for independent gyms.
-
-### Ramvo Premium (AI-mode client): £6.99/mo | £59.99/yr (28%)
-- **Who it's for:** people training alone who can't afford a PT every week.
-- **Justification:** consumer fitness-app price territory, and a small fraction of one PT session. £6.99 is an
-  App Store price point UK users already know.
-
----
-
-### Positioning & Psychology
-- **Market position:** "everything included" mid-price, the only UK option where the client app is free for
-  clients and clients can find the trainer through matching.
-- **Positioning line:** "The PT app your clients actually open, and don't pay for."
-- **Tactics in use:**
-  - anchoring (Studio);
-  - hero tier (Pro, "Most popular");
-  - free for clients;
-  - full-feature 30-day trial;
-  - charm prices.
-- **Upgrade triggers:**
-  - **Start → Pro:** the 6th client. Show "5/5 clients" with a one-tap upgrade at the moment of adding a client.
-  - **Pro → Studio:** the 26th client, or the first branding request.
-  - **AI client → trainer client:** the matching prompt after 8 weeks (section 2).
-
-### Revenue Optimization
-- **Founding Trainers:** 24 months free means no revenue until 2029. Their value is case studies and referrals; leave
-  them out of year-1 revenue.
-- **Annual plans:** 17% off (slightly under the usual 20%) can stay. Push annual in the trial-end e-mail ("Pay
-  yearly, get 2 months free"). January–February churn is the risk.
-- **VAT:** decide whether the prices include VAT. UK consumers expect VAT-inclusive prices. Once Ramvo Ltd is
-  VAT-registered (Stripe Tax is planned), make sure £6.99 still leaves margin. This is a decision for Jan and his
-  accountant, not a pricing-model change.
-- **Year-1 revenue picture**, if the goals are hit (rough model, not a forecast):
-
-  | Line | Assumption | Monthly revenue in Dec 2027 |
-  |---|---|---|
-  | Trainers | 980 paying; mix 30% Start, 55% Pro, 15% Studio; average about £19.24 | about **£18,900 MRR** |
-  | AI clients | 2,000 of the 20,000 clients pay Premium £6.99 | about **£14,000 MRR** |
-  | Total | | about **£32,900 MRR**, about £395k ARR run-rate |
-
-### Biggest Pricing Risk
-**The jump from Pro (25 clients) to Studio (unlimited) is the only upgrade lever, and it is steep:** +£15 for client
-26. Trainers at 24–25 clients may delete inactive clients to stay on Pro. Watch the share of Pro trainers sitting
-at the limit for 30+ days. Above 10%, test a "Pro 40" tier at about £27.99, or count only *active* clients. No change
-before there is data.
+`,oMe=`# 3. Pricing: audit of the demo prices (UK, GBP)\r
+\r
+Skill: \`pricing-strategist\`. Jan's decision: **the demo prices stay for now.** This section checks them against the\r
+goals and the UK market; it does not redesign them.\r
+\r
+Both markets use the same tiers. The UK figures are below; Poland uses Start 49 zł, Pro 99 zł, Studio 179 zł and\r
+Premium 34.99 zł. In zł, Pro is cheaper for Polish PTs than the dollar-priced tools, which is a real argument there.\r
+\r
+**Strategy type:** Hybrid.\r
+- **Trainers:** SaaS tiered by number of clients (B2B, value metric = clients managed).\r
+- **AI-mode clients:** one consumer subscription (B2C).\r
+- **Clients with a trainer:** always free.\r
+\r
+**Why this structure works:** the price grows with the trainer's own income. Free clients remove the biggest\r
+objection: "I'm not asking my clients to pay for another app."\r
+\r
+---\r
+\r
+### Start: £9.99/mo | £99.90/yr (2 months free, 17%)\r
+- **Who it's for:** newly qualified Level 3 PTs and part-timers with up to 5 clients (the course-provider channel,\r
+  section 2).\r
+- **What's included:** up to 5 clients, workout and meal plans, bookings, chat. No AI plan generator.\r
+- **Justification:** less than a fifth of one PT session (UK sessions commonly cost £30–60). The trainer won't think\r
+  twice.\r
+\r
+### Pro (hero): £19.99/mo | £199.90/yr\r
+- **Who it's for:** the core ICP, a PT with 10–25 clients. **The 20-clients-per-trainer goal (20,000 ÷ 1,000) lands\r
+  exactly here**, so most revenue comes from Pro.\r
+- **What's new:** up to 25 clients, AI plan generator, budget tools. Later: social media on Instagram + Facebook,\r
+  up to 8 scheduled posts a month (section 15).\r
+- **Justification:**\r
+  - about 6.5 h saved a month at 10 clients (estimate);\r
+  - one hour of a PT's time pays for the month;\r
+  - about the same as Trainerize Pro (about $23 ≈ £18) and well below TrueCoach Standard for 20 clients\r
+    ($53–70), with meal plans, payments and bookings included instead of add-ons (section 4).\r
+\r
+### Studio: £34.99/mo | £349.90/yr\r
+- **Who it's for:** PTs with 25+ clients, small studios, gym teams.\r
+- **What's new:** unlimited clients, own branding, priority support. Later: **full social media** ("Ramvo Social":\r
+  unlimited posts to the trainer's own Instagram and Facebook, post templates from Ramvo data, TikTok drafts, stats;\r
+  section 15). Show it as "coming soon" until it ships.\r
+- **Justification:** the anchor that makes £19.99 look reasonable, and a clean deal for independent gyms.\r
+\r
+### Ramvo Premium (AI-mode client): £6.99/mo | £59.99/yr (28%)\r
+- **Who it's for:** people training alone who can't afford a PT every week.\r
+- **Justification:** consumer fitness-app price territory, and a small fraction of one PT session. £6.99 is an\r
+  App Store price point UK users already know.\r
+\r
+---\r
+\r
+### Positioning & Psychology\r
+- **Market position:** "everything included" mid-price, the only UK option where the client app is free for\r
+  clients and clients can find the trainer through matching.\r
+- **Positioning line:** "The PT app your clients actually open, and don't pay for."\r
+- **Tactics in use:**\r
+  - anchoring (Studio);\r
+  - hero tier (Pro, "Most popular");\r
+  - free for clients;\r
+  - full-feature 30-day trial;\r
+  - charm prices.\r
+- **Upgrade triggers:**\r
+  - **Start → Pro:** the 6th client. Show "5/5 clients" with a one-tap upgrade at the moment of adding a client.\r
+  - **Pro → Studio:** the 26th client, the first branding request, or (once Ramvo Social ships) the 9th scheduled\r
+    post in a month.\r
+  - **AI client → trainer client:** the matching prompt after 8 weeks (section 2).\r
+\r
+### Revenue Optimization\r
+- **Founding Trainers:** 24 months free means no revenue until 2029. Their value is case studies and referrals; leave\r
+  them out of year-1 revenue.\r
+- **Annual plans:** 17% off (slightly under the usual 20%) can stay. Push annual in the trial-end e-mail ("Pay\r
+  yearly, get 2 months free"). January–February churn is the risk.\r
+- **VAT:** decide whether the prices include VAT. UK consumers expect VAT-inclusive prices. Once Ramvo Ltd is\r
+  VAT-registered (Stripe Tax is planned), make sure £6.99 still leaves margin. This is a decision for Jan and his\r
+  accountant, not a pricing-model change.\r
+- **Year-1 revenue picture**, if the goals are hit (rough model, not a forecast):\r
+\r
+  | Line | Assumption | Monthly revenue in Dec 2027 |\r
+  |---|---|---|\r
+  | Trainers | 980 paying; mix 30% Start, 55% Pro, 15% Studio; average about £19.24 | about **£18,900 MRR** |\r
+  | AI clients | 2,000 of the 20,000 clients pay Premium £6.99 | about **£14,000 MRR** |\r
+  | Total | | about **£32,900 MRR**, about £395k ARR run-rate |\r
+\r
+### Biggest Pricing Risk\r
+**The jump from Pro (25 clients) to Studio (unlimited) is the only upgrade lever, and it is steep:** +£15 for client\r
+26. Trainers at 24–25 clients may delete inactive clients to stay on Pro. Watch the share of Pro trainers sitting\r
+at the limit for 30+ days. Above 10%, test a "Pro 40" tier at about £27.99, or count only *active* clients. No change\r
+before there is data. Ramvo Social in Studio (section 15) adds a second lever that doesn't depend on client count.\r
 `,sMe=`# 4. Competitor intel\r
 \r
 Skill: \`competitor-intel\`. Generated 28 Nov 2026 from web search: G2, Capterra, vendor-comparison articles and\r
@@ -2421,7 +2425,7 @@ else.\r
 ### Step 6: Book the check-in\r
 1. Agree on a 10-minute check-in 7 days from today.\r
 2. Put it in your calendar.\r
-3. Ask one more question: "Would you pay about £5-7 a month if Ramvo made ready posts for you from your plans and your clients' results and published them for you?"\r
+3. Ask one more question: "If Ramvo made ready posts for you from your plans and your clients' results and published them to your Instagram and Facebook, would that be a reason to choose Studio (£34.99) over Pro (£19.99)?"\r
 4. Write the answer (yes / maybe / no) in your Founding Trainer notes. It decides whether "Ramvo Social" gets built (section 15).\r
 \r
 **What you should see:** a check-in date both of you agree on, and the trainer's answer noted.\r
@@ -2704,170 +2708,186 @@ that the existing unique index covers this.\r
 #### Testing Approach\r
 - Test the stats RPC with SQL fixtures on the demo trainer.\r
 - Skip tests for the e-mail HTML beyond one rendering check.\r
-`,CMe=`# 15. Selling the Marketing Hub to trainers ("Ramvo Social")
-
-Question (Jan, 28 Nov 2026): can the Marketing Hub become a product for trainers, a tool to manage their own social
-media? How much work is it on my side, what does it cost, and can everything be automated through the Hub?
-
-**Short answer:** yes, for Instagram Creator/Business accounts and Facebook Pages that trainers connect themselves (personal accounts and profiles are not possible). TikTok stays half
-manual (drafts). It is not worth building before launch:
-
-- the Hub serves one owner today, and multi-tenancy is about 80-130 h of work;
-- Meta must approve the app (App Review + Business Verification of Ramvo Ltd, weeks of waiting);
-- a plain scheduler competes with free Meta Business Suite and cheap tools like Buffer and Metricool.
-
-The version worth selling is **posts generated from the trainer's Ramvo data**, which nobody else has. Validate demand
-with the Founding Trainers first and start Meta Business Verification early, because it costs nothing.
-
-## Scope (updated 28 Nov 2026): trainers connect their own accounts, no LinkedIn
-
-The idea is a connector: each trainer opens **their own Marketing Hub** in Ramvo and connects **their own** Instagram,
-Facebook and TikTok. LinkedIn is out of scope.
-
-| Trainer's account | Can the Hub publish to it? | How the trainer connects |
-|---|---|---|
-| Instagram **personal** account | **No.** Meta has no publishing API for personal accounts | The trainer switches to Creator or Business first: Settings → Account type and tools → Switch to professional account. It's free, takes a minute and keeps followers and posts |
-| Instagram **Creator / Business** | **Yes:** photo, carousel, reel, story, first comment, stats | "Connect" → Instagram login → Allow |
-| Facebook **personal profile** | **No.** Posting to profiles via API was removed in 2018 | Not possible; the trainer needs a Page |
-| Facebook **Page** | **Yes:** text, photo, carousel, video, reel, first comment, stats | "Connect" → Facebook login → choose the Page |
-| TikTok (any account, personal too) | **Draft only.** The trainer taps "Post" in TikTok | "Connect" → TikTok login; needs TikTok's app review before it works for other people |
-
-**Self-connect already exists** (the Connect button on the Accounts page). It works for other people's accounts only
-once Meta approves the app (App Review + Business Verification of Ramvo Ltd).
-
-**Beta without waiting for Meta:** in development mode, a trainer can be added as a tester of the app.
-- Instagram: App roles → Instagram Testers; the trainer accepts in Instagram → Settings → Apps and websites → Tester
-  invites.
-- Facebook: an app role for the trainer's Facebook account.
-
-Their accounts then work straight away. That is fine for 5-20 Founding Trainers, but not for hundreds, so the
-public launch still needs App Review.
-
-Without LinkedIn the build is about **70-110 h** instead of 80-130 h. Multi-tenancy (separate accounts, data and
-alerts per trainer) is still the biggest part.
-
-## 1. What the Hub is today
-
-- **One owner:** every \`mkt_*\` table is admin-only (RLS \`is_admin()\`, migration 160). The OAuth callback keeps one
-  real account per platform. Alerts go to all admins.
-- **Solid engine:**
-  - job queue with leases and retries;
-  - reconciliation, so a post is never published twice;
-  - sandbox;
-  - publish worker every minute, only when something is due;
-  - daily maintenance (tokens, metrics, cleanup);
-  - tokens in Supabase Vault.
-- **Platforms:**
-  - Instagram (Instagram Login) and Facebook Page publish automatically, but the Meta app is in development mode:
-    only accounts with a role in the app;
-  - LinkedIn publishes to a personal profile, with no stats;
-  - TikTok sends a draft to the inbox.
-- **Lektor (voice-over)** runs on Jan's PC, so it cannot be offered to customers.
-- The trainer web panel already exists (same \`admin-panel\`, \`trainer\` role), so Hub pages can be opened to
-  trainers without a new app.
-
-## 2. Can everything be automated?
-
-| What | For trainers | Condition |
-|---|---|---|
-| Instagram publishing (photo, carousel, reel, story) | Yes | Advanced Access for \`instagram_business_content_publish\` = **App Review + Business Verification**; the trainer needs a Business/Creator account |
-| Facebook Page publishing | Yes | Same Meta review (\`pages_manage_posts\` etc.) |
-| LinkedIn personal profile | Yes | "Share on LinkedIn" is self-serve; no post stats |
-| LinkedIn company page | Possible, uncertain | Community Management API: only for registered companies (Ramvo Ltd qualifies), must be the **only product on a separate app**, staged review with a screen recording, no re-apply after a Standard-tier rejection |
-| TikTok public posting | No (drafts only) | Unaudited apps: private posts only and max 5 posting users per 24 h; public posting needs TikTok's audit, with no published timeline |
-| Stats | Partly | Instagram/Facebook yes (delays; some Page stats need 100+ followers), TikTok via the video list, LinkedIn personal none |
-| Replying to comments and DMs | No | Not built; more Meta permissions and review |
-| Creating the content | No | The trainer's job, and the part trainers struggle with most |
-| Onboarding | Yes, self-serve | "Connect" (OAuth); the trainer switches Instagram to Business/Creator themselves |
-
-## 3. Work on Jan's side
-
-**One-off build (with Claude), about 80-130 h:**
-
-| Area | Scope | Hours |
-|---|---|---|
-| Multi-tenancy | \`owner_id\` on every \`mkt_*\` table, RLS "owner or admin", one account per platform per owner, alerts to the owner only | 20-30 |
-| Trainer Hub | Hub pages with the \`trainer\` role, simplified (posts, calendar, media, accounts); no campaigns, audit or Lektor | 15-25 |
-| Limits and billing | Posts and storage per plan; Stripe add-on or part of a tier | 10-15 |
-| Media | Delete media after publishing, per-trainer quota, possibly Supabase Storage for video | 8-12 |
-| Ramvo differentiator | Post templates from Ramvo data: new plan, class schedule, client results (with consent), monthly recap (section 14) | 20-30 |
-| Meta review | A screencast per permission, data deletion callback, privacy policy, Business Verification | 8-12 + 2-6 weeks waiting |
-| Legal | Terms and Privacy: Ramvo publishes on the trainer's behalf and processes Meta/TikTok data; solicitor check | 3-5 |
-| Phone composer (phase 2) | Trainers make content on the phone; post from the mobile app | 40-60 |
-
-**Ongoing:**
-- about **2-5 h a month** of support (expired connections, rejected media, questions);
-- **1-3 days a year** for API changes (Meta and LinkedIn version bumps, Meta's yearly Data Use Checkup).
-
-A publishing bug now posts on a customer's account, and a platform change hits every customer at once: more
-responsibility than the core app.
-
-## 4. Costs
-
-| Item | Cost |
-|---|---|
-| Supabase (functions, database) | About 0 extra per trainer; the cron only fires when a post is due |
-| Media | Images are small. A reel is about 30-60 MB, so 12 reels a month is about 0.5 GB per trainer. Cloudinary's free plan (shared with the app) runs out at roughly 50-100 active trainers; the next plan is about $89-99/mo. Cheaper: Supabase Storage (about $0.02/GB) plus deleting media after publishing |
-| E-mail alerts (Resend) | Free up to about 3,000 a month, then about $20/mo |
-| Platform APIs | Free; the cost is review time |
-| Solicitor | Part of the planned legal review |
-
-**About £0.30-1 per trainer a month.** At £5-7 the margin is high. The real costs are Jan's time and the review risk.
-
-## 5. Market
-- **Plain scheduling is a commodity:**
-  - Meta Business Suite is free for Instagram + Facebook;
-  - Buffer, Later and Metricool are cheap;
-  - "Another scheduler" will not sell.
-- **What only Ramvo can do:** ready posts from the trainer's own data, branded and published in one click:
-  - "new 8-week plan is live";
-  - this week's classes;
-  - a client's result (with the client's consent);
-  - the monthly recap.
-
-  It also feeds Ramvo's growth: every post links back to the trainer's Ramvo profile.
-- **Focus risk:** until launch the core app and the first 20 trainers come first (section 1).
-
-## 6. Recommendation
-1. **Do not build before launch.** Revisit in February 2027, once the core app is proven.
-2. **Validate now, for free.** In every Founding Trainer call ask: *"Would you pay about £5-7 a month if Ramvo made
-   ready posts for you from your plans and your clients' results and published them for you?"* Go ahead if at least
-   8 of 20 say yes.
-3. **Start Meta Business Verification for Ramvo Ltd now.** It takes days to weeks, costs nothing, and blocks App
-   Review later. Steps:
-   1. Go to business.facebook.com → Settings → Business info, and create a Business portfolio for Ramvo Ltd if
-      there is none.
-   2. Go to Security Centre → Start verification and enter Ramvo Ltd exactly as on Companies House (no. 17606223),
-      registered address, website ramvo.app, and an @ramvo.app e-mail.
-   3. Upload a document if asked: the certificate of incorporation, or a utility/bank document with the company
-      name and address.
-   4. Confirm the e-mail or phone code. Wait for the result (usually days, sometimes 2+ weeks).
-   5. Connect the "Ramvo Marketing Hub" app to this portfolio (App settings → Basic → Business portfolio).
-4. **If validated, phase 1:**
-   1. **Tester beta** with the Founding Trainers who said yes:
-      - each trainer added as an app tester;
-      - Instagram (Creator/Business) and Facebook Page;
-      - the trainer Hub in the web panel;
-      - post templates from Ramvo data.
-   2. **Meanwhile, App Review** with the beta as the screencast material.
-   3. **After approval:** open it to everyone as the "Ramvo Social" add-on at **£5.99/mo** (or included in Studio),
-      with TikTok drafts once TikTok approves the app.
-   4. **Time:** about 6-8 weeks including review.
-5. **Phase 2:** posting from the mobile app; social stats in the trainer's monthly recap.
-6. **Never promise:**
-   - the voice-over (it runs on Jan's PC);
-   - fully automatic TikTok;
-   - posting to personal Instagram accounts or personal Facebook profiles (not possible);
-   - LinkedIn (out of scope).
-
-## Sources (checked 28 Nov 2026)
-- [Meta: App Review for Instagram API](https://developers.facebook.com/docs/instagram-platform/app-review)
-- [Meta: Access Verification](https://developers.facebook.com/docs/development/release/access-verification/)
-- [Meta: Permissions reference](https://developers.facebook.com/docs/permissions)
-- [TikTok: Content Sharing Guidelines](https://developers.tiktok.com/docs/en/content-sharing-guidelines)
-- [TikTok: Direct Post API reference](https://developers.tiktok.com/docs/en/content-posting-api-reference-direct-post)
-- [LinkedIn: Community Management app review](https://learn.microsoft.com/en-us/linkedin/marketing/community-management-app-review)
-- [LinkedIn: Posts API](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/posts-api)
+`,CMe=`# 15. Selling the Marketing Hub to trainers ("Ramvo Social")\r
+\r
+Question (Jan, 28 Nov 2026): can the Marketing Hub become a product for trainers, a tool to manage their own social\r
+media? How much work is it on my side, what does it cost, and can everything be automated through the Hub?\r
+\r
+**Short answer:** yes, for Instagram Creator/Business accounts and Facebook Pages that trainers connect themselves (personal accounts and profiles are not possible). TikTok stays half\r
+manual (drafts). It is not worth building before launch:\r
+\r
+- the Hub serves one owner today, and multi-tenancy is about 80-130 h of work;\r
+- Meta must approve the app (App Review + Business Verification of Ramvo Ltd, weeks of waiting);\r
+- a plain scheduler competes with free Meta Business Suite and cheap tools like Buffer and Metricool.\r
+\r
+The version worth selling is **posts generated from the trainer's Ramvo data**, which nobody else has. Validate demand\r
+with the Founding Trainers first and start Meta Business Verification early, because it costs nothing.\r
+\r
+## Scope (updated 28 Nov 2026): trainers connect their own accounts, no LinkedIn\r
+\r
+The idea is a connector: each trainer opens **their own Marketing Hub** in Ramvo and connects **their own** Instagram,\r
+Facebook and TikTok. LinkedIn is out of scope.\r
+\r
+| Trainer's account | Can the Hub publish to it? | How the trainer connects |\r
+|---|---|---|\r
+| Instagram **personal** account | **No.** Meta has no publishing API for personal accounts | The trainer switches to Creator or Business first: Settings → Account type and tools → Switch to professional account. It's free, takes a minute and keeps followers and posts |\r
+| Instagram **Creator / Business** | **Yes:** photo, carousel, reel, story, first comment, stats | "Connect" → Instagram login → Allow |\r
+| Facebook **personal profile** | **No.** Posting to profiles via API was removed in 2018 | Not possible; the trainer needs a Page |\r
+| Facebook **Page** | **Yes:** text, photo, carousel, video, reel, first comment, stats | "Connect" → Facebook login → choose the Page |\r
+| TikTok (any account, personal too) | **Draft only.** The trainer taps "Post" in TikTok | "Connect" → TikTok login; needs TikTok's app review before it works for other people |\r
+\r
+**Self-connect already exists** (the Connect button on the Accounts page). It works for other people's accounts only\r
+once Meta approves the app (App Review + Business Verification of Ramvo Ltd).\r
+\r
+**Beta without waiting for Meta:** in development mode, a trainer can be added as a tester of the app.\r
+- Instagram: App roles → Instagram Testers; the trainer accepts in Instagram → Settings → Apps and websites → Tester\r
+  invites.\r
+- Facebook: an app role for the trainer's Facebook account.\r
+\r
+Their accounts then work straight away. That is fine for 5-20 Founding Trainers, but not for hundreds, so the\r
+public launch still needs App Review.\r
+\r
+Without LinkedIn the build is about **70-110 h** instead of 80-130 h. Multi-tenancy (separate accounts, data and\r
+alerts per trainer) is still the biggest part.\r
+\r
+## 1. What the Hub is today\r
+\r
+- **One owner:** every \`mkt_*\` table is admin-only (RLS \`is_admin()\`, migration 160). The OAuth callback keeps one\r
+  real account per platform. Alerts go to all admins.\r
+- **Solid engine:**\r
+  - job queue with leases and retries;\r
+  - reconciliation, so a post is never published twice;\r
+  - sandbox;\r
+  - publish worker every minute, only when something is due;\r
+  - daily maintenance (tokens, metrics, cleanup);\r
+  - tokens in Supabase Vault.\r
+- **Platforms:**\r
+  - Instagram (Instagram Login) and Facebook Page publish automatically, but the Meta app is in development mode:\r
+    only accounts with a role in the app;\r
+  - LinkedIn publishes to a personal profile, with no stats;\r
+  - TikTok sends a draft to the inbox.\r
+- **Lektor (voice-over)** runs on Jan's PC, so it cannot be offered to customers.\r
+- The trainer web panel already exists (same \`admin-panel\`, \`trainer\` role), so Hub pages can be opened to\r
+  trainers without a new app.\r
+\r
+## 2. Can everything be automated?\r
+\r
+| What | For trainers | Condition |\r
+|---|---|---|\r
+| Instagram publishing (photo, carousel, reel, story) | Yes | Advanced Access for \`instagram_business_content_publish\` = **App Review + Business Verification**; the trainer needs a Business/Creator account |\r
+| Facebook Page publishing | Yes | Same Meta review (\`pages_manage_posts\` etc.) |\r
+| LinkedIn personal profile | Yes | "Share on LinkedIn" is self-serve; no post stats |\r
+| LinkedIn company page | Possible, uncertain | Community Management API: only for registered companies (Ramvo Ltd qualifies), must be the **only product on a separate app**, staged review with a screen recording, no re-apply after a Standard-tier rejection |\r
+| TikTok public posting | No (drafts only) | Unaudited apps: private posts only and max 5 posting users per 24 h; public posting needs TikTok's audit, with no published timeline |\r
+| Stats | Partly | Instagram/Facebook yes (delays; some Page stats need 100+ followers), TikTok via the video list, LinkedIn personal none |\r
+| Replying to comments and DMs | No | Not built; more Meta permissions and review |\r
+| Creating the content | No | The trainer's job, and the part trainers struggle with most |\r
+| Onboarding | Yes, self-serve | "Connect" (OAuth); the trainer switches Instagram to Business/Creator themselves |\r
+\r
+## 3. Work on Jan's side\r
+\r
+**One-off build (with Claude), about 80-130 h:**\r
+\r
+| Area | Scope | Hours |\r
+|---|---|---|\r
+| Multi-tenancy | \`owner_id\` on every \`mkt_*\` table, RLS "owner or admin", one account per platform per owner, alerts to the owner only | 20-30 |\r
+| Trainer Hub | Hub pages with the \`trainer\` role, simplified (posts, calendar, media, accounts); no campaigns, audit or Lektor | 15-25 |\r
+| Limits per plan | Post limit on Pro, full access on Studio, storage per trainer (no separate add-on to bill) | 8-12 |\r
+| Media | Delete media after publishing, per-trainer quota, possibly Supabase Storage for video | 8-12 |\r
+| Ramvo differentiator | Post templates from Ramvo data: new plan, class schedule, client results (with consent), monthly recap (section 14) | 20-30 |\r
+| Meta review | A screencast per permission, data deletion callback, privacy policy, Business Verification | 8-12 + 2-6 weeks waiting |\r
+| Legal | Terms and Privacy: Ramvo publishes on the trainer's behalf and processes Meta/TikTok data; solicitor check | 3-5 |\r
+| Phone composer (phase 2) | Trainers make content on the phone; post from the mobile app | 40-60 |\r
+\r
+**Ongoing:**\r
+- about **2-5 h a month** of support (expired connections, rejected media, questions);\r
+- **1-3 days a year** for API changes (Meta and LinkedIn version bumps, Meta's yearly Data Use Checkup).\r
+\r
+A publishing bug now posts on a customer's account, and a platform change hits every customer at once: more\r
+responsibility than the core app.\r
+\r
+## 4. Costs\r
+\r
+| Item | Cost |\r
+|---|---|\r
+| Supabase (functions, database) | About 0 extra per trainer; the cron only fires when a post is due |\r
+| Media | Images are small. A reel is about 30-60 MB, so 12 reels a month is about 0.5 GB per trainer. Cloudinary's free plan (shared with the app) runs out at roughly 50-100 active trainers; the next plan is about $89-99/mo. Cheaper: Supabase Storage (about $0.02/GB) plus deleting media after publishing |\r
+| E-mail alerts (Resend) | Free up to about 3,000 a month, then about $20/mo |\r
+| Platform APIs | Free; the cost is review time |\r
+| Solicitor | Part of the planned legal review |\r
+\r
+**About £0.30-1 per trainer a month.** Inside Studio (£34.99) the margin is high. The real costs are Jan's time and the review risk.\r
+\r
+## 5. Market\r
+- **Plain scheduling is a commodity:**\r
+  - Meta Business Suite is free for Instagram + Facebook;\r
+  - Buffer, Later and Metricool are cheap;\r
+  - "Another scheduler" will not sell.\r
+- **What only Ramvo can do:** ready posts from the trainer's own data, branded and published in one click:\r
+  - "new 8-week plan is live";\r
+  - this week's classes;\r
+  - a client's result (with the client's consent);\r
+  - the monthly recap.\r
+\r
+  It also feeds Ramvo's growth: every post links back to the trainer's Ramvo profile.\r
+- **Focus risk:** until launch the core app and the first 20 trainers come first (section 1).\r
+\r
+## 6. Recommendation\r
+1. **Do not build before launch.** Revisit in February 2027, once the core app is proven.\r
+2. **Validate now, for free.** In every Founding Trainer call ask: *If Ramvo made ready posts for you from your plans and your clients' results and published them to your Instagram and Facebook, would that be a reason to choose Studio (£34.99) over Pro (£19.99)?* Go ahead\r
+   if at least 8 of 20 say yes.\r
+3. **Start Meta Business Verification for Ramvo Ltd now.** It takes days to weeks, costs nothing, and blocks App\r
+   Review later. Steps:\r
+   1. Go to business.facebook.com → Settings → Business info, and create a Business portfolio for Ramvo Ltd if\r
+      there is none.\r
+   2. Go to Security Centre → Start verification and enter Ramvo Ltd exactly as on Companies House (no. 17606223),\r
+      registered address, website ramvo.app, and an @ramvo.app e-mail.\r
+   3. Upload a document if asked: the certificate of incorporation, or a utility/bank document with the company\r
+      name and address.\r
+   4. Confirm the e-mail or phone code. Wait for the result (usually days, sometimes 2+ weeks).\r
+   5. Connect the "Ramvo Marketing Hub" app to this portfolio (App settings → Basic → Business portfolio).\r
+4. **If validated, phase 1:**\r
+   1. **Tester beta** with the Founding Trainers who said yes:\r
+      - each trainer added as an app tester;\r
+      - Instagram (Creator/Business) and Facebook Page;\r
+      - the trainer Hub in the web panel;\r
+      - post templates from Ramvo data.\r
+   2. **Meanwhile, App Review** with the beta as the screencast material.\r
+   3. **After approval:** open it to everyone as part of the plans (below), with TikTok drafts once TikTok approves\r
+      the app.\r
+   4. **Time:** about 6-8 weeks including review.\r
+5. **Packaging: part of the plans, not a separate add-on** (decision 28 Nov 2026):\r
+\r
+   | Plan | Social media |\r
+   |---|---|\r
+   | Start | - |\r
+   | Pro | A taste: Instagram + Facebook, up to 8 scheduled posts a month |\r
+   | **Studio** | **Full:** unlimited posts, post templates from Ramvo data, TikTok drafts, stats |\r
+   | Founding Trainers | Full, as the beta testers (they have 24 months free anyway) |\r
+\r
+   Why:\r
+   - it gives Studio a second reason to upgrade besides the client limit (section 3: today the 26th client is the\r
+     only lever);\r
+   - the cost (about £0.30-1 per trainer) fits easily inside Studio;\r
+   - one product with tiers is simpler to sell and bill than tiers plus add-ons;\r
+   - Pro trainers (the majority) get to try it, and hitting the 8-post limit becomes an upgrade moment.\r
+\r
+   Not on the pricing page as ready until it ships: at most "coming soon" on Studio.\r
+6. **Phase 2:** posting from the mobile app; social stats in the trainer's monthly recap.\r
+7. **Never promise:**\r
+   - the voice-over (it runs on Jan's PC);\r
+   - fully automatic TikTok;\r
+   - posting to personal Instagram accounts or personal Facebook profiles (not possible);\r
+   - LinkedIn (out of scope).\r
+\r
+## Sources (checked 28 Nov 2026)\r
+- [Meta: App Review for Instagram API](https://developers.facebook.com/docs/instagram-platform/app-review)\r
+- [Meta: Access Verification](https://developers.facebook.com/docs/development/release/access-verification/)\r
+- [Meta: Permissions reference](https://developers.facebook.com/docs/permissions)\r
+- [TikTok: Content Sharing Guidelines](https://developers.tiktok.com/docs/en/content-sharing-guidelines)\r
+- [TikTok: Direct Post API reference](https://developers.tiktok.com/docs/en/content-posting-api-reference-direct-post)\r
+- [LinkedIn: Community Management app review](https://learn.microsoft.com/en-us/linkedin/marketing/community-management-app-review)\r
+- [LinkedIn: Posts API](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/posts-api)\r
 `,wMe=`# Ramvo business audit: 28 Nov 2026\r
 \r
 This audit is the output of all 15 founder-skills, run on \`FOUNDER_CONTEXT.md\` and real data (database counts, the\r
@@ -3221,91 +3241,96 @@ oczekujących istnieją. Dopóki nie wystartują polskie social media, Polska id
 - 31 polskich rolek (z lektorem, sprawdzonych Whisperem) czeka na start polskich kanałów;
 - gdy ruszą polskie kanały, ten sam plan powtarzasz w Warszawie: Founding Trainerzy ręcznie, potem kursy, potem
   dopasowanie.
-`,DMe=`# 3. Ceny: audyt cen z demo (GBP i PLN)
-
-Skill: \`pricing-strategist\`. Decyzja: **ceny z demo zostają na razie bez zmian.** Ta sekcja sprawdza je wobec celów i
-rynku, nie projektuje ich od nowa.
-
-Oba rynki mają te same progi:
-- **UK:** ceny poniżej.
-- **Polska:** Start 49 zł, Pro 99 zł, Studio 179 zł, Premium 34,99 zł. W złotówkach Pro jest dla polskiego trenera
-  tańsze niż narzędzia rozliczane w dolarach, i to jest tam realny argument.
-
-**Typ strategii:** hybryda.
-- **Trenerzy:** SaaS z progami według liczby klientów (B2B, miarą wartości jest liczba prowadzonych klientów).
-- **Klienci w trybie AI:** jedna subskrypcja konsumencka (B2C).
-- **Klienci z trenerem:** zawsze za darmo.
-
-**Dlaczego to działa:** cena rośnie razem z dochodem trenera. Darmowa aplikacja dla klientów usuwa jego największy
-opór: „nie każę klientom płacić za kolejną aplikację”.
-
----
-
-### Start: £9,99/mies. | £99,90/rok (2 miesiące gratis, 17%)
-- **Dla kogo:** świeżo wykwalifikowani trenerzy Level 3 i trenerzy na część etatu, do 5 klientów (kanał kursów,
-  sekcja 2).
-- **Co zawiera:** do 5 klientów, plany treningowe i żywieniowe, rezerwacje, czat. Bez generatora planów AI.
-- **Uzasadnienie:** mniej niż jedna piąta ceny sesji z trenerem (w UK sesje kosztują zwykle £30–60). Trener się nad
-  tym nie zastanawia.
-
-### Pro (wiodący): £19,99/mies. | £199,90/rok
-- **Dla kogo:** główny klient docelowy, czyli trener z 10–25 klientami. **Cel 20 klientów na trenera (20 000 ÷ 1000)
-  wypada dokładnie tutaj**, więc większość przychodu przyjdzie z Pro.
-- **Co dochodzi:** do 25 klientów, generator planów AI, narzędzia budżetu.
-- **Uzasadnienie:**
-  - ok. 6,5 h oszczędności miesięcznie przy 10 klientach (szacunek);
-  - jedna godzina czasu trenera pokrywa miesiąc;
-  - mniej więcej tyle, co Trainerize Pro (ok. $23 ≈ £18), i znacznie mniej niż TrueCoach Standard dla 20 klientów
-    ($53–70). W cenie są jadłospisy, płatności i rezerwacje zamiast dodatków (sekcja 4).
-
-### Studio: £34,99/mies. | £349,90/rok
-- **Dla kogo:** trenerzy z 25+ klientami, małe studia, zespoły siłowni.
-- **Co dochodzi:** bez limitu klientów, własny branding, priorytetowe wsparcie.
-- **Uzasadnienie:** kotwica, przy której £19,99 wygląda rozsądnie, i prosta oferta dla niezależnych siłowni.
-
-### Ramvo Premium (klient w trybie AI): £6,99/mies. | £59,99/rok (28%)
-- **Dla kogo:** osoby trenujące same, których nie stać na trenera co tydzień.
-- **Uzasadnienie:** cena typowej aplikacji fitness i mały ułamek jednej sesji z trenerem. £6,99 to próg cenowy z App
-  Store, który Brytyjczycy znają.
-
----
-
-### Pozycjonowanie i psychologia
-- **Pozycja rynkowa:** średnia cena z hasłem „wszystko w cenie”. To jedyna opcja w UK, w której aplikacja jest darmowa
-  dla klientów, a klienci mogą znaleźć trenera przez dopasowanie.
-- **Hasło pozycjonujące:** „Aplikacja trenera, którą klienci naprawdę otwierają i za którą nie płacą”.
-- **Zastosowane techniki:**
-  - kotwiczenie (Studio);
-  - plan wiodący (Pro, „Najczęściej wybierany”);
-  - darmowa aplikacja dla klientów;
-  - 30 dni próbnych z pełnymi funkcjami;
-  - ceny kończące się na ,99.
-- **Momenty przejścia na wyższy plan:**
-  - **Start → Pro:** 6. klient. Pokaż „5/5 klientów” z przejściem jednym kliknięciem w momencie dodawania klienta.
-  - **Pro → Studio:** 26. klient albo pierwsza prośba o branding.
-  - **Klient AI → klient trenera:** propozycja dopasowania po 8 tygodniach (sekcja 2).
-
-### Optymalizacja przychodu
-- **Founding Trainerzy:** 24 miesiące za darmo oznaczają brak przychodu do 2029. Ich wartość to case studies i
-  polecenia; nie wliczaj ich do przychodu w 1. roku.
-- **Plany roczne:** 17% zniżki (trochę mniej niż typowe 20%) może zostać. Proponuj plan roczny w mailu na koniec
-  okresu próbnego („Płać rocznie, 2 miesiące gratis”), bo ryzykiem jest odpływ w styczniu i lutym.
-- **VAT:** zdecyduj, czy ceny zawierają VAT. Brytyjscy konsumenci oczekują cen z VAT. Gdy Ramvo Ltd zarejestruje się
-  do VAT (Stripe Tax jest w planie), sprawdź, czy przy £6,99 zostaje marża. To decyzja dla Ciebie i księgowego, nie
-  zmiana modelu cen.
-- **Obraz przychodu w 1. roku**, jeśli cele zostaną osiągnięte (model, nie prognoza):
-
-  | Linia | Założenie | Przychód miesięczny w grudniu 2027 |
-  |---|---|---|
-  | Trenerzy | 980 płacących; mix 30% Start, 55% Pro, 15% Studio; średnio ok. £19,24 | ok. **£18 900 MRR** |
-  | Klienci AI | 2000 z 20 000 klientów płaci Premium £6,99 | ok. **£14 000 MRR** |
-  | Razem | | ok. **£32 900 MRR**, ok. £395 tys. ARR |
-
-### Największe ryzyko cenowe
-**Skok z Pro (25 klientów) do Studio (bez limitu) to jedyna dźwignia przejścia na wyższy plan, i jest stromy:** +£15
-za 26. klienta. Trenerzy z 24–25 klientami mogą usuwać nieaktywnych, żeby zostać na Pro. Obserwuj odsetek trenerów
-Pro, którzy stoją na limicie dłużej niż 30 dni. Powyżej 10% przetestuj plan „Pro 40” za ok. £27,99 albo licz tylko
-*aktywnych* klientów. Bez danych nic nie zmieniaj.
+`,DMe=`# 3. Ceny: audyt cen z demo (GBP i PLN)\r
+\r
+Skill: \`pricing-strategist\`. Decyzja: **ceny z demo zostają na razie bez zmian.** Ta sekcja sprawdza je wobec celów i\r
+rynku, nie projektuje ich od nowa.\r
+\r
+Oba rynki mają te same progi:\r
+- **UK:** ceny poniżej.\r
+- **Polska:** Start 49 zł, Pro 99 zł, Studio 179 zł, Premium 34,99 zł. W złotówkach Pro jest dla polskiego trenera\r
+  tańsze niż narzędzia rozliczane w dolarach, i to jest tam realny argument.\r
+\r
+**Typ strategii:** hybryda.\r
+- **Trenerzy:** SaaS z progami według liczby klientów (B2B, miarą wartości jest liczba prowadzonych klientów).\r
+- **Klienci w trybie AI:** jedna subskrypcja konsumencka (B2C).\r
+- **Klienci z trenerem:** zawsze za darmo.\r
+\r
+**Dlaczego to działa:** cena rośnie razem z dochodem trenera. Darmowa aplikacja dla klientów usuwa jego największy\r
+opór: „nie każę klientom płacić za kolejną aplikację”.\r
+\r
+---\r
+\r
+### Start: £9,99/mies. | £99,90/rok (2 miesiące gratis, 17%)\r
+- **Dla kogo:** świeżo wykwalifikowani trenerzy Level 3 i trenerzy na część etatu, do 5 klientów (kanał kursów,\r
+  sekcja 2).\r
+- **Co zawiera:** do 5 klientów, plany treningowe i żywieniowe, rezerwacje, czat. Bez generatora planów AI.\r
+- **Uzasadnienie:** mniej niż jedna piąta ceny sesji z trenerem (w UK sesje kosztują zwykle £30–60). Trener się nad\r
+  tym nie zastanawia.\r
+\r
+### Pro (wiodący): £19,99/mies. | £199,90/rok\r
+- **Dla kogo:** główny klient docelowy, czyli trener z 10–25 klientami. **Cel 20 klientów na trenera (20 000 ÷ 1000)\r
+  wypada dokładnie tutaj**, więc większość przychodu przyjdzie z Pro.\r
+- **Co dochodzi:** do 25 klientów, generator planów AI, narzędzia budżetu. Później: social media na Instagramie i Facebooku,\r
+  do 8 zaplanowanych postów miesięcznie (sekcja 15).\r
+- **Uzasadnienie:**\r
+  - ok. 6,5 h oszczędności miesięcznie przy 10 klientach (szacunek);\r
+  - jedna godzina czasu trenera pokrywa miesiąc;\r
+  - mniej więcej tyle, co Trainerize Pro (ok. $23 ≈ £18), i znacznie mniej niż TrueCoach Standard dla 20 klientów\r
+    ($53–70). W cenie są jadłospisy, płatności i rezerwacje zamiast dodatków (sekcja 4).\r
+\r
+### Studio: £34,99/mies. | £349,90/rok\r
+- **Dla kogo:** trenerzy z 25+ klientami, małe studia, zespoły siłowni.\r
+- **Co dochodzi:** bez limitu klientów, własny branding, priorytetowe wsparcie. Później: **pełne social media**\r
+  („Ramvo Social”: bez limitu postów na własnym Instagramie i Facebooku trenera, szablony postów z danych Ramvo, szkice\r
+  na TikToku, statystyki; sekcja 15). Do czasu startu pokazuj to jako „wkrótce”.\r
+- **Uzasadnienie:** kotwica, przy której £19,99 wygląda rozsądnie, i prosta oferta dla niezależnych siłowni.\r
+\r
+### Ramvo Premium (klient w trybie AI): £6,99/mies. | £59,99/rok (28%)\r
+- **Dla kogo:** osoby trenujące same, których nie stać na trenera co tydzień.\r
+- **Uzasadnienie:** cena typowej aplikacji fitness i mały ułamek jednej sesji z trenerem. £6,99 to próg cenowy z App\r
+  Store, który Brytyjczycy znają.\r
+\r
+---\r
+\r
+### Pozycjonowanie i psychologia\r
+- **Pozycja rynkowa:** średnia cena z hasłem „wszystko w cenie”. To jedyna opcja w UK, w której aplikacja jest darmowa\r
+  dla klientów, a klienci mogą znaleźć trenera przez dopasowanie.\r
+- **Hasło pozycjonujące:** „Aplikacja trenera, którą klienci naprawdę otwierają i za którą nie płacą”.\r
+- **Zastosowane techniki:**\r
+  - kotwiczenie (Studio);\r
+  - plan wiodący (Pro, „Najczęściej wybierany”);\r
+  - darmowa aplikacja dla klientów;\r
+  - 30 dni próbnych z pełnymi funkcjami;\r
+  - ceny kończące się na ,99.\r
+- **Momenty przejścia na wyższy plan:**\r
+  - **Start → Pro:** 6. klient. Pokaż „5/5 klientów” z przejściem jednym kliknięciem w momencie dodawania klienta.\r
+  - **Pro → Studio:** 26. klient, pierwsza prośba o branding albo (gdy ruszy Ramvo Social) 9. zaplanowany post\r
+    w miesiącu.\r
+  - **Klient AI → klient trenera:** propozycja dopasowania po 8 tygodniach (sekcja 2).\r
+\r
+### Optymalizacja przychodu\r
+- **Founding Trainerzy:** 24 miesiące za darmo oznaczają brak przychodu do 2029. Ich wartość to case studies i\r
+  polecenia; nie wliczaj ich do przychodu w 1. roku.\r
+- **Plany roczne:** 17% zniżki (trochę mniej niż typowe 20%) może zostać. Proponuj plan roczny w mailu na koniec\r
+  okresu próbnego („Płać rocznie, 2 miesiące gratis”), bo ryzykiem jest odpływ w styczniu i lutym.\r
+- **VAT:** zdecyduj, czy ceny zawierają VAT. Brytyjscy konsumenci oczekują cen z VAT. Gdy Ramvo Ltd zarejestruje się\r
+  do VAT (Stripe Tax jest w planie), sprawdź, czy przy £6,99 zostaje marża. To decyzja dla Ciebie i księgowego, nie\r
+  zmiana modelu cen.\r
+- **Obraz przychodu w 1. roku**, jeśli cele zostaną osiągnięte (model, nie prognoza):\r
+\r
+  | Linia | Założenie | Przychód miesięczny w grudniu 2027 |\r
+  |---|---|---|\r
+  | Trenerzy | 980 płacących; mix 30% Start, 55% Pro, 15% Studio; średnio ok. £19,24 | ok. **£18 900 MRR** |\r
+  | Klienci AI | 2000 z 20 000 klientów płaci Premium £6,99 | ok. **£14 000 MRR** |\r
+  | Razem | | ok. **£32 900 MRR**, ok. £395 tys. ARR |\r
+\r
+### Największe ryzyko cenowe\r
+**Skok z Pro (25 klientów) do Studio (bez limitu) to jedyna dźwignia przejścia na wyższy plan, i jest stromy:** +£15\r
+za 26. klienta. Trenerzy z 24–25 klientami mogą usuwać nieaktywnych, żeby zostać na Pro. Obserwuj odsetek trenerów\r
+Pro, którzy stoją na limicie dłużej niż 30 dni. Powyżej 10% przetestuj plan „Pro 40” za ok. £27,99 albo licz tylko\r
+*aktywnych* klientów. Bez danych nic nie zmieniaj. Ramvo Social w Studio (sekcja 15) daje drugą dźwignię,\r
+niezależną od liczby klientów.\r
 `,OMe=`# 4. Analiza konkurencji
 
 Skill: \`competitor-intel\`. Przygotowane 28 listopada 2026 na podstawie wyszukiwania w sieci: G2, Capterra,
@@ -4647,7 +4672,7 @@ indziej.\r
 ### Krok 6: Umów kontrolę\r
 1. Ustal 10-minutową kontrolę za 7 dni.\r
 2. Wpisz ją do kalendarza.\r
-3. Zadaj jeszcze jedno pytanie: „Would you pay about £5-7 a month if Ramvo made ready posts for you from your plans and your clients' results and published them for you?”\r
+3. Zadaj jeszcze jedno pytanie: „If Ramvo made ready posts for you from your plans and your clients' results and published them to your Instagram and Facebook, would that be a reason to choose Studio (£34.99) over Pro (£19.99)?”\r
 4. Zapisz odpowiedź (tak / może / nie) w notatkach o Founding Trainerach. Od niej zależy, czy budujemy „Ramvo Social” (sekcja 15).\r
 \r
 **Co powinieneś zobaczyć:** termin kontroli, na który obaj się zgadzacie, i zapisana odpowiedź trenera.\r
@@ -4937,171 +4962,188 @@ Sprawdź, czy istniejący indeks unikalny to obejmuje.
 #### Podejście do testów
 - Testuj RPC statystyk na danych testowych SQL z konta demo trenera.
 - Dla HTML maila wystarczy jedna kontrola wyglądu.
-`,zMe=`# 15. Marketing Hub jako produkt dla trenerów („Ramvo Social”)
-
-Pytanie (Jan, 28 lis 2026): czy Marketing Hub może być narzędziem dla trenerów do prowadzenia ich social mediów? Ile
-to pracy po mojej stronie, jakie koszty i czy wszystko da się zautomatyzować przez Hub?
-
-**Krótko:** tak, dla kont Twórca/Firma na Instagramie i stron na Facebooku, które trenerzy podłączają sami (konta i profile prywatne odpadają). TikTok zostaje
-półautomatyczny (szkice). Przed startem nie warto tego budować:
-
-- Hub obsługuje dziś jednego właściciela, a obsługa wielu kont to ok. 80–130 h pracy;
-- Meta musi zatwierdzić aplikację (App Review i weryfikacja firmy Ramvo Ltd, tygodnie czekania);
-- sam harmonogram postów konkuruje z darmowym Meta Business Suite i tanimi Buffer czy Metricool.
-
-Warto sprzedawać wersję z **postami generowanymi z danych trenera w Ramvo**, których nikt inny nie ma. Najpierw
-sprawdź popyt u Founding Trainerów, a weryfikację firmy w Mecie zacznij od razu, bo nic nie kosztuje.
-
-## Zakres (aktualizacja 28 lis 2026): trenerzy łączą własne konta, bez LinkedIna
-
-Chodzi o connector: każdy trener otwiera **swój Marketing Hub** w Ramvo i podłącza **swoje** konta na Instagramie,
-Facebooku i TikToku. LinkedIn odpada.
-
-| Konto trenera | Czy Hub może na nim publikować? | Jak trener je podłącza |
-|---|---|---|
-| **Prywatne** konto na Instagramie | **Nie.** Meta nie ma API do publikowania na kontach prywatnych | Trener najpierw przełącza się na konto Twórca albo Firma: Ustawienia → Typ konta i narzędzia → Przełącz na konto profesjonalne. Darmowe, trwa minutę, zostają obserwujący i posty |
-| Instagram **Twórca / Firma** | **Tak:** zdjęcie, karuzela, rolka, relacja, pierwszy komentarz, statystyki | „Połącz” → logowanie do Instagrama → Zezwól |
-| **Prywatny profil** na Facebooku | **Nie.** Publikowanie na profilach przez API zniknęło w 2018 r. | Nie da się; trener potrzebuje strony |
-| **Strona** na Facebooku | **Tak:** tekst, zdjęcie, karuzela, film, rolka, pierwszy komentarz, statystyki | „Połącz” → logowanie do Facebooka → wybór strony |
-| TikTok (każde konto, także prywatne) | **Tylko szkic.** Trener klika „Opublikuj” w TikToku | „Połącz” → logowanie do TikToka; dla innych osób zadziała po zatwierdzeniu aplikacji przez TikToka |
-
-**Samodzielne podłączanie już istnieje** (przycisk „Połącz” w Kontach). Dla cudzych kont zadziała dopiero, gdy Meta
-zatwierdzi aplikację (App Review i weryfikacja Ramvo Ltd).
-
-**Wersja testowa bez czekania na Metę:** w trybie deweloperskim można dodać trenera jako testera aplikacji.
-- Instagram: App roles → Instagram Testers; trener akceptuje w Instagramie → Ustawienia → Aplikacje i witryny →
-  Zaproszenia testerów.
-- Facebook: rola w aplikacji dla konta trenera na Facebooku.
-
-Wtedy jego konta działają od razu. To wystarczy dla 5–20 Founding Trainerów, ale nie dla setek, więc publiczny start
-nadal wymaga App Review.
-
-Bez LinkedIna budowa to ok. **70–110 h** zamiast 80–130 h. Największa część to nadal obsługa wielu trenerów (osobne
-konta, dane i alerty dla każdego).
-
-## 1. Czym jest Hub dziś
-
-- **Jeden właściciel:** każda tabela \`mkt_*\` jest tylko dla admina (RLS \`is_admin()\`, migracja 160). Po połączeniu
-  zostaje jedno prawdziwe konto na platformę. Alerty idą do wszystkich adminów.
-- **Solidny silnik:**
-  - kolejka zadań z dzierżawami i ponowieniami;
-  - sprawdzanie, czy post już wyszedł, więc nie ma podwójnych publikacji;
-  - sandbox;
-  - publikacja co minutę, tylko gdy coś czeka;
-  - codzienna konserwacja (tokeny, statystyki, sprzątanie);
-  - tokeny w Supabase Vault.
-- **Platformy:**
-  - Instagram i strona na Facebooku publikują automatycznie, ale aplikacja Meta jest w trybie deweloperskim:
-    działa tylko dla kont z rolą w aplikacji;
-  - LinkedIn publikuje na profil prywatny, bez statystyk;
-  - TikTok wysyła szkic do skrzynki.
-- **Lektor** działa na komputerze Jana, więc nie da się go zaoferować klientom.
-- Panel trenera w przeglądarce już istnieje (ten sam \`admin-panel\`, rola \`trainer\`), więc strony Huba można
-  otworzyć trenerom bez nowej aplikacji.
-
-## 2. Czy wszystko da się zautomatyzować?
-
-| Co | Dla trenerów | Warunek |
-|---|---|---|
-| Publikacja na Instagramie (zdjęcie, karuzela, rolka, relacja) | Tak | Advanced Access do \`instagram_business_content_publish\` = **App Review + weryfikacja firmy**; trener musi mieć konto Firma/Twórca |
-| Publikacja na stronie na Facebooku | Tak | Ta sama recenzja Mety (\`pages_manage_posts\` itd.) |
-| Prywatny profil LinkedIn | Tak | „Share on LinkedIn” bez recenzji; brak statystyk postów |
-| Strona firmowa LinkedIn | Możliwe, niepewne | Community Management API: tylko dla zarejestrowanych firm (Ramvo Ltd się kwalifikuje), musi być **jedynym produktem w osobnej aplikacji**, recenzja etapami z nagraniem ekranu, po odrzuceniu na poziomie Standard nie można złożyć ponownie |
-| Publiczne posty na TikToku | Nie (tylko szkice) | Aplikacje bez audytu: tylko posty prywatne i maks. 5 publikujących osób na dobę; publiczne posty wymagają audytu TikToka, bez podanego terminu |
-| Statystyki | Częściowo | Instagram/Facebook tak (z opóźnieniem; część statystyk strony od 100 obserwujących), TikTok przez listę filmów, LinkedIn prywatny brak |
-| Odpowiadanie na komentarze i DM-y | Nie | Niezbudowane; dodatkowe uprawnienia i recenzja Mety |
-| Tworzenie treści | Nie | Zadanie trenera i to, z czym trenerzy mają największy problem |
-| Wdrożenie trenera | Tak, samodzielnie | „Połącz” (OAuth); trener sam przełącza Instagrama na konto Firma/Twórca |
-
-## 3. Praca po stronie Jana
-
-**Jednorazowo (z Claude), ok. 80–130 h:**
-
-| Obszar | Zakres | Godziny |
-|---|---|---|
-| Wiele kont | \`owner_id\` na każdej tabeli \`mkt_*\`, RLS „właściciel albo admin”, jedno konto na platformę na trenera, alerty tylko do właściciela | 20–30 |
-| Hub dla trenera | Strony Huba dla roli \`trainer\`, uproszczone (posty, kalendarz, media, konta); bez kampanii, audytu i Lektora | 15–25 |
-| Limity i płatności | Posty i miejsce na pliki według planu; dodatek w Stripe albo część planu | 10–15 |
-| Media | Usuwanie plików po publikacji, limit na trenera, ewentualnie Supabase Storage na wideo | 8–12 |
-| Wyróżnik Ramvo | Szablony postów z danych Ramvo: nowy plan, grafik zajęć, wynik klienta (za zgodą), podsumowanie miesiąca (sekcja 14) | 20–30 |
-| Recenzja Mety | Nagranie ekranu dla każdego uprawnienia, endpoint usuwania danych, polityka prywatności, weryfikacja firmy | 8–12 + 2–6 tygodni czekania |
-| Prawo | Regulamin i polityka prywatności: Ramvo publikuje w imieniu trenera i przetwarza dane z Mety/TikToka; sprawdzenie przez prawnika | 3–5 |
-| Publikacja z telefonu (faza 2) | Trenerzy tworzą treści na telefonie; publikacja z aplikacji mobilnej | 40–60 |
-
-**Na bieżąco:**
-- ok. **2–5 h miesięcznie** wsparcia (wygasłe połączenia, odrzucone pliki, pytania);
-- **1–3 dni w roku** na zmiany API (nowe wersje Mety i LinkedIna, coroczny Data Use Checkup Mety).
-
-Błąd w publikacji to post na koncie klienta, a zmiana platformy uderza we wszystkich naraz: większa odpowiedzialność
-niż w samej aplikacji.
-
-## 4. Koszty
-
-| Pozycja | Koszt |
-|---|---|
-| Supabase (funkcje, baza) | Praktycznie 0 na trenera; cron rusza tylko, gdy post czeka |
-| Media | Zdjęcia są małe. Rolka to ok. 30–60 MB, więc 12 rolek miesięcznie to ok. 0,5 GB na trenera. Darmowy plan Cloudinary (wspólny z aplikacją) skończy się przy ok. 50–100 aktywnych trenerach; kolejny plan to ok. 89–99 $/mies. Taniej: Supabase Storage (ok. 0,02 $/GB) plus usuwanie plików po publikacji |
-| Alerty e-mail (Resend) | Za darmo do ok. 3000 miesięcznie, potem ok. 20 $/mies. |
-| API platform | Za darmo; kosztem jest czas recenzji |
-| Prawnik | W ramach planowanego przeglądu prawnego |
-
-**Ok. 1,5–5 zł (0,30–1 £) na trenera miesięcznie.** Przy cenie 5–7 £ marża jest wysoka. Prawdziwy koszt to czas Jana
-i ryzyko recenzji.
-
-## 5. Rynek
-- **Samo planowanie postów to towar:**
-  - Meta Business Suite jest za darmo dla Instagrama i Facebooka;
-  - Buffer, Later i Metricool są tanie;
-  - „kolejny harmonogram” się nie sprzeda.
-- **Co potrafi tylko Ramvo:** gotowe posty z danych trenera, w jego stylu, publikowane jednym kliknięciem:
-  - „nowy 8-tygodniowy plan już jest”;
-  - zajęcia w tym tygodniu;
-  - wynik klienta (za zgodą klienta);
-  - podsumowanie miesiąca.
-
-  To też napędza wzrost Ramvo: każdy post linkuje do profilu trenera w Ramvo.
-- **Ryzyko utraty skupienia:** do startu najważniejsze są aplikacja i pierwszych 20 trenerów (sekcja 1).
-
-## 6. Rekomendacja
-1. **Nie budować przed startem.** Wrócić do tematu w lutym 2027, gdy aplikacja się sprawdzi.
-2. **Sprawdzić popyt teraz, za darmo.** W każdej rozmowie z Founding Trainerem zapytać: *„Czy zapłaciłbyś ok. 5–7 £
-   miesięcznie, gdyby Ramvo robiło dla Ciebie gotowe posty z Twoich planów i wyników klientów i samo je
-   publikowało?”* Ruszamy, jeśli tak powie co najmniej 8 z 20.
-3. **Zacząć weryfikację Ramvo Ltd w Mecie już teraz.** Trwa od kilku dni do kilku tygodni, nic nie kosztuje, a później
-   blokuje App Review. Kroki:
-   1. Wejdź na business.facebook.com → Ustawienia → Informacje o firmie i utwórz portfolio firmowe Ramvo Ltd, jeśli
-      go nie ma.
-   2. Wejdź w Centrum bezpieczeństwa → Rozpocznij weryfikację i wpisz Ramvo Ltd dokładnie jak w Companies House
-      (nr 17606223), adres rejestrowy, stronę ramvo.app i e-mail @ramvo.app.
-   3. Jeśli poproszą o dokument, wgraj certificate of incorporation albo dokument z banku lub rachunek z nazwą firmy
-      i adresem.
-   4. Potwierdź kod z e-maila lub SMS-a. Czekaj na wynik (zwykle kilka dni, czasem 2+ tygodnie).
-   5. Podłącz aplikację „Ramvo Marketing Hub” do tego portfolio (App settings → Basic → Business portfolio).
-4. **Jeśli popyt się potwierdzi, faza 1:**
-   1. **Wersja testowa** z Founding Trainerami, którzy powiedzieli „tak”:
-      - każdy trener dodany jako tester aplikacji;
-      - Instagram (Twórca lub Firma) i strona na Facebooku;
-      - Hub dla trenera w panelu w przeglądarce;
-      - szablony postów z danych Ramvo.
-   2. **W tym czasie App Review**, z wersją testową jako materiałem do nagrań.
-   3. **Po zatwierdzeniu:** otwarcie dla wszystkich jako dodatek „Ramvo Social” za **5,99 £/mies.** (albo w planie
-      Studio), ze szkicami na TikToku, gdy TikTok zatwierdzi aplikację.
-   4. **Czas:** ok. 6–8 tygodni z recenzją.
-5. **Faza 2:** publikacja z aplikacji mobilnej; statystyki social mediów w miesięcznym podsumowaniu trenera.
-6. **Nigdy nie obiecywać:**
-   - Lektora (działa na komputerze Jana);
-   - w pełni automatycznego TikToka;
-   - publikowania na prywatnych kontach Instagrama ani prywatnych profilach Facebooka (niemożliwe);
-   - LinkedIna (poza zakresem).
-
-## Źródła (sprawdzone 28 lis 2026)
-- [Meta: App Review for Instagram API](https://developers.facebook.com/docs/instagram-platform/app-review)
-- [Meta: Access Verification](https://developers.facebook.com/docs/development/release/access-verification/)
-- [Meta: Permissions reference](https://developers.facebook.com/docs/permissions)
-- [TikTok: Content Sharing Guidelines](https://developers.tiktok.com/docs/en/content-sharing-guidelines)
-- [TikTok: Direct Post API reference](https://developers.tiktok.com/docs/en/content-posting-api-reference-direct-post)
-- [LinkedIn: Community Management app review](https://learn.microsoft.com/en-us/linkedin/marketing/community-management-app-review)
-- [LinkedIn: Posts API](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/posts-api)
+`,zMe=`# 15. Marketing Hub jako produkt dla trenerów („Ramvo Social”)\r
+\r
+Pytanie (Jan, 28 lis 2026): czy Marketing Hub może być narzędziem dla trenerów do prowadzenia ich social mediów? Ile\r
+to pracy po mojej stronie, jakie koszty i czy wszystko da się zautomatyzować przez Hub?\r
+\r
+**Krótko:** tak, dla kont Twórca/Firma na Instagramie i stron na Facebooku, które trenerzy podłączają sami (konta i profile prywatne odpadają). TikTok zostaje\r
+półautomatyczny (szkice). Przed startem nie warto tego budować:\r
+\r
+- Hub obsługuje dziś jednego właściciela, a obsługa wielu kont to ok. 80–130 h pracy;\r
+- Meta musi zatwierdzić aplikację (App Review i weryfikacja firmy Ramvo Ltd, tygodnie czekania);\r
+- sam harmonogram postów konkuruje z darmowym Meta Business Suite i tanimi Buffer czy Metricool.\r
+\r
+Warto sprzedawać wersję z **postami generowanymi z danych trenera w Ramvo**, których nikt inny nie ma. Najpierw\r
+sprawdź popyt u Founding Trainerów, a weryfikację firmy w Mecie zacznij od razu, bo nic nie kosztuje.\r
+\r
+## Zakres (aktualizacja 28 lis 2026): trenerzy łączą własne konta, bez LinkedIna\r
+\r
+Chodzi o connector: każdy trener otwiera **swój Marketing Hub** w Ramvo i podłącza **swoje** konta na Instagramie,\r
+Facebooku i TikToku. LinkedIn odpada.\r
+\r
+| Konto trenera | Czy Hub może na nim publikować? | Jak trener je podłącza |\r
+|---|---|---|\r
+| **Prywatne** konto na Instagramie | **Nie.** Meta nie ma API do publikowania na kontach prywatnych | Trener najpierw przełącza się na konto Twórca albo Firma: Ustawienia → Typ konta i narzędzia → Przełącz na konto profesjonalne. Darmowe, trwa minutę, zostają obserwujący i posty |\r
+| Instagram **Twórca / Firma** | **Tak:** zdjęcie, karuzela, rolka, relacja, pierwszy komentarz, statystyki | „Połącz” → logowanie do Instagrama → Zezwól |\r
+| **Prywatny profil** na Facebooku | **Nie.** Publikowanie na profilach przez API zniknęło w 2018 r. | Nie da się; trener potrzebuje strony |\r
+| **Strona** na Facebooku | **Tak:** tekst, zdjęcie, karuzela, film, rolka, pierwszy komentarz, statystyki | „Połącz” → logowanie do Facebooka → wybór strony |\r
+| TikTok (każde konto, także prywatne) | **Tylko szkic.** Trener klika „Opublikuj” w TikToku | „Połącz” → logowanie do TikToka; dla innych osób zadziała po zatwierdzeniu aplikacji przez TikToka |\r
+\r
+**Samodzielne podłączanie już istnieje** (przycisk „Połącz” w Kontach). Dla cudzych kont zadziała dopiero, gdy Meta\r
+zatwierdzi aplikację (App Review i weryfikacja Ramvo Ltd).\r
+\r
+**Wersja testowa bez czekania na Metę:** w trybie deweloperskim można dodać trenera jako testera aplikacji.\r
+- Instagram: App roles → Instagram Testers; trener akceptuje w Instagramie → Ustawienia → Aplikacje i witryny →\r
+  Zaproszenia testerów.\r
+- Facebook: rola w aplikacji dla konta trenera na Facebooku.\r
+\r
+Wtedy jego konta działają od razu. To wystarczy dla 5–20 Founding Trainerów, ale nie dla setek, więc publiczny start\r
+nadal wymaga App Review.\r
+\r
+Bez LinkedIna budowa to ok. **70–110 h** zamiast 80–130 h. Największa część to nadal obsługa wielu trenerów (osobne\r
+konta, dane i alerty dla każdego).\r
+\r
+## 1. Czym jest Hub dziś\r
+\r
+- **Jeden właściciel:** każda tabela \`mkt_*\` jest tylko dla admina (RLS \`is_admin()\`, migracja 160). Po połączeniu\r
+  zostaje jedno prawdziwe konto na platformę. Alerty idą do wszystkich adminów.\r
+- **Solidny silnik:**\r
+  - kolejka zadań z dzierżawami i ponowieniami;\r
+  - sprawdzanie, czy post już wyszedł, więc nie ma podwójnych publikacji;\r
+  - sandbox;\r
+  - publikacja co minutę, tylko gdy coś czeka;\r
+  - codzienna konserwacja (tokeny, statystyki, sprzątanie);\r
+  - tokeny w Supabase Vault.\r
+- **Platformy:**\r
+  - Instagram i strona na Facebooku publikują automatycznie, ale aplikacja Meta jest w trybie deweloperskim:\r
+    działa tylko dla kont z rolą w aplikacji;\r
+  - LinkedIn publikuje na profil prywatny, bez statystyk;\r
+  - TikTok wysyła szkic do skrzynki.\r
+- **Lektor** działa na komputerze Jana, więc nie da się go zaoferować klientom.\r
+- Panel trenera w przeglądarce już istnieje (ten sam \`admin-panel\`, rola \`trainer\`), więc strony Huba można\r
+  otworzyć trenerom bez nowej aplikacji.\r
+\r
+## 2. Czy wszystko da się zautomatyzować?\r
+\r
+| Co | Dla trenerów | Warunek |\r
+|---|---|---|\r
+| Publikacja na Instagramie (zdjęcie, karuzela, rolka, relacja) | Tak | Advanced Access do \`instagram_business_content_publish\` = **App Review + weryfikacja firmy**; trener musi mieć konto Firma/Twórca |\r
+| Publikacja na stronie na Facebooku | Tak | Ta sama recenzja Mety (\`pages_manage_posts\` itd.) |\r
+| Prywatny profil LinkedIn | Tak | „Share on LinkedIn” bez recenzji; brak statystyk postów |\r
+| Strona firmowa LinkedIn | Możliwe, niepewne | Community Management API: tylko dla zarejestrowanych firm (Ramvo Ltd się kwalifikuje), musi być **jedynym produktem w osobnej aplikacji**, recenzja etapami z nagraniem ekranu, po odrzuceniu na poziomie Standard nie można złożyć ponownie |\r
+| Publiczne posty na TikToku | Nie (tylko szkice) | Aplikacje bez audytu: tylko posty prywatne i maks. 5 publikujących osób na dobę; publiczne posty wymagają audytu TikToka, bez podanego terminu |\r
+| Statystyki | Częściowo | Instagram/Facebook tak (z opóźnieniem; część statystyk strony od 100 obserwujących), TikTok przez listę filmów, LinkedIn prywatny brak |\r
+| Odpowiadanie na komentarze i DM-y | Nie | Niezbudowane; dodatkowe uprawnienia i recenzja Mety |\r
+| Tworzenie treści | Nie | Zadanie trenera i to, z czym trenerzy mają największy problem |\r
+| Wdrożenie trenera | Tak, samodzielnie | „Połącz” (OAuth); trener sam przełącza Instagrama na konto Firma/Twórca |\r
+\r
+## 3. Praca po stronie Jana\r
+\r
+**Jednorazowo (z Claude), ok. 80–130 h:**\r
+\r
+| Obszar | Zakres | Godziny |\r
+|---|---|---|\r
+| Wiele kont | \`owner_id\` na każdej tabeli \`mkt_*\`, RLS „właściciel albo admin”, jedno konto na platformę na trenera, alerty tylko do właściciela | 20–30 |\r
+| Hub dla trenera | Strony Huba dla roli \`trainer\`, uproszczone (posty, kalendarz, media, konta); bez kampanii, audytu i Lektora | 15–25 |\r
+| Limity w planach | Limit postów w Pro, pełny dostęp w Studio, miejsce na pliki na trenera (bez osobnego dodatku do rozliczania) | 8–12 |\r
+| Media | Usuwanie plików po publikacji, limit na trenera, ewentualnie Supabase Storage na wideo | 8–12 |\r
+| Wyróżnik Ramvo | Szablony postów z danych Ramvo: nowy plan, grafik zajęć, wynik klienta (za zgodą), podsumowanie miesiąca (sekcja 14) | 20–30 |\r
+| Recenzja Mety | Nagranie ekranu dla każdego uprawnienia, endpoint usuwania danych, polityka prywatności, weryfikacja firmy | 8–12 + 2–6 tygodni czekania |\r
+| Prawo | Regulamin i polityka prywatności: Ramvo publikuje w imieniu trenera i przetwarza dane z Mety/TikToka; sprawdzenie przez prawnika | 3–5 |\r
+| Publikacja z telefonu (faza 2) | Trenerzy tworzą treści na telefonie; publikacja z aplikacji mobilnej | 40–60 |\r
+\r
+**Na bieżąco:**\r
+- ok. **2–5 h miesięcznie** wsparcia (wygasłe połączenia, odrzucone pliki, pytania);\r
+- **1–3 dni w roku** na zmiany API (nowe wersje Mety i LinkedIna, coroczny Data Use Checkup Mety).\r
+\r
+Błąd w publikacji to post na koncie klienta, a zmiana platformy uderza we wszystkich naraz: większa odpowiedzialność\r
+niż w samej aplikacji.\r
+\r
+## 4. Koszty\r
+\r
+| Pozycja | Koszt |\r
+|---|---|\r
+| Supabase (funkcje, baza) | Praktycznie 0 na trenera; cron rusza tylko, gdy post czeka |\r
+| Media | Zdjęcia są małe. Rolka to ok. 30–60 MB, więc 12 rolek miesięcznie to ok. 0,5 GB na trenera. Darmowy plan Cloudinary (wspólny z aplikacją) skończy się przy ok. 50–100 aktywnych trenerach; kolejny plan to ok. 89–99 $/mies. Taniej: Supabase Storage (ok. 0,02 $/GB) plus usuwanie plików po publikacji |\r
+| Alerty e-mail (Resend) | Za darmo do ok. 3000 miesięcznie, potem ok. 20 $/mies. |\r
+| API platform | Za darmo; kosztem jest czas recenzji |\r
+| Prawnik | W ramach planowanego przeglądu prawnego |\r
+\r
+**Ok. 1,5–5 zł (0,30–1 £) na trenera miesięcznie.** W cenie Studio (34,99 £) marża jest wysoka. Prawdziwy koszt to czas Jana\r
+i ryzyko recenzji.\r
+\r
+## 5. Rynek\r
+- **Samo planowanie postów to towar:**\r
+  - Meta Business Suite jest za darmo dla Instagrama i Facebooka;\r
+  - Buffer, Later i Metricool są tanie;\r
+  - „kolejny harmonogram” się nie sprzeda.\r
+- **Co potrafi tylko Ramvo:** gotowe posty z danych trenera, w jego stylu, publikowane jednym kliknięciem:\r
+  - „nowy 8-tygodniowy plan już jest”;\r
+  - zajęcia w tym tygodniu;\r
+  - wynik klienta (za zgodą klienta);\r
+  - podsumowanie miesiąca.\r
+\r
+  To też napędza wzrost Ramvo: każdy post linkuje do profilu trenera w Ramvo.\r
+- **Ryzyko utraty skupienia:** do startu najważniejsze są aplikacja i pierwszych 20 trenerów (sekcja 1).\r
+\r
+## 6. Rekomendacja\r
+1. **Nie budować przed startem.** Wrócić do tematu w lutym 2027, gdy aplikacja się sprawdzi.\r
+2. **Sprawdzić popyt teraz, za darmo.** W każdej rozmowie z Founding Trainerem zapytać: *„Gdyby Ramvo robiło dla\r
+   Ciebie gotowe posty z Twoich planów i wyników klientów i samo publikowało je na Twoim Instagramie i Facebooku, czy\r
+   to byłby powód, żeby wybrać Studio (34,99 £) zamiast Pro (19,99 £)?”* Ruszamy, jeśli tak powie co najmniej 8 z 20.\r
+3. **Zacząć weryfikację Ramvo Ltd w Mecie już teraz.** Trwa od kilku dni do kilku tygodni, nic nie kosztuje, a później\r
+   blokuje App Review. Kroki:\r
+   1. Wejdź na business.facebook.com → Ustawienia → Informacje o firmie i utwórz portfolio firmowe Ramvo Ltd, jeśli\r
+      go nie ma.\r
+   2. Wejdź w Centrum bezpieczeństwa → Rozpocznij weryfikację i wpisz Ramvo Ltd dokładnie jak w Companies House\r
+      (nr 17606223), adres rejestrowy, stronę ramvo.app i e-mail @ramvo.app.\r
+   3. Jeśli poproszą o dokument, wgraj certificate of incorporation albo dokument z banku lub rachunek z nazwą firmy\r
+      i adresem.\r
+   4. Potwierdź kod z e-maila lub SMS-a. Czekaj na wynik (zwykle kilka dni, czasem 2+ tygodnie).\r
+   5. Podłącz aplikację „Ramvo Marketing Hub” do tego portfolio (App settings → Basic → Business portfolio).\r
+4. **Jeśli popyt się potwierdzi, faza 1:**\r
+   1. **Wersja testowa** z Founding Trainerami, którzy powiedzieli „tak”:\r
+      - każdy trener dodany jako tester aplikacji;\r
+      - Instagram (Twórca lub Firma) i strona na Facebooku;\r
+      - Hub dla trenera w panelu w przeglądarce;\r
+      - szablony postów z danych Ramvo.\r
+   2. **W tym czasie App Review**, z wersją testową jako materiałem do nagrań.\r
+   3. **Po zatwierdzeniu:** otwarcie dla wszystkich w ramach planów (niżej), ze szkicami na TikToku, gdy TikTok\r
+      zatwierdzi aplikację.\r
+   4. **Czas:** ok. 6–8 tygodni z recenzją.\r
+5. **Sprzedaż: część planów, nie osobny dodatek** (decyzja z 28 lis 2026):\r
+\r
+   | Plan | Social media |\r
+   |---|---|\r
+   | Start | — |\r
+   | Pro | Na spróbowanie: Instagram + Facebook, do 8 zaplanowanych postów miesięcznie |\r
+   | **Studio** | **Pełne:** bez limitu postów, szablony postów z danych Ramvo, szkice na TikToku, statystyki |\r
+   | Founding Trainerzy | Pełne, jako testerzy (i tak mają 24 miesiące za darmo) |\r
+\r
+   Dlaczego:\r
+   - Studio dostaje drugi powód do przejścia obok limitu klientów (sekcja 3: dziś jedyną dźwignią jest 26. klient);\r
+   - koszt (ok. 0,30–1 £ na trenera) spokojnie mieści się w Studio;\r
+   - jeden produkt z planami łatwiej sprzedać i rozliczyć niż plany i dodatki;\r
+   - trenerzy na Pro (większość) mogą spróbować, a wyczerpanie limitu 8 postów staje się momentem przejścia na\r
+     Studio.\r
+\r
+   Dopóki funkcja nie działa, nie ma jej na stronie cenowej jako gotowej: najwyżej „wkrótce” przy Studio.\r
+6. **Faza 2:** publikacja z aplikacji mobilnej; statystyki social mediów w miesięcznym podsumowaniu trenera.\r
+7. **Nigdy nie obiecywać:**\r
+   - Lektora (działa na komputerze Jana);\r
+   - w pełni automatycznego TikToka;\r
+   - publikowania na prywatnych kontach Instagrama ani prywatnych profilach Facebooka (niemożliwe);\r
+   - LinkedIna (poza zakresem).\r
+\r
+## Źródła (sprawdzone 28 lis 2026)\r
+- [Meta: App Review for Instagram API](https://developers.facebook.com/docs/instagram-platform/app-review)\r
+- [Meta: Access Verification](https://developers.facebook.com/docs/development/release/access-verification/)\r
+- [Meta: Permissions reference](https://developers.facebook.com/docs/permissions)\r
+- [TikTok: Content Sharing Guidelines](https://developers.tiktok.com/docs/en/content-sharing-guidelines)\r
+- [TikTok: Direct Post API reference](https://developers.tiktok.com/docs/en/content-posting-api-reference-direct-post)\r
+- [LinkedIn: Community Management app review](https://learn.microsoft.com/en-us/linkedin/marketing/community-management-app-review)\r
+- [LinkedIn: Posts API](https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/posts-api)\r
 `,BMe=`# Audyt biznesowy Ramvo: 28 listopada 2026\r
 \r
 Ten audyt to wynik wszystkich 15 skilli founder-skills. Oparłem go na \`FOUNDER_CONTEXT.md\` i prawdziwych danych:\r
@@ -5165,7 +5207,7 @@ Sekcje z gotowymi tekstami mają wersję angielską (główną) i polską.\r
 - **Przychody** w sekcji 3 to model Twoich celów, nie prognoza.\r
 - **Oszczędność godzin** (6,5 h / 13 h / ok. 20 h) to szacunki i zawsze trzeba je tak oznaczać.\r
 - **Nie ma jeszcze opinii ani case studies.** Żaden tekst w audycie ich nie wymyśla.\r
-`,VMe=`2026-11-28`,HMe=`2027-01-01`,g3={foundingTrainers:20,trainers:1e3,clients:2e4},UMe=Object.assign({"../../../../docs/business-audit/01-strategy.md":iMe,"../../../../docs/business-audit/02-go-to-market.md":aMe,"../../../../docs/business-audit/03-pricing.md":oMe,"../../../../docs/business-audit/04-competitors.md":sMe,"../../../../docs/business-audit/05-cro-trainers-page.md":cMe,"../../../../docs/business-audit/06-marketing-ideas.md":lMe,"../../../../docs/business-audit/07-lead-magnets-en.md":uMe,"../../../../docs/business-audit/07-lead-magnets-pl.md":dMe,"../../../../docs/business-audit/08-outreach-100-en.md":fMe,"../../../../docs/business-audit/08-outreach-100-pl.md":pMe,"../../../../docs/business-audit/09-copy-en.md":mMe,"../../../../docs/business-audit/09-copy-pl.md":hMe,"../../../../docs/business-audit/10-hooks-en.md":gMe,"../../../../docs/business-audit/10-hooks-pl.md":_Me,"../../../../docs/business-audit/11-linkedin-x-en.md":vMe,"../../../../docs/business-audit/11-linkedin-x-pl.md":yMe,"../../../../docs/business-audit/12-product-hunt.md":bMe,"../../../../docs/business-audit/13-sop-trainer-migration.md":xMe,"../../../../docs/business-audit/14-prd-trainer-monthly-recap.md":SMe,"../../../../docs/business-audit/15-social-tool-for-trainers.md":CMe,"../../../../docs/business-audit/README.md":wMe,"../../../../docs/business-audit/pl/01-strategy.md":TMe,"../../../../docs/business-audit/pl/02-go-to-market.md":EMe,"../../../../docs/business-audit/pl/03-pricing.md":DMe,"../../../../docs/business-audit/pl/04-competitors.md":OMe,"../../../../docs/business-audit/pl/05-cro-trainers-page.md":kMe,"../../../../docs/business-audit/pl/06-marketing-ideas.md":AMe,"../../../../docs/business-audit/pl/07-lead-magnets.md":jMe,"../../../../docs/business-audit/pl/08-outreach-100.md":MMe,"../../../../docs/business-audit/pl/09-copy.md":NMe,"../../../../docs/business-audit/pl/10-hooks.md":PMe,"../../../../docs/business-audit/pl/11-linkedin-x.md":FMe,"../../../../docs/business-audit/pl/12-product-hunt.md":IMe,"../../../../docs/business-audit/pl/13-sop-trainer-migration.md":LMe,"../../../../docs/business-audit/pl/14-prd-trainer-monthly-recap.md":RMe,"../../../../docs/business-audit/pl/15-social-tool-for-trainers.md":zMe,"../../../../docs/business-audit/pl/README.md":BMe});function _3(e){return UMe[`../../../../docs/business-audit/${e}`]??``}function v3(e,t){return t===`pl`&&_3(`pl/${e}`)||_3(e)}function WMe(e,t,n){return t===`en`?_3(`${e}-en.md`):n===`pl`&&_3(`pl/${GMe[e]}`)||_3(`${e}-pl.md`)}var GMe={"07-lead-magnets":`07-lead-magnets.md`,"08-outreach-100":`08-outreach-100.md`,"09-copy":`09-copy.md`,"10-hooks":`10-hooks.md`,"11-linkedin-x":`11-linkedin-x.md`},KMe=[{id:`outreach`,base:`08-outreach-100`,label:{pl:`Outreach (100)`,en:`Outreach (100)`}},{id:`copy`,base:`09-copy`,label:{pl:`Reklama i App Store`,en:`Ad & App Store`}},{id:`hooks`,base:`10-hooks`,label:{pl:`Haki do rolek`,en:`Reel hooks`}},{id:`magnets`,base:`07-lead-magnets`,label:{pl:`Lead magnety`,en:`Lead magnets`}},{id:`social`,base:`11-linkedin-x`,label:{pl:`LinkedIn i X`,en:`LinkedIn & X`}}],qMe=[{n:1,tone:`pink`,tab:`strategy`,title:{pl:`Wąskim gardłem są trenerzy, nie klienci`,en:`The constraint is trainers, not clients`},body:{pl:`1000 trenerów × 20 klientów = 20 000 klientów. Dziś 1 zgłoszenie trenera i ok. 1 zapis tygodniowo. Sprzedaj ręcznie 20 miejsc Founding Trainer.`,en:`1,000 trainers × 20 clients = 20,000 clients. Today: 1 trainer lead and about 1 sign-up a week. Hand-sell the 20 Founding Trainer places.`}},{n:2,tone:`warning`,tab:`website`,title:{pl:`Lejek na UK był polski pod spodem`,en:`The UK funnel was Polish under the hood`},body:{pl:`Strona miała polski lang, tytuły i podglądy linków, a 31 rolek ma polski tekst na ekranie. Potrzebne 12 angielskich rolek do 20 grudnia.`,en:`The site shipped Polish lang, titles and link previews, and all 31 reels have Polish on-screen text. 12 English reels needed by 20 Dec.`},done:{pl:`Strona: angielski domyślny od 28.11`,en:`Site: English default since 28 Nov`}},{n:3,tone:`accent`,tab:`website`,title:{pl:`Na stronie trenerów brakuje ludzi`,en:`The trainers page has no people on it`},body:{pl:`Brak założyciela, opinii i licznika miejsc; formularz z 4 polami i niejasnym przyciskiem. Dodaj pasek z założycielem i „zajęte X/20”.`,en:`No founder, no testimonial, no places counter; a 4-field form with a vague CTA. Add a founder strip and "places taken X/20".`}},{n:4,tone:`violet`,tab:`pricing`,title:{pl:`W UK przewagą nie jest cena`,en:`Price isn't the UK edge`},body:{pl:`Pro £19,99 stoi obok Trainerize (~$23) i My PT Hub (~$22,50). Przewaga: darmowa aplikacja klienta, wszystko w cenie i dopasowanie trenera.`,en:`Pro £19.99 sits next to Trainerize (~$23) and My PT Hub (~$22.50). The edge: a free client app, everything included and trainer matching.`}},{n:5,tone:`success`,tab:`launch`,title:{pl:`Retencję trzeba pokazać`,en:`Retention needs to be made visible`},body:{pl:`Miesięczny mail z podsumowaniem wartości dla trenera. Specyfikacja gotowa, oparta na istniejących digestach i Resend.`,en:`A monthly value-recap e-mail for trainers. The full PRD is ready, built on the existing digest and Resend patterns.`}}],y3=[{date:`2026-11-28`,tone:`success`,done:!0,title:{pl:`Strona po angielsku`,en:`Site in English`},sub:{pl:`Angielski domyślny, hreflang`,en:`English default, hreflang`}},{date:`2026-12-20`,tone:`accent`,title:{pl:`10 Founding Trainerów`,en:`10 Founding Trainers`},sub:{pl:`+ 12 angielskich rolek`,en:`+ 12 English reels`}},{date:`2027-01-01`,tone:`pink`,title:{pl:`Start`,en:`Launch`},sub:{pl:`20 trenerów, UK + PL`,en:`20 trainers, UK + PL`}},{date:`2027-02-15`,tone:`violet`,title:{pl:`3 case studies`,en:`3 case studies`},sub:{pl:`Z partnerów projektowych`,en:`From design partners`}},{date:`2027-02-23`,tone:`orange`,title:{pl:`Product Hunt`,en:`Product Hunt`},sub:{pl:`Wtorek, 08:01 UK`,en:`Tuesday, 08:01 UK`}},{date:`2027-03-31`,tone:`accent`,title:{pl:`100 trenerów`,en:`100 trainers`},sub:{pl:`Reading i zachodni Londyn`,en:`Reading & West London`}},{date:`2027-06-30`,tone:`warning`,title:{pl:`300 trenerów`,en:`300 trainers`},sub:{pl:`+ 3 partnerstwa`,en:`+ 3 partnerships`}},{date:`2027-12-31`,tone:`success`,title:{pl:`1000 trenerów`,en:`1,000 trainers`},sub:{pl:`20 000 klientów`,en:`20,000 clients`}}],b3=[{id:`ig30`,text:{pl:`Zapisz 30 trenerów z #personaltrainerreading (online/coaching w bio)`,en:`Save 30 PTs from #personaltrainerreading (online/coaching in bio)`}},{id:`sources`,text:{pl:`Znajdź projekty źródłowe rolek (CapCut / Canva) i wyślij listę`,en:`Find the reel source projects (CapCut / Canva) and send the list`}},{id:`gift`,text:{pl:`Zrób 1 plan z posta trenera i wyślij nagranie w DM`,en:`Turn 1 trainer post into a Ramvo plan and DM the recording`}},{id:`kit`,text:{pl:`Przeczytaj wiadomość trenera do klientów (sekcja 8) i popraw`,en:`Read the trainer's client message (section 8) and tweak it`}},{id:`partners`,text:{pl:`Wypisz 5 znajomych trenerów na partnerów projektowych`,en:`Write down 5 PTs you know as design partners`}}],JMe=[{n:1,tone:`pink`,title:{pl:`Sprzedaj ręcznie 20 miejsc Founding Trainer`,en:`Hand-sell the 20 Founding Trainer places`},body:{pl:`15 DM-ów dziennie przez 10 dni + 3 siłownie w Reading osobiście. Umowa: 24 miesiące za darmo w zamian za opinię.`,en:`15 DMs a day for 10 days + 3 Reading gyms in person. Deal: 24 months free for monthly feedback.`},metric:{pl:`150 DM → 30 odp. → 15 rozmów → 10 podpisanych do 20.12`,en:`150 DMs → 30 replies → 15 calls → 10 signed by 20 Dec`}},{n:2,tone:`warning`,title:{pl:`Wszystkie materiały po angielsku`,en:`Every asset in English`},body:{pl:`Strona: zrobione. 12 rolek z angielskim tekstem na ekranie i angielskim lektorem, opis w App Store dla UK.`,en:`Site: done. 12 reels with English on-screen text and voice-over, a UK App Store listing.`},metric:{pl:`12 angielskich rolek do 20.12`,en:`12 English reels by 20 Dec`}},{n:3,tone:`success`,title:{pl:`Każdy trener to kanał do klientów`,en:`Every trainer becomes a client channel`},body:{pl:`Zestaw startowy (relacja, wiadomość WhatsApp, nagranie), wdrożenie na żywo w 20 minut.`,en:`Launch kit (story, WhatsApp message, recording), a live 20-minute onboarding.`},metric:{pl:`8+ klientów na trenera w 14 dni, 60% aktywacji`,en:`8+ clients per trainer in 14 days, 60% activation`}}],YMe=[40,40,40,70,80,80,90,90,100,110,120,140],XMe=[{id:`start`,name:`Start`,who:{pl:`Nowi trenerzy Level 3`,en:`New Level 3 PTs`},limit:{pl:`do 5 klientów`,en:`up to 5 clients`},gbp:[9.99,99.9],pln:[49,490]},{id:`pro`,name:`Pro`,hero:!0,who:{pl:`Trener z 10–25 klientami`,en:`A PT with 10–25 clients`},limit:{pl:`do 25 klientów + generator AI`,en:`up to 25 clients + AI plans`},gbp:[19.99,199.9],pln:[99,990]},{id:`studio`,name:`Studio`,who:{pl:`Studia i zespoły siłowni`,en:`Studios and gym teams`},limit:{pl:`bez limitu, branding`,en:`unlimited, branding`},gbp:[34.99,349.9],pln:[179,1790]},{id:`premium`,name:`Ramvo Premium`,consumer:!0,who:{pl:`Klient w trybie AI`,en:`AI-mode client`},limit:{pl:`7 dni za darmo`,en:`7 days free`},gbp:[6.99,59.99],pln:[34.99,299]}],x3={trainers:18900,ai:14e3},S3=[{name:`Ramvo Pro`,usd:25,ramvo:!0,note:{pl:`£19,99, wszystko w cenie`,en:`£19.99, everything included`}},{name:`My PT Hub`,usd:22.5,note:{pl:`starter, UK`,en:`starter, UK`}},{name:`Trainerize Pro`,usd:23,note:{pl:`+ dodatki płatne`,en:`+ paid add-ons`}},{name:`Everfit`,usd:19,note:{pl:`+ dodatki płatne`,en:`+ paid add-ons`}},{name:`TrueCoach Std`,usd:53,note:{pl:`20 klientów`,en:`20 clients`}}],ZMe=[{tone:`pink`,title:{pl:`Zaufanie przed przyciskiem`,en:`Trust before the CTA`},before:`Apply as a Founding Trainer`,after:{pl:`Pasek z założycielem: „Buduję Ramvo po godzinach…” + Zajęte miejsca: 3 / 20`,en:`Founder strip: "I'm building Ramvo after my day job…" + Places taken: 3 / 20`},impact:{pl:`+30–50% zgłoszeń (hipoteza)`,en:`+30–50% applications (hypothesis)`}},{tone:`accent`,title:{pl:`Nagłówek o problemie`,en:`Pain-line headline`},before:`Your whole coaching business in one panel.`,after:{pl:`The plan is half the job. Ramvo does the other half.`,en:`The plan is half the job. Ramvo does the other half.`},impact:{pl:`+10–20% przewinięć do dema`,en:`+10–20% scroll-to-demo`}},{tone:`success`,title:{pl:`Formularz i przycisk`,en:`Form and button`},before:`Send application · 4 fields`,after:{pl:`Claim your place (17 left) · Dostęp w 24 h. Bez karty. · 2 pola`,en:`Claim your place (17 left) · Access in 24 h. No card. · 2 fields`},impact:{pl:`+20–40% wypełnień na telefonie`,en:`+20–40% mobile completion`}}],C3=[{date:`2027-01-04`,title:{pl:`Rozgrzewanie konta, lista wsparcia`,en:`Warm the account, build the support list`}},{date:`2027-01-23`,title:{pl:`Strona „Coming Soon”`,en:`Coming Soon page`}},{date:`2027-02-16`,title:{pl:`Tydzień startu: DM-y, galeria, wideo`,en:`Launch week: DMs, gallery, video`}},{date:`2027-02-23`,title:{pl:`Start 08:01 UK, 3 fale DM-ów`,en:`Launch 08:01 UK, 3 DM waves`}}],QMe=[{pl:`Rozmowa i udostępniony ekran`,en:`Call and shared screen`},{pl:`Odtwórz pierwszy plan`,en:`Rebuild the first plan`},{pl:`Dodaj klientów`,en:`Add the clients`},{pl:`Przypisz i wyślij plan`,en:`Assign and send the plan`},{pl:`Przekaż zestaw startowy`,en:`Hand over the launch kit`},{pl:`Umów kontrolę za 7 dni`,en:`Book the 7-day check-in`}],$Me=[{id:`FR-001`,p:`P0`,title:{pl:`Statystyki miesiąca`,en:`Monthly stats`}},{id:`FR-002`,p:`P0`,title:{pl:`Szacunek godzin`,en:`Hours estimate`}},{id:`FR-003`,p:`P0`,title:{pl:`Mail PL + EN`,en:`E-mail PL + EN`}},{id:`FR-004`,p:`P1`,title:{pl:`Cron 1. dnia`,en:`Cron on the 1st`}},{id:`FR-005`,p:`P1`,title:{pl:`Rezygnacja`,en:`Opt-out`}},{id:`FR-006`,p:`P1`,title:{pl:`Momenty billingowe`,en:`Billing moments`}},{id:`FR-007`,p:`P2`,title:{pl:`Prośba o opinię`,en:`Feedback ask`}},{id:`FR-008`,p:`P2`,title:{pl:`Podgląd w adminie`,en:`Admin preview`}}];async function eNe(){let[e,t,n,r]=await Promise.all([V.from(`landing_page_signups`).select(`submitted_at`).order(`submitted_at`,{ascending:!0}).limit(1e4),V.from(`trainer_leads`).select(`id`,{count:`exact`,head:!0}),V.from(`users`).select(`id`,{count:`exact`,head:!0}).eq(`role`,`trainer`),V.from(`users`).select(`id`,{count:`exact`,head:!0}).eq(`role`,`client`)]);for(let i of[e,t,n,r])if(i.error)throw i.error;let i=e.data??[],a=[],o=new Date;for(let e=29;e>=0;e--){let t=new Date(o.getTime()-e*864e5).toISOString().slice(0,10);a.push({date:t,total:i.filter(e=>e.submitted_at.slice(0,10)<=t).length})}return{waitlist:i.length,waitlistDays:a,trainerLeads:t.count??0,trainers:n.count??0,clients:r.count??0}}function tNe(e,t=new Date){return Math.ceil((new Date(`${e}T00:00:00Z`).getTime()-t.getTime())/864e5)}function nNe(e,t){let n=t||{};return(e[e.length-1]===``?[...e,``]:e).join((n.padRight?` `:``)+`,`+(n.padLeft===!1?``:` `)).trim()}var rNe=/^[$_\p{ID_Start}][$_\u{200C}\u{200D}\p{ID_Continue}]*$/u,iNe=/^[$_\p{ID_Start}][-$_\u{200C}\u{200D}\p{ID_Continue}]*$/u,aNe={};function w3(e,t){return((t||aNe).jsx?iNe:rNe).test(e)}var oNe=/[ \t\n\f\r]/g;function sNe(e){return typeof e==`object`?e.type===`text`&&T3(e.value):T3(e)}function T3(e){return e.replace(oNe,``)===``}var E3=class{constructor(e,t,n){this.normal=t,this.property=e,n&&(this.space=n)}};E3.prototype.normal={},E3.prototype.property={},E3.prototype.space=void 0;function D3(e,t){let n={},r={};for(let t of e)Object.assign(n,t.property),Object.assign(r,t.normal);return new E3(n,r,t)}function O3(e){return e.toLowerCase()}var k3=class{constructor(e,t){this.attribute=t,this.property=e}};k3.prototype.attribute=``,k3.prototype.booleanish=!1,k3.prototype.boolean=!1,k3.prototype.commaOrSpaceSeparated=!1,k3.prototype.commaSeparated=!1,k3.prototype.defined=!1,k3.prototype.mustUseProperty=!1,k3.prototype.number=!1,k3.prototype.overloadedBoolean=!1,k3.prototype.property=``,k3.prototype.spaceSeparated=!1,k3.prototype.space=void 0;var A3=s({boolean:()=>j3,booleanish:()=>M3,commaOrSpaceSeparated:()=>L3,commaSeparated:()=>I3,number:()=>P3,overloadedBoolean:()=>N3,spaceSeparated:()=>F3}),cNe=0,j3=R3(),M3=R3(),N3=R3(),P3=R3(),F3=R3(),I3=R3(),L3=R3();function R3(){return 2**++cNe}var z3=Object.keys(A3),B3=class extends k3{constructor(e,t,n,r){let i=-1;if(super(e,t),V3(this,`space`,r),typeof n==`number`)for(;++i<z3.length;){let e=z3[i];V3(this,z3[i],(n&A3[e])===A3[e])}}};B3.prototype.defined=!0;function V3(e,t,n){n&&(e[t]=n)}function H3(e){let t={},n={};for(let[r,i]of Object.entries(e.properties)){let a=new B3(r,e.transform(e.attributes||{},r),i,e.space);e.mustUseProperty&&e.mustUseProperty.includes(r)&&(a.mustUseProperty=!0),t[r]=a,n[O3(r)]=r,n[O3(a.attribute)]=r}return new E3(t,n,e.space)}var U3=H3({properties:{ariaActiveDescendant:null,ariaAtomic:M3,ariaAutoComplete:null,ariaBusy:M3,ariaChecked:M3,ariaColCount:P3,ariaColIndex:P3,ariaColSpan:P3,ariaControls:F3,ariaCurrent:null,ariaDescribedBy:F3,ariaDetails:null,ariaDisabled:M3,ariaDropEffect:F3,ariaErrorMessage:null,ariaExpanded:M3,ariaFlowTo:F3,ariaGrabbed:M3,ariaHasPopup:null,ariaHidden:M3,ariaInvalid:null,ariaKeyShortcuts:null,ariaLabel:null,ariaLabelledBy:F3,ariaLevel:P3,ariaLive:null,ariaModal:M3,ariaMultiLine:M3,ariaMultiSelectable:M3,ariaOrientation:null,ariaOwns:F3,ariaPlaceholder:null,ariaPosInSet:P3,ariaPressed:M3,ariaReadOnly:M3,ariaRelevant:null,ariaRequired:M3,ariaRoleDescription:F3,ariaRowCount:P3,ariaRowIndex:P3,ariaRowSpan:P3,ariaSelected:M3,ariaSetSize:P3,ariaSort:null,ariaValueMax:P3,ariaValueMin:P3,ariaValueNow:P3,ariaValueText:null,role:null},transform(e,t){return t===`role`?t:`aria-`+t.slice(4).toLowerCase()}});function W3(e,t){return t in e?e[t]:t}function G3(e,t){return W3(e,t.toLowerCase())}var lNe=H3({attributes:{acceptcharset:`accept-charset`,classname:`class`,htmlfor:`for`,httpequiv:`http-equiv`},mustUseProperty:[`checked`,`multiple`,`muted`,`selected`],properties:{abbr:null,accept:I3,acceptCharset:F3,accessKey:F3,action:null,allow:null,allowFullScreen:j3,allowPaymentRequest:j3,allowUserMedia:j3,alpha:j3,alt:null,as:null,async:j3,autoCapitalize:null,autoComplete:F3,autoFocus:j3,autoPlay:j3,blocking:F3,capture:null,charSet:null,checked:j3,cite:null,className:F3,closedBy:null,colorSpace:null,cols:P3,colSpan:P3,command:null,commandFor:null,content:null,contentEditable:M3,controls:j3,controlsList:F3,coords:P3|I3,crossOrigin:null,data:null,dateTime:null,decoding:null,default:j3,defer:j3,dir:null,dirName:null,disabled:j3,download:N3,draggable:M3,encType:null,enterKeyHint:null,fetchPriority:null,form:null,formAction:null,formEncType:null,formMethod:null,formNoValidate:j3,formTarget:null,headers:F3,height:P3,hidden:N3,high:P3,href:null,hrefLang:null,htmlFor:F3,httpEquiv:F3,id:null,imageSizes:null,imageSrcSet:null,inert:j3,inputMode:null,integrity:null,is:null,isMap:j3,itemId:null,itemProp:F3,itemRef:F3,itemScope:j3,itemType:F3,kind:null,label:null,lang:null,language:null,list:null,loading:null,loop:j3,low:P3,manifest:null,max:null,maxLength:P3,media:null,method:null,min:null,minLength:P3,multiple:j3,muted:j3,name:null,nonce:null,noModule:j3,noValidate:j3,onAbort:null,onAfterPrint:null,onAuxClick:null,onBeforeMatch:null,onBeforePrint:null,onBeforeToggle:null,onBeforeUnload:null,onBlur:null,onCancel:null,onCanPlay:null,onCanPlayThrough:null,onChange:null,onClick:null,onClose:null,onContextLost:null,onContextMenu:null,onContextRestored:null,onCopy:null,onCueChange:null,onCut:null,onDblClick:null,onDrag:null,onDragEnd:null,onDragEnter:null,onDragExit:null,onDragLeave:null,onDragOver:null,onDragStart:null,onDrop:null,onDurationChange:null,onEmptied:null,onEnded:null,onError:null,onFocus:null,onFormData:null,onHashChange:null,onInput:null,onInvalid:null,onKeyDown:null,onKeyPress:null,onKeyUp:null,onLanguageChange:null,onLoad:null,onLoadedData:null,onLoadedMetadata:null,onLoadEnd:null,onLoadStart:null,onMessage:null,onMessageError:null,onMouseDown:null,onMouseEnter:null,onMouseLeave:null,onMouseMove:null,onMouseOut:null,onMouseOver:null,onMouseUp:null,onOffline:null,onOnline:null,onPageHide:null,onPageShow:null,onPaste:null,onPause:null,onPlay:null,onPlaying:null,onPopState:null,onProgress:null,onRateChange:null,onRejectionHandled:null,onReset:null,onResize:null,onScroll:null,onScrollEnd:null,onSecurityPolicyViolation:null,onSeeked:null,onSeeking:null,onSelect:null,onSlotChange:null,onStalled:null,onStorage:null,onSubmit:null,onSuspend:null,onTimeUpdate:null,onToggle:null,onUnhandledRejection:null,onUnload:null,onVolumeChange:null,onWaiting:null,onWheel:null,open:j3,optimum:P3,pattern:null,ping:F3,placeholder:null,playsInline:j3,popover:null,popoverTarget:null,popoverTargetAction:null,poster:null,preload:null,readOnly:j3,referrerPolicy:null,rel:F3,required:j3,reversed:j3,rows:P3,rowSpan:P3,sandbox:F3,scope:null,scoped:j3,seamless:j3,selected:j3,shadowRootClonable:j3,shadowRootCustomElementRegistry:j3,shadowRootDelegatesFocus:j3,shadowRootMode:null,shadowRootSerializable:j3,shape:null,size:P3,sizes:null,slot:null,span:P3,spellCheck:M3,src:null,srcDoc:null,srcLang:null,srcSet:null,start:P3,step:null,style:null,tabIndex:P3,target:null,title:null,translate:null,type:null,typeMustMatch:j3,useMap:null,value:M3,width:P3,wrap:null,writingSuggestions:null,align:null,aLink:null,archive:F3,axis:null,background:null,bgColor:null,border:P3,borderColor:null,bottomMargin:P3,cellPadding:null,cellSpacing:null,char:null,charOff:null,classId:null,clear:null,code:null,codeBase:null,codeType:null,color:null,compact:j3,declare:j3,event:null,face:null,frame:null,frameBorder:null,hSpace:P3,leftMargin:P3,link:null,longDesc:null,lowSrc:null,marginHeight:P3,marginWidth:P3,noResize:j3,noHref:j3,noShade:j3,noWrap:j3,object:null,profile:null,prompt:null,rev:null,rightMargin:P3,rules:null,scheme:null,scrolling:M3,standby:null,summary:null,text:null,topMargin:P3,valueType:null,version:null,vAlign:null,vLink:null,vSpace:P3,allowTransparency:null,autoCorrect:null,autoSave:null,credentialless:j3,disablePictureInPicture:j3,disableRemotePlayback:j3,exportParts:I3,part:F3,prefix:null,property:null,results:P3,security:null,unselectable:null},space:`html`,transform:G3}),uNe=H3({attributes:{accentHeight:`accent-height`,alignmentBaseline:`alignment-baseline`,arabicForm:`arabic-form`,baselineShift:`baseline-shift`,capHeight:`cap-height`,className:`class`,clipPath:`clip-path`,clipRule:`clip-rule`,colorInterpolation:`color-interpolation`,colorInterpolationFilters:`color-interpolation-filters`,colorProfile:`color-profile`,colorRendering:`color-rendering`,crossOrigin:`crossorigin`,dataType:`datatype`,dominantBaseline:`dominant-baseline`,enableBackground:`enable-background`,fillOpacity:`fill-opacity`,fillRule:`fill-rule`,floodColor:`flood-color`,floodOpacity:`flood-opacity`,fontFamily:`font-family`,fontSize:`font-size`,fontSizeAdjust:`font-size-adjust`,fontStretch:`font-stretch`,fontStyle:`font-style`,fontVariant:`font-variant`,fontWeight:`font-weight`,glyphName:`glyph-name`,glyphOrientationHorizontal:`glyph-orientation-horizontal`,glyphOrientationVertical:`glyph-orientation-vertical`,hrefLang:`hreflang`,horizAdvX:`horiz-adv-x`,horizOriginX:`horiz-origin-x`,horizOriginY:`horiz-origin-y`,imageRendering:`image-rendering`,letterSpacing:`letter-spacing`,lightingColor:`lighting-color`,markerEnd:`marker-end`,markerMid:`marker-mid`,markerStart:`marker-start`,maskType:`mask-type`,navDown:`nav-down`,navDownLeft:`nav-down-left`,navDownRight:`nav-down-right`,navLeft:`nav-left`,navNext:`nav-next`,navPrev:`nav-prev`,navRight:`nav-right`,navUp:`nav-up`,navUpLeft:`nav-up-left`,navUpRight:`nav-up-right`,onAbort:`onabort`,onActivate:`onactivate`,onAfterPrint:`onafterprint`,onBeforePrint:`onbeforeprint`,onBegin:`onbegin`,onCancel:`oncancel`,onCanPlay:`oncanplay`,onCanPlayThrough:`oncanplaythrough`,onChange:`onchange`,onClick:`onclick`,onClose:`onclose`,onCopy:`oncopy`,onCueChange:`oncuechange`,onCut:`oncut`,onDblClick:`ondblclick`,onDrag:`ondrag`,onDragEnd:`ondragend`,onDragEnter:`ondragenter`,onDragExit:`ondragexit`,onDragLeave:`ondragleave`,onDragOver:`ondragover`,onDragStart:`ondragstart`,onDrop:`ondrop`,onDurationChange:`ondurationchange`,onEmptied:`onemptied`,onEnd:`onend`,onEnded:`onended`,onError:`onerror`,onFocus:`onfocus`,onFocusIn:`onfocusin`,onFocusOut:`onfocusout`,onHashChange:`onhashchange`,onInput:`oninput`,onInvalid:`oninvalid`,onKeyDown:`onkeydown`,onKeyPress:`onkeypress`,onKeyUp:`onkeyup`,onLoad:`onload`,onLoadedData:`onloadeddata`,onLoadedMetadata:`onloadedmetadata`,onLoadStart:`onloadstart`,onMessage:`onmessage`,onMouseDown:`onmousedown`,onMouseEnter:`onmouseenter`,onMouseLeave:`onmouseleave`,onMouseMove:`onmousemove`,onMouseOut:`onmouseout`,onMouseOver:`onmouseover`,onMouseUp:`onmouseup`,onMouseWheel:`onmousewheel`,onOffline:`onoffline`,onOnline:`ononline`,onPageHide:`onpagehide`,onPageShow:`onpageshow`,onPaste:`onpaste`,onPause:`onpause`,onPlay:`onplay`,onPlaying:`onplaying`,onPopState:`onpopstate`,onProgress:`onprogress`,onRateChange:`onratechange`,onRepeat:`onrepeat`,onReset:`onreset`,onResize:`onresize`,onScroll:`onscroll`,onSeeked:`onseeked`,onSeeking:`onseeking`,onSelect:`onselect`,onShow:`onshow`,onStalled:`onstalled`,onStorage:`onstorage`,onSubmit:`onsubmit`,onSuspend:`onsuspend`,onTimeUpdate:`ontimeupdate`,onToggle:`ontoggle`,onUnload:`onunload`,onVolumeChange:`onvolumechange`,onWaiting:`onwaiting`,onZoom:`onzoom`,overlinePosition:`overline-position`,overlineThickness:`overline-thickness`,paintOrder:`paint-order`,panose1:`panose-1`,pointerEvents:`pointer-events`,referrerPolicy:`referrerpolicy`,renderingIntent:`rendering-intent`,shapeRendering:`shape-rendering`,stopColor:`stop-color`,stopOpacity:`stop-opacity`,strikethroughPosition:`strikethrough-position`,strikethroughThickness:`strikethrough-thickness`,strokeDashArray:`stroke-dasharray`,strokeDashOffset:`stroke-dashoffset`,strokeLineCap:`stroke-linecap`,strokeLineJoin:`stroke-linejoin`,strokeMiterLimit:`stroke-miterlimit`,strokeOpacity:`stroke-opacity`,strokeWidth:`stroke-width`,tabIndex:`tabindex`,textAnchor:`text-anchor`,textDecoration:`text-decoration`,textRendering:`text-rendering`,transformOrigin:`transform-origin`,typeOf:`typeof`,underlinePosition:`underline-position`,underlineThickness:`underline-thickness`,unicodeBidi:`unicode-bidi`,unicodeRange:`unicode-range`,unitsPerEm:`units-per-em`,vAlphabetic:`v-alphabetic`,vHanging:`v-hanging`,vIdeographic:`v-ideographic`,vMathematical:`v-mathematical`,vectorEffect:`vector-effect`,vertAdvY:`vert-adv-y`,vertOriginX:`vert-origin-x`,vertOriginY:`vert-origin-y`,wordSpacing:`word-spacing`,writingMode:`writing-mode`,xHeight:`x-height`,playbackOrder:`playbackorder`,timelineBegin:`timelinebegin`},properties:{about:L3,accentHeight:P3,accumulate:null,additive:null,alignmentBaseline:null,alphabetic:P3,amplitude:P3,arabicForm:null,ascent:P3,attributeName:null,attributeType:null,azimuth:P3,bandwidth:null,baselineShift:null,baseFrequency:null,baseProfile:null,bbox:null,begin:null,bias:P3,by:null,calcMode:null,capHeight:P3,className:F3,clip:null,clipPath:null,clipPathUnits:null,clipRule:null,color:null,colorInterpolation:null,colorInterpolationFilters:null,colorProfile:null,colorRendering:null,content:null,contentScriptType:null,contentStyleType:null,crossOrigin:null,cursor:null,cx:null,cy:null,d:null,dataType:null,defaultAction:null,descent:P3,diffuseConstant:P3,direction:null,display:null,dur:null,divisor:P3,dominantBaseline:null,download:j3,dx:null,dy:null,edgeMode:null,editable:null,elevation:P3,enableBackground:null,end:null,event:null,exponent:P3,externalResourcesRequired:null,fill:null,fillOpacity:P3,fillRule:null,filter:null,filterRes:null,filterUnits:null,floodColor:null,floodOpacity:null,focusable:null,focusHighlight:null,fontFamily:null,fontSize:null,fontSizeAdjust:null,fontStretch:null,fontStyle:null,fontVariant:null,fontWeight:null,format:null,fr:null,from:null,fx:null,fy:null,g1:I3,g2:I3,glyphName:I3,glyphOrientationHorizontal:null,glyphOrientationVertical:null,glyphRef:null,gradientTransform:null,gradientUnits:null,handler:null,hanging:P3,hatchContentUnits:null,hatchUnits:null,height:null,href:null,hrefLang:null,horizAdvX:P3,horizOriginX:P3,horizOriginY:P3,id:null,ideographic:P3,imageRendering:null,initialVisibility:null,in:null,in2:null,intercept:P3,k:P3,k1:P3,k2:P3,k3:P3,k4:P3,kernelMatrix:L3,kernelUnitLength:null,keyPoints:null,keySplines:null,keyTimes:null,kerning:null,lang:null,lengthAdjust:null,letterSpacing:null,lightingColor:null,limitingConeAngle:P3,local:null,markerEnd:null,markerMid:null,markerStart:null,markerHeight:null,markerUnits:null,markerWidth:null,mask:null,maskContentUnits:null,maskType:null,maskUnits:null,mathematical:null,max:null,media:null,mediaCharacterEncoding:null,mediaContentEncodings:null,mediaSize:P3,mediaTime:null,method:null,min:null,mode:null,name:null,navDown:null,navDownLeft:null,navDownRight:null,navLeft:null,navNext:null,navPrev:null,navRight:null,navUp:null,navUpLeft:null,navUpRight:null,numOctaves:null,observer:null,offset:null,onAbort:null,onActivate:null,onAfterPrint:null,onBeforePrint:null,onBegin:null,onCancel:null,onCanPlay:null,onCanPlayThrough:null,onChange:null,onClick:null,onClose:null,onCopy:null,onCueChange:null,onCut:null,onDblClick:null,onDrag:null,onDragEnd:null,onDragEnter:null,onDragExit:null,onDragLeave:null,onDragOver:null,onDragStart:null,onDrop:null,onDurationChange:null,onEmptied:null,onEnd:null,onEnded:null,onError:null,onFocus:null,onFocusIn:null,onFocusOut:null,onHashChange:null,onInput:null,onInvalid:null,onKeyDown:null,onKeyPress:null,onKeyUp:null,onLoad:null,onLoadedData:null,onLoadedMetadata:null,onLoadStart:null,onMessage:null,onMouseDown:null,onMouseEnter:null,onMouseLeave:null,onMouseMove:null,onMouseOut:null,onMouseOver:null,onMouseUp:null,onMouseWheel:null,onOffline:null,onOnline:null,onPageHide:null,onPageShow:null,onPaste:null,onPause:null,onPlay:null,onPlaying:null,onPopState:null,onProgress:null,onRateChange:null,onRepeat:null,onReset:null,onResize:null,onScroll:null,onSeeked:null,onSeeking:null,onSelect:null,onShow:null,onStalled:null,onStorage:null,onSubmit:null,onSuspend:null,onTimeUpdate:null,onToggle:null,onUnload:null,onVolumeChange:null,onWaiting:null,onZoom:null,opacity:null,operator:null,order:null,orient:null,orientation:null,origin:null,overflow:null,overlay:null,overlinePosition:P3,overlineThickness:P3,paintOrder:null,panose1:null,path:null,pathLength:P3,patternContentUnits:null,patternTransform:null,patternUnits:null,phase:null,ping:F3,pitch:null,playbackOrder:null,pointerEvents:null,points:null,pointsAtX:P3,pointsAtY:P3,pointsAtZ:P3,preserveAlpha:null,preserveAspectRatio:null,primitiveUnits:null,propagate:null,property:L3,r:null,radius:null,referrerPolicy:null,refX:null,refY:null,rel:L3,rev:L3,renderingIntent:null,repeatCount:null,repeatDur:null,requiredExtensions:L3,requiredFeatures:L3,requiredFonts:L3,requiredFormats:L3,resource:null,restart:null,result:null,rotate:null,rx:null,ry:null,scale:null,seed:null,shapeRendering:null,side:null,slope:null,snapshotTime:null,specularConstant:P3,specularExponent:P3,spreadMethod:null,spacing:null,startOffset:null,stdDeviation:null,stemh:null,stemv:null,stitchTiles:null,stopColor:null,stopOpacity:null,strikethroughPosition:P3,strikethroughThickness:P3,string:null,stroke:null,strokeDashArray:L3,strokeDashOffset:null,strokeLineCap:null,strokeLineJoin:null,strokeMiterLimit:P3,strokeOpacity:P3,strokeWidth:null,style:null,surfaceScale:P3,syncBehavior:null,syncBehaviorDefault:null,syncMaster:null,syncTolerance:null,syncToleranceDefault:null,systemLanguage:L3,tabIndex:P3,tableValues:null,target:null,targetX:P3,targetY:P3,textAnchor:null,textDecoration:null,textRendering:null,textLength:null,timelineBegin:null,title:null,transformBehavior:null,type:null,typeOf:L3,to:null,transform:null,transformOrigin:null,u1:null,u2:null,underlinePosition:P3,underlineThickness:P3,unicode:null,unicodeBidi:null,unicodeRange:null,unitsPerEm:P3,values:null,vAlphabetic:P3,vMathematical:P3,vectorEffect:null,vHanging:P3,vIdeographic:P3,version:null,vertAdvY:P3,vertOriginX:P3,vertOriginY:P3,viewBox:null,viewTarget:null,visibility:null,width:null,widths:null,wordSpacing:null,writingMode:null,x:null,x1:null,x2:null,xChannelSelector:null,xHeight:P3,y:null,y1:null,y2:null,yChannelSelector:null,z:null,zoomAndPan:null},space:`svg`,transform:W3}),K3=H3({properties:{xLinkActuate:null,xLinkArcRole:null,xLinkHref:null,xLinkRole:null,xLinkShow:null,xLinkTitle:null,xLinkType:null},space:`xlink`,transform(e,t){return`xlink:`+t.slice(5).toLowerCase()}}),q3=H3({attributes:{xmlnsxlink:`xmlns:xlink`},properties:{xmlnsXLink:null,xmlns:null},space:`xmlns`,transform:G3}),J3=H3({properties:{xmlBase:null,xmlLang:null,xmlSpace:null},space:`xml`,transform(e,t){return`xml:`+t.slice(3).toLowerCase()}}),dNe={classId:`classID`,dataType:`datatype`,itemId:`itemID`,strokeDashArray:`strokeDasharray`,strokeDashOffset:`strokeDashoffset`,strokeLineCap:`strokeLinecap`,strokeLineJoin:`strokeLinejoin`,strokeMiterLimit:`strokeMiterlimit`,typeOf:`typeof`,xLinkActuate:`xlinkActuate`,xLinkArcRole:`xlinkArcrole`,xLinkHref:`xlinkHref`,xLinkRole:`xlinkRole`,xLinkShow:`xlinkShow`,xLinkTitle:`xlinkTitle`,xLinkType:`xlinkType`,xmlnsXLink:`xmlnsXlink`},fNe=/[A-Z]/g,Y3=/-[a-z]/g,pNe=/^data[-\w.:]+$/i;function mNe(e,t){let n=O3(t),r=t,i=k3;if(n in e.normal)return e.property[e.normal[n]];if(n.length>4&&n.slice(0,4)===`data`&&pNe.test(t)){if(t.charAt(4)===`-`){let e=t.slice(5).replace(Y3,gNe);r=`data`+e.charAt(0).toUpperCase()+e.slice(1)}else{let e=t.slice(4);if(!Y3.test(e)){let n=e.replace(fNe,hNe);n.charAt(0)!==`-`&&(n=`-`+n),t=`data`+n}}i=B3}return new i(r,t)}function hNe(e){return`-`+e.toLowerCase()}function gNe(e){return e.charAt(1).toUpperCase()}var _Ne=D3([U3,lNe,K3,q3,J3],`html`),X3=D3([U3,uNe,K3,q3,J3],`svg`);function vNe(e){return e.join(` `).trim()}var Z3=/\/\*(?:[^*]|\*(?!\/))*\*\//g,yNe=/\n/g,bNe=/^\s*/,xNe=/^(\*?[-#/*\\\w]+(\[[0-9a-z_-]+\])?)\s*/,SNe=/^:\s*/,CNe=/^((?:'(?:\\.|[^'\\])*'|"(?:\\.|[^"\\])*"|url\((?:'(?:\\.|[^'\\])*'|"(?:\\.|[^"\\])*"|[^)]*)\)|[^};])+)/,wNe=/^[;\s]*/,TNe=`
+`,VMe=`2026-11-28`,HMe=`2027-01-01`,g3={foundingTrainers:20,trainers:1e3,clients:2e4},UMe=Object.assign({"../../../../docs/business-audit/01-strategy.md":iMe,"../../../../docs/business-audit/02-go-to-market.md":aMe,"../../../../docs/business-audit/03-pricing.md":oMe,"../../../../docs/business-audit/04-competitors.md":sMe,"../../../../docs/business-audit/05-cro-trainers-page.md":cMe,"../../../../docs/business-audit/06-marketing-ideas.md":lMe,"../../../../docs/business-audit/07-lead-magnets-en.md":uMe,"../../../../docs/business-audit/07-lead-magnets-pl.md":dMe,"../../../../docs/business-audit/08-outreach-100-en.md":fMe,"../../../../docs/business-audit/08-outreach-100-pl.md":pMe,"../../../../docs/business-audit/09-copy-en.md":mMe,"../../../../docs/business-audit/09-copy-pl.md":hMe,"../../../../docs/business-audit/10-hooks-en.md":gMe,"../../../../docs/business-audit/10-hooks-pl.md":_Me,"../../../../docs/business-audit/11-linkedin-x-en.md":vMe,"../../../../docs/business-audit/11-linkedin-x-pl.md":yMe,"../../../../docs/business-audit/12-product-hunt.md":bMe,"../../../../docs/business-audit/13-sop-trainer-migration.md":xMe,"../../../../docs/business-audit/14-prd-trainer-monthly-recap.md":SMe,"../../../../docs/business-audit/15-social-tool-for-trainers.md":CMe,"../../../../docs/business-audit/README.md":wMe,"../../../../docs/business-audit/pl/01-strategy.md":TMe,"../../../../docs/business-audit/pl/02-go-to-market.md":EMe,"../../../../docs/business-audit/pl/03-pricing.md":DMe,"../../../../docs/business-audit/pl/04-competitors.md":OMe,"../../../../docs/business-audit/pl/05-cro-trainers-page.md":kMe,"../../../../docs/business-audit/pl/06-marketing-ideas.md":AMe,"../../../../docs/business-audit/pl/07-lead-magnets.md":jMe,"../../../../docs/business-audit/pl/08-outreach-100.md":MMe,"../../../../docs/business-audit/pl/09-copy.md":NMe,"../../../../docs/business-audit/pl/10-hooks.md":PMe,"../../../../docs/business-audit/pl/11-linkedin-x.md":FMe,"../../../../docs/business-audit/pl/12-product-hunt.md":IMe,"../../../../docs/business-audit/pl/13-sop-trainer-migration.md":LMe,"../../../../docs/business-audit/pl/14-prd-trainer-monthly-recap.md":RMe,"../../../../docs/business-audit/pl/15-social-tool-for-trainers.md":zMe,"../../../../docs/business-audit/pl/README.md":BMe});function _3(e){return UMe[`../../../../docs/business-audit/${e}`]??``}function v3(e,t){return t===`pl`&&_3(`pl/${e}`)||_3(e)}function WMe(e,t,n){return t===`en`?_3(`${e}-en.md`):n===`pl`&&_3(`pl/${GMe[e]}`)||_3(`${e}-pl.md`)}var GMe={"07-lead-magnets":`07-lead-magnets.md`,"08-outreach-100":`08-outreach-100.md`,"09-copy":`09-copy.md`,"10-hooks":`10-hooks.md`,"11-linkedin-x":`11-linkedin-x.md`},KMe=[{id:`outreach`,base:`08-outreach-100`,label:{pl:`Outreach (100)`,en:`Outreach (100)`}},{id:`copy`,base:`09-copy`,label:{pl:`Reklama i App Store`,en:`Ad & App Store`}},{id:`hooks`,base:`10-hooks`,label:{pl:`Haki do rolek`,en:`Reel hooks`}},{id:`magnets`,base:`07-lead-magnets`,label:{pl:`Lead magnety`,en:`Lead magnets`}},{id:`social`,base:`11-linkedin-x`,label:{pl:`LinkedIn i X`,en:`LinkedIn & X`}}],qMe=[{n:1,tone:`pink`,tab:`strategy`,title:{pl:`Wąskim gardłem są trenerzy, nie klienci`,en:`The constraint is trainers, not clients`},body:{pl:`1000 trenerów × 20 klientów = 20 000 klientów. Dziś 1 zgłoszenie trenera i ok. 1 zapis tygodniowo. Sprzedaj ręcznie 20 miejsc Founding Trainer.`,en:`1,000 trainers × 20 clients = 20,000 clients. Today: 1 trainer lead and about 1 sign-up a week. Hand-sell the 20 Founding Trainer places.`}},{n:2,tone:`warning`,tab:`website`,title:{pl:`Lejek na UK był polski pod spodem`,en:`The UK funnel was Polish under the hood`},body:{pl:`Strona miała polski lang, tytuły i podglądy linków, a 31 rolek ma polski tekst na ekranie. Potrzebne 12 angielskich rolek do 20 grudnia.`,en:`The site shipped Polish lang, titles and link previews, and all 31 reels have Polish on-screen text. 12 English reels needed by 20 Dec.`},done:{pl:`Strona: angielski domyślny od 28.11`,en:`Site: English default since 28 Nov`}},{n:3,tone:`accent`,tab:`website`,title:{pl:`Na stronie trenerów brakuje ludzi`,en:`The trainers page has no people on it`},body:{pl:`Brak założyciela, opinii i licznika miejsc; formularz z 4 polami i niejasnym przyciskiem. Dodaj pasek z założycielem i „zajęte X/20”.`,en:`No founder, no testimonial, no places counter; a 4-field form with a vague CTA. Add a founder strip and "places taken X/20".`}},{n:4,tone:`violet`,tab:`pricing`,title:{pl:`W UK przewagą nie jest cena`,en:`Price isn't the UK edge`},body:{pl:`Pro £19,99 stoi obok Trainerize (~$23) i My PT Hub (~$22,50). Przewaga: darmowa aplikacja klienta, wszystko w cenie i dopasowanie trenera.`,en:`Pro £19.99 sits next to Trainerize (~$23) and My PT Hub (~$22.50). The edge: a free client app, everything included and trainer matching.`}},{n:5,tone:`success`,tab:`launch`,title:{pl:`Retencję trzeba pokazać`,en:`Retention needs to be made visible`},body:{pl:`Miesięczny mail z podsumowaniem wartości dla trenera. Specyfikacja gotowa, oparta na istniejących digestach i Resend.`,en:`A monthly value-recap e-mail for trainers. The full PRD is ready, built on the existing digest and Resend patterns.`}}],y3=[{date:`2026-11-28`,tone:`success`,done:!0,title:{pl:`Strona po angielsku`,en:`Site in English`},sub:{pl:`Angielski domyślny, hreflang`,en:`English default, hreflang`}},{date:`2026-12-20`,tone:`accent`,title:{pl:`10 Founding Trainerów`,en:`10 Founding Trainers`},sub:{pl:`+ 12 angielskich rolek`,en:`+ 12 English reels`}},{date:`2027-01-01`,tone:`pink`,title:{pl:`Start`,en:`Launch`},sub:{pl:`20 trenerów, UK + PL`,en:`20 trainers, UK + PL`}},{date:`2027-02-15`,tone:`violet`,title:{pl:`3 case studies`,en:`3 case studies`},sub:{pl:`Z partnerów projektowych`,en:`From design partners`}},{date:`2027-02-23`,tone:`orange`,title:{pl:`Product Hunt`,en:`Product Hunt`},sub:{pl:`Wtorek, 08:01 UK`,en:`Tuesday, 08:01 UK`}},{date:`2027-03-31`,tone:`accent`,title:{pl:`100 trenerów`,en:`100 trainers`},sub:{pl:`Reading i zachodni Londyn`,en:`Reading & West London`}},{date:`2027-06-30`,tone:`warning`,title:{pl:`300 trenerów`,en:`300 trainers`},sub:{pl:`+ 3 partnerstwa`,en:`+ 3 partnerships`}},{date:`2027-12-31`,tone:`success`,title:{pl:`1000 trenerów`,en:`1,000 trainers`},sub:{pl:`20 000 klientów`,en:`20,000 clients`}}],b3=[{id:`ig30`,text:{pl:`Zapisz 30 trenerów z #personaltrainerreading (online/coaching w bio)`,en:`Save 30 PTs from #personaltrainerreading (online/coaching in bio)`}},{id:`sources`,text:{pl:`Znajdź projekty źródłowe rolek (CapCut / Canva) i wyślij listę`,en:`Find the reel source projects (CapCut / Canva) and send the list`}},{id:`gift`,text:{pl:`Zrób 1 plan z posta trenera i wyślij nagranie w DM`,en:`Turn 1 trainer post into a Ramvo plan and DM the recording`}},{id:`kit`,text:{pl:`Przeczytaj wiadomość trenera do klientów (sekcja 8) i popraw`,en:`Read the trainer's client message (section 8) and tweak it`}},{id:`partners`,text:{pl:`Wypisz 5 znajomych trenerów na partnerów projektowych`,en:`Write down 5 PTs you know as design partners`}}],JMe=[{n:1,tone:`pink`,title:{pl:`Sprzedaj ręcznie 20 miejsc Founding Trainer`,en:`Hand-sell the 20 Founding Trainer places`},body:{pl:`15 DM-ów dziennie przez 10 dni + 3 siłownie w Reading osobiście. Umowa: 24 miesiące za darmo w zamian za opinię.`,en:`15 DMs a day for 10 days + 3 Reading gyms in person. Deal: 24 months free for monthly feedback.`},metric:{pl:`150 DM → 30 odp. → 15 rozmów → 10 podpisanych do 20.12`,en:`150 DMs → 30 replies → 15 calls → 10 signed by 20 Dec`}},{n:2,tone:`warning`,title:{pl:`Wszystkie materiały po angielsku`,en:`Every asset in English`},body:{pl:`Strona: zrobione. 12 rolek z angielskim tekstem na ekranie i angielskim lektorem, opis w App Store dla UK.`,en:`Site: done. 12 reels with English on-screen text and voice-over, a UK App Store listing.`},metric:{pl:`12 angielskich rolek do 20.12`,en:`12 English reels by 20 Dec`}},{n:3,tone:`success`,title:{pl:`Każdy trener to kanał do klientów`,en:`Every trainer becomes a client channel`},body:{pl:`Zestaw startowy (relacja, wiadomość WhatsApp, nagranie), wdrożenie na żywo w 20 minut.`,en:`Launch kit (story, WhatsApp message, recording), a live 20-minute onboarding.`},metric:{pl:`8+ klientów na trenera w 14 dni, 60% aktywacji`,en:`8+ clients per trainer in 14 days, 60% activation`}}],YMe=[40,40,40,70,80,80,90,90,100,110,120,140],XMe=[{id:`start`,name:`Start`,who:{pl:`Nowi trenerzy Level 3`,en:`New Level 3 PTs`},limit:{pl:`do 5 klientów`,en:`up to 5 clients`},gbp:[9.99,99.9],pln:[49,490]},{id:`pro`,name:`Pro`,hero:!0,who:{pl:`Trener z 10–25 klientami`,en:`A PT with 10–25 clients`},limit:{pl:`do 25 klientów + generator AI (później: 8 postów social/mies.)`,en:`up to 25 clients + AI plans (later: 8 social posts/mo)`},gbp:[19.99,199.9],pln:[99,990]},{id:`studio`,name:`Studio`,who:{pl:`Studia i zespoły siłowni`,en:`Studios and gym teams`},limit:{pl:`bez limitu, branding, wkrótce: Ramvo Social`,en:`unlimited, branding, soon: Ramvo Social`},gbp:[34.99,349.9],pln:[179,1790]},{id:`premium`,name:`Ramvo Premium`,consumer:!0,who:{pl:`Klient w trybie AI`,en:`AI-mode client`},limit:{pl:`7 dni za darmo`,en:`7 days free`},gbp:[6.99,59.99],pln:[34.99,299]}],x3={trainers:18900,ai:14e3},S3=[{name:`Ramvo Pro`,usd:25,ramvo:!0,note:{pl:`£19,99, wszystko w cenie`,en:`£19.99, everything included`}},{name:`My PT Hub`,usd:22.5,note:{pl:`starter, UK`,en:`starter, UK`}},{name:`Trainerize Pro`,usd:23,note:{pl:`+ dodatki płatne`,en:`+ paid add-ons`}},{name:`Everfit`,usd:19,note:{pl:`+ dodatki płatne`,en:`+ paid add-ons`}},{name:`TrueCoach Std`,usd:53,note:{pl:`20 klientów`,en:`20 clients`}}],ZMe=[{tone:`pink`,title:{pl:`Zaufanie przed przyciskiem`,en:`Trust before the CTA`},before:`Apply as a Founding Trainer`,after:{pl:`Pasek z założycielem: „Buduję Ramvo po godzinach…” + Zajęte miejsca: 3 / 20`,en:`Founder strip: "I'm building Ramvo after my day job…" + Places taken: 3 / 20`},impact:{pl:`+30–50% zgłoszeń (hipoteza)`,en:`+30–50% applications (hypothesis)`}},{tone:`accent`,title:{pl:`Nagłówek o problemie`,en:`Pain-line headline`},before:`Your whole coaching business in one panel.`,after:{pl:`The plan is half the job. Ramvo does the other half.`,en:`The plan is half the job. Ramvo does the other half.`},impact:{pl:`+10–20% przewinięć do dema`,en:`+10–20% scroll-to-demo`}},{tone:`success`,title:{pl:`Formularz i przycisk`,en:`Form and button`},before:`Send application · 4 fields`,after:{pl:`Claim your place (17 left) · Dostęp w 24 h. Bez karty. · 2 pola`,en:`Claim your place (17 left) · Access in 24 h. No card. · 2 fields`},impact:{pl:`+20–40% wypełnień na telefonie`,en:`+20–40% mobile completion`}}],C3=[{date:`2027-01-04`,title:{pl:`Rozgrzewanie konta, lista wsparcia`,en:`Warm the account, build the support list`}},{date:`2027-01-23`,title:{pl:`Strona „Coming Soon”`,en:`Coming Soon page`}},{date:`2027-02-16`,title:{pl:`Tydzień startu: DM-y, galeria, wideo`,en:`Launch week: DMs, gallery, video`}},{date:`2027-02-23`,title:{pl:`Start 08:01 UK, 3 fale DM-ów`,en:`Launch 08:01 UK, 3 DM waves`}}],QMe=[{pl:`Rozmowa i udostępniony ekran`,en:`Call and shared screen`},{pl:`Odtwórz pierwszy plan`,en:`Rebuild the first plan`},{pl:`Dodaj klientów`,en:`Add the clients`},{pl:`Przypisz i wyślij plan`,en:`Assign and send the plan`},{pl:`Przekaż zestaw startowy`,en:`Hand over the launch kit`},{pl:`Umów kontrolę za 7 dni`,en:`Book the 7-day check-in`}],$Me=[{id:`FR-001`,p:`P0`,title:{pl:`Statystyki miesiąca`,en:`Monthly stats`}},{id:`FR-002`,p:`P0`,title:{pl:`Szacunek godzin`,en:`Hours estimate`}},{id:`FR-003`,p:`P0`,title:{pl:`Mail PL + EN`,en:`E-mail PL + EN`}},{id:`FR-004`,p:`P1`,title:{pl:`Cron 1. dnia`,en:`Cron on the 1st`}},{id:`FR-005`,p:`P1`,title:{pl:`Rezygnacja`,en:`Opt-out`}},{id:`FR-006`,p:`P1`,title:{pl:`Momenty billingowe`,en:`Billing moments`}},{id:`FR-007`,p:`P2`,title:{pl:`Prośba o opinię`,en:`Feedback ask`}},{id:`FR-008`,p:`P2`,title:{pl:`Podgląd w adminie`,en:`Admin preview`}}];async function eNe(){let[e,t,n,r]=await Promise.all([V.from(`landing_page_signups`).select(`submitted_at`).order(`submitted_at`,{ascending:!0}).limit(1e4),V.from(`trainer_leads`).select(`id`,{count:`exact`,head:!0}),V.from(`users`).select(`id`,{count:`exact`,head:!0}).eq(`role`,`trainer`),V.from(`users`).select(`id`,{count:`exact`,head:!0}).eq(`role`,`client`)]);for(let i of[e,t,n,r])if(i.error)throw i.error;let i=e.data??[],a=[],o=new Date;for(let e=29;e>=0;e--){let t=new Date(o.getTime()-e*864e5).toISOString().slice(0,10);a.push({date:t,total:i.filter(e=>e.submitted_at.slice(0,10)<=t).length})}return{waitlist:i.length,waitlistDays:a,trainerLeads:t.count??0,trainers:n.count??0,clients:r.count??0}}function tNe(e,t=new Date){return Math.ceil((new Date(`${e}T00:00:00Z`).getTime()-t.getTime())/864e5)}function nNe(e,t){let n=t||{};return(e[e.length-1]===``?[...e,``]:e).join((n.padRight?` `:``)+`,`+(n.padLeft===!1?``:` `)).trim()}var rNe=/^[$_\p{ID_Start}][$_\u{200C}\u{200D}\p{ID_Continue}]*$/u,iNe=/^[$_\p{ID_Start}][-$_\u{200C}\u{200D}\p{ID_Continue}]*$/u,aNe={};function w3(e,t){return((t||aNe).jsx?iNe:rNe).test(e)}var oNe=/[ \t\n\f\r]/g;function sNe(e){return typeof e==`object`?e.type===`text`&&T3(e.value):T3(e)}function T3(e){return e.replace(oNe,``)===``}var E3=class{constructor(e,t,n){this.normal=t,this.property=e,n&&(this.space=n)}};E3.prototype.normal={},E3.prototype.property={},E3.prototype.space=void 0;function D3(e,t){let n={},r={};for(let t of e)Object.assign(n,t.property),Object.assign(r,t.normal);return new E3(n,r,t)}function O3(e){return e.toLowerCase()}var k3=class{constructor(e,t){this.attribute=t,this.property=e}};k3.prototype.attribute=``,k3.prototype.booleanish=!1,k3.prototype.boolean=!1,k3.prototype.commaOrSpaceSeparated=!1,k3.prototype.commaSeparated=!1,k3.prototype.defined=!1,k3.prototype.mustUseProperty=!1,k3.prototype.number=!1,k3.prototype.overloadedBoolean=!1,k3.prototype.property=``,k3.prototype.spaceSeparated=!1,k3.prototype.space=void 0;var A3=s({boolean:()=>j3,booleanish:()=>M3,commaOrSpaceSeparated:()=>L3,commaSeparated:()=>I3,number:()=>P3,overloadedBoolean:()=>N3,spaceSeparated:()=>F3}),cNe=0,j3=R3(),M3=R3(),N3=R3(),P3=R3(),F3=R3(),I3=R3(),L3=R3();function R3(){return 2**++cNe}var z3=Object.keys(A3),B3=class extends k3{constructor(e,t,n,r){let i=-1;if(super(e,t),V3(this,`space`,r),typeof n==`number`)for(;++i<z3.length;){let e=z3[i];V3(this,z3[i],(n&A3[e])===A3[e])}}};B3.prototype.defined=!0;function V3(e,t,n){n&&(e[t]=n)}function H3(e){let t={},n={};for(let[r,i]of Object.entries(e.properties)){let a=new B3(r,e.transform(e.attributes||{},r),i,e.space);e.mustUseProperty&&e.mustUseProperty.includes(r)&&(a.mustUseProperty=!0),t[r]=a,n[O3(r)]=r,n[O3(a.attribute)]=r}return new E3(t,n,e.space)}var U3=H3({properties:{ariaActiveDescendant:null,ariaAtomic:M3,ariaAutoComplete:null,ariaBusy:M3,ariaChecked:M3,ariaColCount:P3,ariaColIndex:P3,ariaColSpan:P3,ariaControls:F3,ariaCurrent:null,ariaDescribedBy:F3,ariaDetails:null,ariaDisabled:M3,ariaDropEffect:F3,ariaErrorMessage:null,ariaExpanded:M3,ariaFlowTo:F3,ariaGrabbed:M3,ariaHasPopup:null,ariaHidden:M3,ariaInvalid:null,ariaKeyShortcuts:null,ariaLabel:null,ariaLabelledBy:F3,ariaLevel:P3,ariaLive:null,ariaModal:M3,ariaMultiLine:M3,ariaMultiSelectable:M3,ariaOrientation:null,ariaOwns:F3,ariaPlaceholder:null,ariaPosInSet:P3,ariaPressed:M3,ariaReadOnly:M3,ariaRelevant:null,ariaRequired:M3,ariaRoleDescription:F3,ariaRowCount:P3,ariaRowIndex:P3,ariaRowSpan:P3,ariaSelected:M3,ariaSetSize:P3,ariaSort:null,ariaValueMax:P3,ariaValueMin:P3,ariaValueNow:P3,ariaValueText:null,role:null},transform(e,t){return t===`role`?t:`aria-`+t.slice(4).toLowerCase()}});function W3(e,t){return t in e?e[t]:t}function G3(e,t){return W3(e,t.toLowerCase())}var lNe=H3({attributes:{acceptcharset:`accept-charset`,classname:`class`,htmlfor:`for`,httpequiv:`http-equiv`},mustUseProperty:[`checked`,`multiple`,`muted`,`selected`],properties:{abbr:null,accept:I3,acceptCharset:F3,accessKey:F3,action:null,allow:null,allowFullScreen:j3,allowPaymentRequest:j3,allowUserMedia:j3,alpha:j3,alt:null,as:null,async:j3,autoCapitalize:null,autoComplete:F3,autoFocus:j3,autoPlay:j3,blocking:F3,capture:null,charSet:null,checked:j3,cite:null,className:F3,closedBy:null,colorSpace:null,cols:P3,colSpan:P3,command:null,commandFor:null,content:null,contentEditable:M3,controls:j3,controlsList:F3,coords:P3|I3,crossOrigin:null,data:null,dateTime:null,decoding:null,default:j3,defer:j3,dir:null,dirName:null,disabled:j3,download:N3,draggable:M3,encType:null,enterKeyHint:null,fetchPriority:null,form:null,formAction:null,formEncType:null,formMethod:null,formNoValidate:j3,formTarget:null,headers:F3,height:P3,hidden:N3,high:P3,href:null,hrefLang:null,htmlFor:F3,httpEquiv:F3,id:null,imageSizes:null,imageSrcSet:null,inert:j3,inputMode:null,integrity:null,is:null,isMap:j3,itemId:null,itemProp:F3,itemRef:F3,itemScope:j3,itemType:F3,kind:null,label:null,lang:null,language:null,list:null,loading:null,loop:j3,low:P3,manifest:null,max:null,maxLength:P3,media:null,method:null,min:null,minLength:P3,multiple:j3,muted:j3,name:null,nonce:null,noModule:j3,noValidate:j3,onAbort:null,onAfterPrint:null,onAuxClick:null,onBeforeMatch:null,onBeforePrint:null,onBeforeToggle:null,onBeforeUnload:null,onBlur:null,onCancel:null,onCanPlay:null,onCanPlayThrough:null,onChange:null,onClick:null,onClose:null,onContextLost:null,onContextMenu:null,onContextRestored:null,onCopy:null,onCueChange:null,onCut:null,onDblClick:null,onDrag:null,onDragEnd:null,onDragEnter:null,onDragExit:null,onDragLeave:null,onDragOver:null,onDragStart:null,onDrop:null,onDurationChange:null,onEmptied:null,onEnded:null,onError:null,onFocus:null,onFormData:null,onHashChange:null,onInput:null,onInvalid:null,onKeyDown:null,onKeyPress:null,onKeyUp:null,onLanguageChange:null,onLoad:null,onLoadedData:null,onLoadedMetadata:null,onLoadEnd:null,onLoadStart:null,onMessage:null,onMessageError:null,onMouseDown:null,onMouseEnter:null,onMouseLeave:null,onMouseMove:null,onMouseOut:null,onMouseOver:null,onMouseUp:null,onOffline:null,onOnline:null,onPageHide:null,onPageShow:null,onPaste:null,onPause:null,onPlay:null,onPlaying:null,onPopState:null,onProgress:null,onRateChange:null,onRejectionHandled:null,onReset:null,onResize:null,onScroll:null,onScrollEnd:null,onSecurityPolicyViolation:null,onSeeked:null,onSeeking:null,onSelect:null,onSlotChange:null,onStalled:null,onStorage:null,onSubmit:null,onSuspend:null,onTimeUpdate:null,onToggle:null,onUnhandledRejection:null,onUnload:null,onVolumeChange:null,onWaiting:null,onWheel:null,open:j3,optimum:P3,pattern:null,ping:F3,placeholder:null,playsInline:j3,popover:null,popoverTarget:null,popoverTargetAction:null,poster:null,preload:null,readOnly:j3,referrerPolicy:null,rel:F3,required:j3,reversed:j3,rows:P3,rowSpan:P3,sandbox:F3,scope:null,scoped:j3,seamless:j3,selected:j3,shadowRootClonable:j3,shadowRootCustomElementRegistry:j3,shadowRootDelegatesFocus:j3,shadowRootMode:null,shadowRootSerializable:j3,shape:null,size:P3,sizes:null,slot:null,span:P3,spellCheck:M3,src:null,srcDoc:null,srcLang:null,srcSet:null,start:P3,step:null,style:null,tabIndex:P3,target:null,title:null,translate:null,type:null,typeMustMatch:j3,useMap:null,value:M3,width:P3,wrap:null,writingSuggestions:null,align:null,aLink:null,archive:F3,axis:null,background:null,bgColor:null,border:P3,borderColor:null,bottomMargin:P3,cellPadding:null,cellSpacing:null,char:null,charOff:null,classId:null,clear:null,code:null,codeBase:null,codeType:null,color:null,compact:j3,declare:j3,event:null,face:null,frame:null,frameBorder:null,hSpace:P3,leftMargin:P3,link:null,longDesc:null,lowSrc:null,marginHeight:P3,marginWidth:P3,noResize:j3,noHref:j3,noShade:j3,noWrap:j3,object:null,profile:null,prompt:null,rev:null,rightMargin:P3,rules:null,scheme:null,scrolling:M3,standby:null,summary:null,text:null,topMargin:P3,valueType:null,version:null,vAlign:null,vLink:null,vSpace:P3,allowTransparency:null,autoCorrect:null,autoSave:null,credentialless:j3,disablePictureInPicture:j3,disableRemotePlayback:j3,exportParts:I3,part:F3,prefix:null,property:null,results:P3,security:null,unselectable:null},space:`html`,transform:G3}),uNe=H3({attributes:{accentHeight:`accent-height`,alignmentBaseline:`alignment-baseline`,arabicForm:`arabic-form`,baselineShift:`baseline-shift`,capHeight:`cap-height`,className:`class`,clipPath:`clip-path`,clipRule:`clip-rule`,colorInterpolation:`color-interpolation`,colorInterpolationFilters:`color-interpolation-filters`,colorProfile:`color-profile`,colorRendering:`color-rendering`,crossOrigin:`crossorigin`,dataType:`datatype`,dominantBaseline:`dominant-baseline`,enableBackground:`enable-background`,fillOpacity:`fill-opacity`,fillRule:`fill-rule`,floodColor:`flood-color`,floodOpacity:`flood-opacity`,fontFamily:`font-family`,fontSize:`font-size`,fontSizeAdjust:`font-size-adjust`,fontStretch:`font-stretch`,fontStyle:`font-style`,fontVariant:`font-variant`,fontWeight:`font-weight`,glyphName:`glyph-name`,glyphOrientationHorizontal:`glyph-orientation-horizontal`,glyphOrientationVertical:`glyph-orientation-vertical`,hrefLang:`hreflang`,horizAdvX:`horiz-adv-x`,horizOriginX:`horiz-origin-x`,horizOriginY:`horiz-origin-y`,imageRendering:`image-rendering`,letterSpacing:`letter-spacing`,lightingColor:`lighting-color`,markerEnd:`marker-end`,markerMid:`marker-mid`,markerStart:`marker-start`,maskType:`mask-type`,navDown:`nav-down`,navDownLeft:`nav-down-left`,navDownRight:`nav-down-right`,navLeft:`nav-left`,navNext:`nav-next`,navPrev:`nav-prev`,navRight:`nav-right`,navUp:`nav-up`,navUpLeft:`nav-up-left`,navUpRight:`nav-up-right`,onAbort:`onabort`,onActivate:`onactivate`,onAfterPrint:`onafterprint`,onBeforePrint:`onbeforeprint`,onBegin:`onbegin`,onCancel:`oncancel`,onCanPlay:`oncanplay`,onCanPlayThrough:`oncanplaythrough`,onChange:`onchange`,onClick:`onclick`,onClose:`onclose`,onCopy:`oncopy`,onCueChange:`oncuechange`,onCut:`oncut`,onDblClick:`ondblclick`,onDrag:`ondrag`,onDragEnd:`ondragend`,onDragEnter:`ondragenter`,onDragExit:`ondragexit`,onDragLeave:`ondragleave`,onDragOver:`ondragover`,onDragStart:`ondragstart`,onDrop:`ondrop`,onDurationChange:`ondurationchange`,onEmptied:`onemptied`,onEnd:`onend`,onEnded:`onended`,onError:`onerror`,onFocus:`onfocus`,onFocusIn:`onfocusin`,onFocusOut:`onfocusout`,onHashChange:`onhashchange`,onInput:`oninput`,onInvalid:`oninvalid`,onKeyDown:`onkeydown`,onKeyPress:`onkeypress`,onKeyUp:`onkeyup`,onLoad:`onload`,onLoadedData:`onloadeddata`,onLoadedMetadata:`onloadedmetadata`,onLoadStart:`onloadstart`,onMessage:`onmessage`,onMouseDown:`onmousedown`,onMouseEnter:`onmouseenter`,onMouseLeave:`onmouseleave`,onMouseMove:`onmousemove`,onMouseOut:`onmouseout`,onMouseOver:`onmouseover`,onMouseUp:`onmouseup`,onMouseWheel:`onmousewheel`,onOffline:`onoffline`,onOnline:`ononline`,onPageHide:`onpagehide`,onPageShow:`onpageshow`,onPaste:`onpaste`,onPause:`onpause`,onPlay:`onplay`,onPlaying:`onplaying`,onPopState:`onpopstate`,onProgress:`onprogress`,onRateChange:`onratechange`,onRepeat:`onrepeat`,onReset:`onreset`,onResize:`onresize`,onScroll:`onscroll`,onSeeked:`onseeked`,onSeeking:`onseeking`,onSelect:`onselect`,onShow:`onshow`,onStalled:`onstalled`,onStorage:`onstorage`,onSubmit:`onsubmit`,onSuspend:`onsuspend`,onTimeUpdate:`ontimeupdate`,onToggle:`ontoggle`,onUnload:`onunload`,onVolumeChange:`onvolumechange`,onWaiting:`onwaiting`,onZoom:`onzoom`,overlinePosition:`overline-position`,overlineThickness:`overline-thickness`,paintOrder:`paint-order`,panose1:`panose-1`,pointerEvents:`pointer-events`,referrerPolicy:`referrerpolicy`,renderingIntent:`rendering-intent`,shapeRendering:`shape-rendering`,stopColor:`stop-color`,stopOpacity:`stop-opacity`,strikethroughPosition:`strikethrough-position`,strikethroughThickness:`strikethrough-thickness`,strokeDashArray:`stroke-dasharray`,strokeDashOffset:`stroke-dashoffset`,strokeLineCap:`stroke-linecap`,strokeLineJoin:`stroke-linejoin`,strokeMiterLimit:`stroke-miterlimit`,strokeOpacity:`stroke-opacity`,strokeWidth:`stroke-width`,tabIndex:`tabindex`,textAnchor:`text-anchor`,textDecoration:`text-decoration`,textRendering:`text-rendering`,transformOrigin:`transform-origin`,typeOf:`typeof`,underlinePosition:`underline-position`,underlineThickness:`underline-thickness`,unicodeBidi:`unicode-bidi`,unicodeRange:`unicode-range`,unitsPerEm:`units-per-em`,vAlphabetic:`v-alphabetic`,vHanging:`v-hanging`,vIdeographic:`v-ideographic`,vMathematical:`v-mathematical`,vectorEffect:`vector-effect`,vertAdvY:`vert-adv-y`,vertOriginX:`vert-origin-x`,vertOriginY:`vert-origin-y`,wordSpacing:`word-spacing`,writingMode:`writing-mode`,xHeight:`x-height`,playbackOrder:`playbackorder`,timelineBegin:`timelinebegin`},properties:{about:L3,accentHeight:P3,accumulate:null,additive:null,alignmentBaseline:null,alphabetic:P3,amplitude:P3,arabicForm:null,ascent:P3,attributeName:null,attributeType:null,azimuth:P3,bandwidth:null,baselineShift:null,baseFrequency:null,baseProfile:null,bbox:null,begin:null,bias:P3,by:null,calcMode:null,capHeight:P3,className:F3,clip:null,clipPath:null,clipPathUnits:null,clipRule:null,color:null,colorInterpolation:null,colorInterpolationFilters:null,colorProfile:null,colorRendering:null,content:null,contentScriptType:null,contentStyleType:null,crossOrigin:null,cursor:null,cx:null,cy:null,d:null,dataType:null,defaultAction:null,descent:P3,diffuseConstant:P3,direction:null,display:null,dur:null,divisor:P3,dominantBaseline:null,download:j3,dx:null,dy:null,edgeMode:null,editable:null,elevation:P3,enableBackground:null,end:null,event:null,exponent:P3,externalResourcesRequired:null,fill:null,fillOpacity:P3,fillRule:null,filter:null,filterRes:null,filterUnits:null,floodColor:null,floodOpacity:null,focusable:null,focusHighlight:null,fontFamily:null,fontSize:null,fontSizeAdjust:null,fontStretch:null,fontStyle:null,fontVariant:null,fontWeight:null,format:null,fr:null,from:null,fx:null,fy:null,g1:I3,g2:I3,glyphName:I3,glyphOrientationHorizontal:null,glyphOrientationVertical:null,glyphRef:null,gradientTransform:null,gradientUnits:null,handler:null,hanging:P3,hatchContentUnits:null,hatchUnits:null,height:null,href:null,hrefLang:null,horizAdvX:P3,horizOriginX:P3,horizOriginY:P3,id:null,ideographic:P3,imageRendering:null,initialVisibility:null,in:null,in2:null,intercept:P3,k:P3,k1:P3,k2:P3,k3:P3,k4:P3,kernelMatrix:L3,kernelUnitLength:null,keyPoints:null,keySplines:null,keyTimes:null,kerning:null,lang:null,lengthAdjust:null,letterSpacing:null,lightingColor:null,limitingConeAngle:P3,local:null,markerEnd:null,markerMid:null,markerStart:null,markerHeight:null,markerUnits:null,markerWidth:null,mask:null,maskContentUnits:null,maskType:null,maskUnits:null,mathematical:null,max:null,media:null,mediaCharacterEncoding:null,mediaContentEncodings:null,mediaSize:P3,mediaTime:null,method:null,min:null,mode:null,name:null,navDown:null,navDownLeft:null,navDownRight:null,navLeft:null,navNext:null,navPrev:null,navRight:null,navUp:null,navUpLeft:null,navUpRight:null,numOctaves:null,observer:null,offset:null,onAbort:null,onActivate:null,onAfterPrint:null,onBeforePrint:null,onBegin:null,onCancel:null,onCanPlay:null,onCanPlayThrough:null,onChange:null,onClick:null,onClose:null,onCopy:null,onCueChange:null,onCut:null,onDblClick:null,onDrag:null,onDragEnd:null,onDragEnter:null,onDragExit:null,onDragLeave:null,onDragOver:null,onDragStart:null,onDrop:null,onDurationChange:null,onEmptied:null,onEnd:null,onEnded:null,onError:null,onFocus:null,onFocusIn:null,onFocusOut:null,onHashChange:null,onInput:null,onInvalid:null,onKeyDown:null,onKeyPress:null,onKeyUp:null,onLoad:null,onLoadedData:null,onLoadedMetadata:null,onLoadStart:null,onMessage:null,onMouseDown:null,onMouseEnter:null,onMouseLeave:null,onMouseMove:null,onMouseOut:null,onMouseOver:null,onMouseUp:null,onMouseWheel:null,onOffline:null,onOnline:null,onPageHide:null,onPageShow:null,onPaste:null,onPause:null,onPlay:null,onPlaying:null,onPopState:null,onProgress:null,onRateChange:null,onRepeat:null,onReset:null,onResize:null,onScroll:null,onSeeked:null,onSeeking:null,onSelect:null,onShow:null,onStalled:null,onStorage:null,onSubmit:null,onSuspend:null,onTimeUpdate:null,onToggle:null,onUnload:null,onVolumeChange:null,onWaiting:null,onZoom:null,opacity:null,operator:null,order:null,orient:null,orientation:null,origin:null,overflow:null,overlay:null,overlinePosition:P3,overlineThickness:P3,paintOrder:null,panose1:null,path:null,pathLength:P3,patternContentUnits:null,patternTransform:null,patternUnits:null,phase:null,ping:F3,pitch:null,playbackOrder:null,pointerEvents:null,points:null,pointsAtX:P3,pointsAtY:P3,pointsAtZ:P3,preserveAlpha:null,preserveAspectRatio:null,primitiveUnits:null,propagate:null,property:L3,r:null,radius:null,referrerPolicy:null,refX:null,refY:null,rel:L3,rev:L3,renderingIntent:null,repeatCount:null,repeatDur:null,requiredExtensions:L3,requiredFeatures:L3,requiredFonts:L3,requiredFormats:L3,resource:null,restart:null,result:null,rotate:null,rx:null,ry:null,scale:null,seed:null,shapeRendering:null,side:null,slope:null,snapshotTime:null,specularConstant:P3,specularExponent:P3,spreadMethod:null,spacing:null,startOffset:null,stdDeviation:null,stemh:null,stemv:null,stitchTiles:null,stopColor:null,stopOpacity:null,strikethroughPosition:P3,strikethroughThickness:P3,string:null,stroke:null,strokeDashArray:L3,strokeDashOffset:null,strokeLineCap:null,strokeLineJoin:null,strokeMiterLimit:P3,strokeOpacity:P3,strokeWidth:null,style:null,surfaceScale:P3,syncBehavior:null,syncBehaviorDefault:null,syncMaster:null,syncTolerance:null,syncToleranceDefault:null,systemLanguage:L3,tabIndex:P3,tableValues:null,target:null,targetX:P3,targetY:P3,textAnchor:null,textDecoration:null,textRendering:null,textLength:null,timelineBegin:null,title:null,transformBehavior:null,type:null,typeOf:L3,to:null,transform:null,transformOrigin:null,u1:null,u2:null,underlinePosition:P3,underlineThickness:P3,unicode:null,unicodeBidi:null,unicodeRange:null,unitsPerEm:P3,values:null,vAlphabetic:P3,vMathematical:P3,vectorEffect:null,vHanging:P3,vIdeographic:P3,version:null,vertAdvY:P3,vertOriginX:P3,vertOriginY:P3,viewBox:null,viewTarget:null,visibility:null,width:null,widths:null,wordSpacing:null,writingMode:null,x:null,x1:null,x2:null,xChannelSelector:null,xHeight:P3,y:null,y1:null,y2:null,yChannelSelector:null,z:null,zoomAndPan:null},space:`svg`,transform:W3}),K3=H3({properties:{xLinkActuate:null,xLinkArcRole:null,xLinkHref:null,xLinkRole:null,xLinkShow:null,xLinkTitle:null,xLinkType:null},space:`xlink`,transform(e,t){return`xlink:`+t.slice(5).toLowerCase()}}),q3=H3({attributes:{xmlnsxlink:`xmlns:xlink`},properties:{xmlnsXLink:null,xmlns:null},space:`xmlns`,transform:G3}),J3=H3({properties:{xmlBase:null,xmlLang:null,xmlSpace:null},space:`xml`,transform(e,t){return`xml:`+t.slice(3).toLowerCase()}}),dNe={classId:`classID`,dataType:`datatype`,itemId:`itemID`,strokeDashArray:`strokeDasharray`,strokeDashOffset:`strokeDashoffset`,strokeLineCap:`strokeLinecap`,strokeLineJoin:`strokeLinejoin`,strokeMiterLimit:`strokeMiterlimit`,typeOf:`typeof`,xLinkActuate:`xlinkActuate`,xLinkArcRole:`xlinkArcrole`,xLinkHref:`xlinkHref`,xLinkRole:`xlinkRole`,xLinkShow:`xlinkShow`,xLinkTitle:`xlinkTitle`,xLinkType:`xlinkType`,xmlnsXLink:`xmlnsXlink`},fNe=/[A-Z]/g,Y3=/-[a-z]/g,pNe=/^data[-\w.:]+$/i;function mNe(e,t){let n=O3(t),r=t,i=k3;if(n in e.normal)return e.property[e.normal[n]];if(n.length>4&&n.slice(0,4)===`data`&&pNe.test(t)){if(t.charAt(4)===`-`){let e=t.slice(5).replace(Y3,gNe);r=`data`+e.charAt(0).toUpperCase()+e.slice(1)}else{let e=t.slice(4);if(!Y3.test(e)){let n=e.replace(fNe,hNe);n.charAt(0)!==`-`&&(n=`-`+n),t=`data`+n}}i=B3}return new i(r,t)}function hNe(e){return`-`+e.toLowerCase()}function gNe(e){return e.charAt(1).toUpperCase()}var _Ne=D3([U3,lNe,K3,q3,J3],`html`),X3=D3([U3,uNe,K3,q3,J3],`svg`);function vNe(e){return e.join(` `).trim()}var Z3=/\/\*(?:[^*]|\*(?!\/))*\*\//g,yNe=/\n/g,bNe=/^\s*/,xNe=/^(\*?[-#/*\\\w]+(\[[0-9a-z_-]+\])?)\s*/,SNe=/^:\s*/,CNe=/^((?:'(?:\\.|[^'\\])*'|"(?:\\.|[^"\\])*"|url\((?:'(?:\\.|[^'\\])*'|"(?:\\.|[^"\\])*"|[^)]*)\)|[^};])+)/,wNe=/^[;\s]*/,TNe=`
 `,Q3=`/`,$3=`*`,e6=``,ENe=`comment`,DNe=`declaration`;function ONe(e,t){if(typeof e!=`string`)throw TypeError(`First argument must be a string`);if(!e)return[];t||={};var n=1,r=1;function i(e){var t=e.match(yNe);t&&(n+=t.length);var i=e.lastIndexOf(TNe);r=~i?e.length-i:r+e.length}function a(){var e={line:n,column:r};return function(t){return t.position=new o(e),l(),t}}function o(e){this.start=e,this.end={line:n,column:r},this.source=t.source}o.prototype.content=e;function s(i){var a=Error(t.source+`:`+n+`:`+r+`: `+i);if(a.reason=i,a.filename=t.source,a.line=n,a.column=r,a.source=e,!t.silent)throw a}function c(t){var n=t.exec(e);if(n){var r=n[0];return i(r),e=e.slice(r.length),n}}function l(){c(bNe)}function u(e){for(var t;t=d();)e.push(t);return e}function d(){var t=a();if(Q3==e.charAt(0)&&$3==e.charAt(1)){for(var n=2;e6!=e.charAt(n)&&($3!=e.charAt(n)||Q3!=e.charAt(n+1));)++n;if(n+=2,e6===e.charAt(n-1))return s(`End of comment missing`);var o=e.slice(2,n-2);return r+=2,i(o),e=e.slice(n),r+=2,t({type:ENe,comment:o})}}function f(){var e=a(),t=c(xNe);if(t){if(d(),!c(SNe))return s(`property missing ':'`);var n=c(CNe),r=e({type:DNe,property:t[0].replace(Z3,e6).trim(),value:n?n[0].replace(Z3,e6).trim():e6});return c(wNe),r}}function p(){var e=[];u(e);for(var t;t=f();)e.push(t),u(e);return e}return l(),p()}function kNe(e,t){let n=null;if(!e||typeof e!=`string`)return n;let r=ONe(e),i=typeof t==`function`;return r.forEach(e=>{if(e.type!==`declaration`)return;let{property:r,value:a}=e;i?t(r,a,e):a&&(n??={},n[r]=a)}),n}var t6=r6(`end`),n6=r6(`start`);function r6(e){return t;function t(t){let n=t&&t.position&&t.position[e]||{};if(typeof n.line==`number`&&n.line>0&&typeof n.column==`number`&&n.column>0)return{line:n.line,column:n.column,offset:typeof n.offset==`number`&&n.offset>-1?n.offset:void 0}}}function ANe(e){let t=n6(e),n=t6(e);if(t&&n)return{start:t,end:n}}function i6(e){return!e||typeof e!=`object`?``:`position`in e||`type`in e?o6(e.position):`start`in e||`end`in e?o6(e):`line`in e||`column`in e?a6(e):``}function a6(e){return s6(e&&e.line)+`:`+s6(e&&e.column)}function o6(e){return a6(e&&e.start)+`-`+a6(e&&e.end)}function s6(e){return e&&typeof e==`number`?e:1}var c6=class extends Error{constructor(e,t,n){super(),typeof t==`string`&&(n=t,t=void 0);let r=``,i={},a=!1;if(t&&(i=`line`in t&&`column`in t||`start`in t&&`end`in t?{place:t}:`type`in t?{ancestors:[t],place:t.position}:{...t}),typeof e==`string`?r=e:!i.cause&&e&&(a=!0,r=e.message,i.cause=e),!i.ruleId&&!i.source&&typeof n==`string`){let e=n.indexOf(`:`);e===-1?i.ruleId=n:(i.source=n.slice(0,e),i.ruleId=n.slice(e+1))}if(!i.place&&i.ancestors){let e=i.ancestors[i.ancestors.length-1];e&&(i.place=e.position)}let o=i.place&&`start`in i.place?i.place.start:i.place;this.ancestors=i.ancestors||void 0,this.cause=i.cause||void 0,this.column=o?o.column:void 0,this.fatal=void 0,this.file=``,this.message=r,this.line=o?o.line:void 0,this.name=i6(i.place)||`1:1`,this.place=i.place||void 0,this.reason=this.message,this.ruleId=i.ruleId||void 0,this.source=i.source||void 0,this.stack=a&&i.cause&&typeof i.cause.stack==`string`?i.cause.stack:``,this.actual=void 0,this.expected=void 0,this.note=void 0,this.url=void 0}};Object.defineProperties(c6.prototype,{file:{configurable:!0,enumerable:!0,value:``,writable:!0},name:{configurable:!0,enumerable:!0,value:``,writable:!0},reason:{configurable:!0,enumerable:!0,value:``,writable:!0},message:{configurable:!0,enumerable:!0,value:``,writable:!0},stack:{configurable:!0,enumerable:!0,value:``,writable:!0},column:{configurable:!0,enumerable:!0,writable:!0},line:{configurable:!0,enumerable:!0,writable:!0},ancestors:{configurable:!0,enumerable:!0,writable:!0},cause:{configurable:!0,enumerable:!0,writable:!0},fatal:{configurable:!0,enumerable:!0,writable:!0},place:{configurable:!0,enumerable:!0,writable:!0},ruleId:{configurable:!0,enumerable:!0,writable:!0},source:{configurable:!0,enumerable:!0,writable:!0}});var l6={}.hasOwnProperty,jNe=new Map,MNe=/[A-Z]/g,NNe=/-([a-z])/g,PNe=new Set([`table`,`tbody`,`thead`,`tfoot`,`tr`]),FNe=new Set([`td`,`th`]);function INe(e,t){if(!t||t.Fragment===void 0)throw TypeError("Expected `Fragment` in options");let n=t.filePath||void 0,r;if(t.development){if(typeof t.jsxDEV!=`function`)throw TypeError("Expected `jsxDEV` in options when `development: true`");r=WNe(n,t.jsxDEV)}else{if(typeof t.jsx!=`function`)throw TypeError("Expected `jsx` in production options");if(typeof t.jsxs!=`function`)throw TypeError("Expected `jsxs` in production options");r=UNe(n,t.jsx,t.jsxs)}let i={Fragment:t.Fragment,ancestors:[],components:t.components||{},create:r,elementAttributeNameCase:t.elementAttributeNameCase||`react`,evaluater:t.createEvaluater?t.createEvaluater():void 0,filePath:n,ignoreInvalidStyle:t.ignoreInvalidStyle||!1,passKeys:t.passKeys!==!1,passNode:t.passNode||!1,schema:t.space===`svg`?X3:_Ne,stylePropertyNameCase:t.stylePropertyNameCase||`dom`,tableCellAlignToStyle:t.tableCellAlignToStyle!==!1},a=u6(i,e,void 0);return a&&typeof a!=`string`?a:i.create(e,i.Fragment,{children:a||void 0},void 0)}function u6(e,t,n){if(t.type===`element`)return LNe(e,t,n);if(t.type===`mdxFlowExpression`||t.type===`mdxTextExpression`)return RNe(e,t);if(t.type===`mdxJsxFlowElement`||t.type===`mdxJsxTextElement`)return BNe(e,t,n);if(t.type===`mdxjsEsm`)return zNe(e,t);if(t.type===`root`)return VNe(e,t,n);if(t.type===`text`)return HNe(e,t)}function LNe(e,t,n){let r=e.schema,i=r;t.tagName.toLowerCase()===`svg`&&r.space===`html`&&(i=X3,e.schema=i),e.ancestors.push(t);let a=m6(e,t.tagName,!1),o=GNe(e,t),s=p6(e,t);return PNe.has(t.tagName)&&(s=s.filter(function(e){return typeof e!=`string`||!sNe(e)})),d6(e,o,a,t),f6(o,s),e.ancestors.pop(),e.schema=r,e.create(t,a,o,n)}function RNe(e,t){if(t.data&&t.data.estree&&e.evaluater){let n=t.data.estree.body[0];return n.type,e.evaluater.evaluateExpression(n.expression)}h6(e,t.position)}function zNe(e,t){if(t.data&&t.data.estree&&e.evaluater)return e.evaluater.evaluateProgram(t.data.estree);h6(e,t.position)}function BNe(e,t,n){let r=e.schema,i=r;t.name===`svg`&&r.space===`html`&&(i=X3,e.schema=i),e.ancestors.push(t);let a=t.name===null?e.Fragment:m6(e,t.name,!0),o=KNe(e,t),s=p6(e,t);return d6(e,o,a,t),f6(o,s),e.ancestors.pop(),e.schema=r,e.create(t,a,o,n)}function VNe(e,t,n){let r={};return f6(r,p6(e,t)),e.create(t,e.Fragment,r,n)}function HNe(e,t){return t.value}function d6(e,t,n,r){typeof n!=`string`&&n!==e.Fragment&&e.passNode&&(t.node=r)}function f6(e,t){if(t.length>0){let n=t.length>1?t:t[0];n&&(e.children=n)}}function UNe(e,t,n){return r;function r(e,r,i,a){let o=Array.isArray(i.children)?n:t;return a?o(r,i,a):o(r,i)}}function WNe(e,t){return n;function n(n,r,i,a){let o=Array.isArray(i.children),s=n6(n);return t(r,i,a,o,{columnNumber:s?s.column-1:void 0,fileName:e,lineNumber:s?s.line:void 0},void 0)}}function GNe(e,t){let n={},r,i;for(i in t.properties)if(i!==`children`&&l6.call(t.properties,i)){let a=qNe(e,i,t.properties[i]);if(a){let[i,o]=a;e.tableCellAlignToStyle&&i===`align`&&typeof o==`string`&&FNe.has(t.tagName)?r=o:n[i]=o}}if(r){let t=n.style||={};t[e.stylePropertyNameCase===`css`?`text-align`:`textAlign`]=r}return n}function KNe(e,t){let n={};for(let r of t.attributes)if(r.type===`mdxJsxExpressionAttribute`)if(r.data&&r.data.estree&&e.evaluater){let t=r.data.estree.body[0];t.type;let i=t.expression;i.type;let a=i.properties[0];a.type,Object.assign(n,e.evaluater.evaluateExpression(a.argument))}else h6(e,t.position);else{let{name:i}=r,a;if(r.value&&typeof r.value==`object`)if(r.value.data&&r.value.data.estree&&e.evaluater){let t=r.value.data.estree.body[0];t.type,a=e.evaluater.evaluateExpression(t.expression)}else h6(e,t.position);else a=r.value===null||r.value;n[i]=a}return n}function p6(e,t){let n=[],r=-1,i=e.passKeys?new Map:jNe;for(;++r<t.children.length;){let a=t.children[r],o;if(e.passKeys){let e=a.type===`element`?a.tagName:a.type===`mdxJsxFlowElement`||a.type===`mdxJsxTextElement`?a.name:void 0;if(e){let t=i.get(e)||0;o=e+`-`+t,i.set(e,t+1)}}let s=u6(e,a,o);s!==void 0&&n.push(s)}return n}function qNe(e,t,n){if(n==null||typeof n==`number`&&Number.isNaN(n))return;let r=mNe(e.schema,t);return Array.isArray(n)&&(n=r.commaSeparated?nNe(n):vNe(n)),r.property===`style`?[`style`,typeof n==`object`?e.stylePropertyNameCase===`dom`?n:YNe(n):JNe(e,String(n))]:[e.elementAttributeNameCase===`react`&&r.space?dNe[r.property]||r.property:r.attribute,n]}function JNe(e,t){let n={};try{kNe(t,function(t,r){if(t&&r){let i=t;i.slice(0,2)!==`--`&&(i=i.toLowerCase(),e.stylePropertyNameCase===`dom`&&(i.slice(0,4)===`-ms-`&&(i=i.slice(1)),i=i.replace(NNe,QNe))),n[i]=r}})}catch(t){if(e.ignoreInvalidStyle)return{};let n=t,r=new c6("Cannot parse `style` attribute",{ancestors:e.ancestors,cause:n,ruleId:`style`,source:`hast-util-to-jsx-runtime`});throw r.file=e.filePath||void 0,r.url=`https://github.com/syntax-tree/hast-util-to-jsx-runtime#cannot-parse-style-attribute`,r}return n}function m6(e,t,n){let r;if(!n)r={type:`Literal`,value:t};else if(t.includes(`.`)){let e=t.split(`.`),n=-1,i;for(;++n<e.length;){let t=w3(e[n])?{type:`Identifier`,name:e[n]}:{type:`Literal`,value:e[n]};i=i?{type:`MemberExpression`,object:i,property:t,computed:!!(n&&t.type===`Literal`),optional:!1}:t}r=i}else r=w3(t)&&!/^[a-z]/.test(t)?{type:`Identifier`,name:t}:{type:`Literal`,value:t};if(r.type===`Literal`){let t=r.value;return l6.call(e.components,t)?e.components[t]:t}if(e.evaluater)return e.evaluater.evaluateExpression(r);h6(e)}function h6(e,t){let n=new c6("Cannot handle MDX estrees without `createEvaluater`",{ancestors:e.ancestors,place:t,ruleId:`mdx-estree`,source:`hast-util-to-jsx-runtime`});throw n.file=e.filePath||void 0,n.url=`https://github.com/syntax-tree/hast-util-to-jsx-runtime#cannot-handle-mdx-estrees-without-createevaluater`,n}function YNe(e){let t={},n;for(n in e)l6.call(e,n)&&(t[XNe(n)]=e[n]);return t}function XNe(e){if(e.slice(0,2)===`--`)return e;let t=e.replace(MNe,ZNe);return t.slice(0,3)===`ms-`&&(t=`-`+t),t}function ZNe(e){return`-`+e.toLowerCase()}function QNe(e,t){return t.toUpperCase()}var g6={action:[`form`],cite:[`blockquote`,`del`,`ins`,`q`],data:[`object`],formAction:[`button`,`input`],href:[`a`,`area`,`base`,`link`],icon:[`menuitem`],itemId:null,manifest:[`html`],ping:[`a`,`area`],poster:[`video`],src:[`audio`,`embed`,`iframe`,`img`,`input`,`script`,`source`,`track`,`video`]},$Ne={};function _6(e,t){let n=t||$Ne;return v6(e,typeof n.includeImageAlt!=`boolean`||n.includeImageAlt,typeof n.includeHtml!=`boolean`||n.includeHtml)}function v6(e,t,n){if(ePe(e)){if(`value`in e)return e.type===`html`&&!n?``:e.value;if(t&&`alt`in e&&e.alt)return e.alt;if(`children`in e)return y6(e.children,t,n)}return Array.isArray(e)?y6(e,t,n):``}function y6(e,t,n){let r=[],i=-1;for(;++i<e.length;)r[i]=v6(e[i],t,n);return r.join(``)}function ePe(e){return!!(e&&typeof e==`object`)}var b6=document.createElement(`i`);function x6(e){let t=`&`+e+`;`;b6.innerHTML=t;let n=b6.textContent;return n.charCodeAt(n.length-1)===59&&e!==`semi`?!1:n!==t&&n}function S6(e,t,n,r){let i=e.length,a=0,o;if(t=t<0?-t>i?0:i+t:t>i?i:t,n=n>0?n:0,r.length<1e4)o=Array.from(r),o.unshift(t,n),e.splice(...o);else for(n&&e.splice(t,n);a<r.length;)o=r.slice(a,a+1e4),o.unshift(t,0),e.splice(...o),a+=1e4,t+=1e4}function C6(e,t){return e.length>0?(S6(e,e.length,0,t),e):t}var w6={}.hasOwnProperty;function T6(e){let t={},n=-1;for(;++n<e.length;)tPe(t,e[n]);return t}function tPe(e,t){let n;for(n in t){let r=(w6.call(e,n)?e[n]:void 0)||(e[n]={}),i=t[n],a;if(i)for(a in i){w6.call(r,a)||(r[a]=[]);let e=i[a];nPe(r[a],Array.isArray(e)?e:e?[e]:[])}}}function nPe(e,t){let n=-1,r=[];for(;++n<t.length;)(t[n].add===`after`?e:r).push(t[n]);S6(e,0,0,r)}function E6(e,t){let n=Number.parseInt(e,t);return n<9||n===11||n>13&&n<32||n>126&&n<160||n>55295&&n<57344||n>64975&&n<65008||(n&65535)==65535||(n&65535)==65534||n>1114111?`�`:String.fromCodePoint(n)}function D6(e){return e.replace(/[\t\n\r ]+/g,` `).replace(/^ | $/g,``).toLowerCase().toUpperCase()}var O6=R6(/[A-Za-z]/),k6=R6(/[\dA-Za-z]/),rPe=R6(/[#-'*+\--9=?A-Z^-~]/);function A6(e){return e!==null&&(e<32||e===127)}var j6=R6(/\d/),iPe=R6(/[\dA-Fa-f]/),M6=R6(/[!-/:-@[-`{-~]/);function N6(e){return e!==null&&e<-2}function P6(e){return e!==null&&(e<0||e===32)}function F6(e){return e===-2||e===-1||e===32}var I6=R6(/\p{P}|\p{S}/u),L6=R6(/\s/);function R6(e){return t;function t(t){return t!==null&&t>-1&&e.test(String.fromCharCode(t))}}function z6(e){let t=[],n=-1,r=0,i=0;for(;++n<e.length;){let a=e.charCodeAt(n),o=``;if(a===37&&k6(e.charCodeAt(n+1))&&k6(e.charCodeAt(n+2)))i=2;else if(a<128)/[!#$&-;=?-Z_a-z~]/.test(String.fromCharCode(a))||(o=String.fromCharCode(a));else if(a>55295&&a<57344){let t=e.charCodeAt(n+1);a<56320&&t>56319&&t<57344?(o=String.fromCharCode(a,t),i=1):o=`�`}else o=String.fromCharCode(a);o&&=(t.push(e.slice(r,n),encodeURIComponent(o)),r=n+i+1,``),i&&=(n+=i,0)}return t.join(``)+e.slice(r)}function B6(e,t,n,r){let i=r?r-1:1/0,a=0;return o;function o(r){return F6(r)?(e.enter(n),s(r)):t(r)}function s(r){return F6(r)&&a++<i?(e.consume(r),s):(e.exit(n),t(r))}}function V6(e,t,n,r,i,a){let o=0;return s;function s(t){return a>0&&F6(t)?(e.enter(r),c(t)):l(t)}function c(t){return F6(t)&&o<a?(e.consume(t),o++,c):(e.exit(r),l(t))}function l(e){return o>=i?t(e):n(e)}}var aPe={tokenize:oPe};function oPe(e){let t=e.attempt(this.parser.constructs.contentInitial,r,i),n;return t;function r(n){if(n===null){e.consume(n);return}return e.enter(`lineEnding`),e.consume(n),e.exit(`lineEnding`),B6(e,t,`linePrefix`)}function i(t){return e.enter(`paragraph`),a(t)}function a(t){let r=e.enter(`chunkText`,{contentType:`text`,previous:n});return n&&(n.next=r),n=r,o(t)}function o(t){if(t===null){e.exit(`chunkText`),e.exit(`paragraph`),e.consume(t);return}return N6(t)?(e.consume(t),e.exit(`chunkText`),a):(e.consume(t),o)}}var H6=class{constructor(){this.index=new Map,this.map=[]}add(e,t,n){U6(this,e,t,n,!1)}addBefore(e,t,n){U6(this,e,t,n,!0)}consume(e){if(this.map.sort(function(e,t){return e[0]-t[0]}),this.map.length===0)return;let t=this.map.length,n=[];for(;t>0;)--t,n.push(e.slice(this.map[t][0]+this.map[t][1]),this.map[t][2]),e.length=this.map[t][0];n.push(e.slice()),e.length=0;let r=n.pop();for(;r;){for(let t of r)e.push(t);r=n.pop()}this.map.length=0,this.index.clear()}};function U6(e,t,n,r,i){if(n===0&&r.length===0)return;let a=e.index.get(t);if(a){a[1]+=n,i?(r.push(...a[2]),a[2]=r):a[2].push(...r);return}let o=[t,n,r];e.map.push(o),e.index.set(t,o)}var sPe={tokenize:cPe},W6={tokenize:lPe};function cPe(e){let t=this,n=[],r=0,i,a,o;return s;function s(i){if(r<n.length){let a=n[r];return t.containerState=a[1],e.attempt(a[0].continuation,c,l)(i)}return l(i)}function c(e){if(r++,t.containerState._closeFlow){t.containerState._closeFlow=void 0,i&&v();let n=t.events.length,a=n,o;for(;a--;)if(t.events[a][0]===`exit`&&t.events[a][1].type===`chunkFlow`){o=t.events[a][1].end;break}_(r);let s=n;for(;s<t.events.length;)t.events[s][1].end={...o},s++;let c=new H6;return c.add(a+1,0,t.events.slice(n)),c.add(n,s-n,[]),c.consume(t.events),l(e)}return s(e)}function l(a){if(r===n.length){if(!i)return f(a);if(i.currentConstruct&&i.currentConstruct.concrete)return m(a);t.interrupt=!!(i.currentConstruct&&!i._gfmTableDynamicInterruptHack)}return t.containerState={},e.check(W6,u,d)(a)}function u(e){return i&&v(),_(r),f(e)}function d(e){return t.parser.lazy[t.now().line]=r!==n.length,o=t.now().offset,m(e)}function f(n){return t.containerState={},e.attempt(W6,p,m)(n)}function p(e){return r++,n.push([t.currentConstruct,t.containerState]),f(e)}function m(n){if(n===null){i&&v(),_(0),e.consume(n);return}return i||=t.parser.flow(t.now()),e.enter(`chunkFlow`,{_tokenizer:i,contentType:`flow`,previous:a}),h(n)}function h(n){if(n===null){g(e.exit(`chunkFlow`),!0),_(0),e.consume(n);return}return N6(n)?(e.consume(n),g(e.exit(`chunkFlow`)),r=0,t.interrupt=void 0,s):(e.consume(n),h)}function g(e,n){let s=t.sliceStream(e);if(n&&s.push(null),e.previous=a,a&&(a.next=e),a=e,i.defineSkip(e.start),i.write(s),t.parser.lazy[e.start.line]){let e=i.events.length;for(;e--;)if(i.events[e][1].start.offset<o&&(!i.events[e][1].end||i.events[e][1].end.offset>o))return;let n=t.events.length,a=n,s,c;for(;a--;)if(t.events[a][0]===`exit`&&t.events[a][1].type===`chunkFlow`){if(s){c=t.events[a][1].end;break}s=!0}for(_(r),e=n;e<t.events.length;)t.events[e][1].end={...c},e++;let l=new H6;l.add(a+1,0,t.events.slice(n)),l.add(n,e-n,[]),l.consume(t.events)}}function _(r){let i=n.length;for(;i-->r;){let r=n[i];t.containerState=r[1],r[0].exit.call(t,e)}n.length=r}function v(){i.write([null]),a=void 0,i=void 0,t.containerState._closeFlow=void 0}}function lPe(e,t,n){return B6(e,e.attempt(this.parser.constructs.document,t,n),`linePrefix`,this.parser.constructs.disable.null.includes(`codeIndented`)?void 0:4)}function G6(e){if(e===null||P6(e)||L6(e))return 1;if(I6(e))return 2}function K6(e,t,n){let r=[],i=-1;for(;++i<e.length;){let a=e[i].resolveAll;a&&!r.includes(a)&&(t=a(t,n),r.push(a))}return t}var q6={name:`attention`,resolveAll:uPe,tokenize:dPe};function uPe(e,t){let n=-1,r;for(;++n<e.length;)if(e[n][0]===`enter`&&e[n][1].type===`attentionSequence`&&e[n][1]._close){let i=n;for(;i--;)if(e[i][0]===`exit`&&e[i][1].type===`attentionSequence`&&e[i][1]._open&&t.sliceSerialize(e[i][1]).charCodeAt(0)===t.sliceSerialize(e[n][1]).charCodeAt(0)){if((e[i][1]._close||e[n][1]._open)&&(e[n][1].end.offset-e[n][1].start.offset)%3&&!((e[i][1].end.offset-e[i][1].start.offset+e[n][1].end.offset-e[n][1].start.offset)%3))continue;let a=e[i][1].end.offset-e[i][1].start.offset>1&&e[n][1].end.offset-e[n][1].start.offset>1?2:1,o={...e[i][1].end},s={...e[n][1].start};J6(o,-a),J6(s,a);let c={type:a>1?`strongSequence`:`emphasisSequence`,start:o,end:{...e[i][1].end}},l={type:a>1?`strongSequence`:`emphasisSequence`,start:{...e[n][1].start},end:s},u={type:a>1?`strongText`:`emphasisText`,start:{...e[i][1].end},end:{...e[n][1].start}},d={type:a>1?`strong`:`emphasis`,start:{...c.start},end:{...l.end}};e[i][1].end={...c.start},e[n][1].start={...l.end},r=[],e[i][1].end.offset-e[i][1].start.offset&&(r=C6(r,[[`enter`,e[i][1],t],[`exit`,e[i][1],t]])),r=C6(r,[[`enter`,d,t],[`enter`,c,t],[`exit`,c,t],[`enter`,u,t]]),r=C6(r,K6(t.parser.constructs.insideSpan.null,e.slice(i+1,n),t)),r=C6(r,[[`exit`,u,t],[`enter`,l,t],[`exit`,l,t],[`exit`,d,t]]);let f=0;e[n][1].end.offset-e[n][1].start.offset&&(f=2,r=C6(r,[[`enter`,e[n][1],t],[`exit`,e[n][1],t]])),S6(e,i-1,n-i+3,r),n=i+r.length-f-2;break}}for(n=-1;++n<e.length;)e[n][1].type===`attentionSequence`&&(e[n][1].type=`data`);return e}function dPe(e,t){let n=this.parser.constructs.attentionMarkers.null,r=this.previous,i=G6(r),a;return o;function o(t){return a=t,e.enter(`attentionSequence`),s(t)}function s(o){if(o===a)return e.consume(o),s;let c=e.exit(`attentionSequence`),l=G6(o),u=!l||l===2&&i||n.includes(o)&&o!==42&&o!==95,d=!i||i===2&&l||n.includes(r)&&r!==42&&r!==95;return c._open=!!(a===42?u:u&&(i||!d)),c._close=!!(a===42?d:d&&(l||!u)),t(o)}}function J6(e,t){e.column+=t,e.offset+=t,e._bufferIndex+=t}var fPe={name:`autolink`,tokenize:pPe};function pPe(e,t,n){let r=0;return i;function i(t){return e.enter(`autolink`),e.enter(`autolinkMarker`),e.consume(t),e.exit(`autolinkMarker`),e.enter(`autolinkProtocol`),a}function a(t){return O6(t)?(e.consume(t),o):t===64?n(t):l(t)}function o(e){return e===43||e===45||e===46||k6(e)?(r=1,s(e)):l(e)}function s(t){return t===58?(e.consume(t),r=0,c):(t===43||t===45||t===46||k6(t))&&r++<32?(e.consume(t),s):(r=0,l(t))}function c(r){return r===62?(e.exit(`autolinkProtocol`),e.enter(`autolinkMarker`),e.consume(r),e.exit(`autolinkMarker`),e.exit(`autolink`),t):r===null||r===32||r===60||A6(r)?n(r):(e.consume(r),c)}function l(t){return t===64?(e.consume(t),u):rPe(t)?(e.consume(t),l):n(t)}function u(e){return k6(e)?d(e):n(e)}function d(n){return n===46?(e.consume(n),r=0,u):n===62?(e.exit(`autolinkProtocol`).type=`autolinkEmail`,e.enter(`autolinkMarker`),e.consume(n),e.exit(`autolinkMarker`),e.exit(`autolink`),t):f(n)}function f(t){if((t===45||k6(t))&&r++<63){let n=t===45?f:d;return e.consume(t),n}return n(t)}}var Y6={partial:!0,tokenize:mPe};function mPe(e,t,n){return r;function r(t){return F6(t)?B6(e,i,`linePrefix`)(t):i(t)}function i(e){return e===null||N6(e)?t(e):n(e)}}var X6={continuation:{tokenize:gPe},exit:_Pe,name:`blockQuote`,tokenize:hPe};function hPe(e,t,n){let r=this;return i;function i(t){if(t===62){let n=r.containerState;return n.open||=(e.enter(`blockQuote`,{_container:!0}),!0),e.enter(`blockQuotePrefix`),e.enter(`blockQuoteMarker`),e.consume(t),e.exit(`blockQuoteMarker`),a}return n(t)}function a(n){return F6(n)?(e.enter(`blockQuotePrefixWhitespace`),e.consume(n),e.exit(`blockQuotePrefixWhitespace`),e.exit(`blockQuotePrefix`),t):(e.exit(`blockQuotePrefix`),t(n))}}function gPe(e,t,n){let r=this;return i;function i(t){return F6(t)?B6(e,a,`linePrefix`,r.parser.constructs.disable.null.includes(`codeIndented`)?void 0:4)(t):a(t)}function a(r){return e.attempt(X6,t,n)(r)}}function _Pe(e){e.exit(`blockQuote`)}var Z6={name:`characterEscape`,tokenize:vPe};function vPe(e,t,n){return r;function r(t){return e.enter(`characterEscape`),e.enter(`escapeMarker`),e.consume(t),e.exit(`escapeMarker`),i}function i(r){return M6(r)?(e.enter(`characterEscapeValue`),e.consume(r),e.exit(`characterEscapeValue`),e.exit(`characterEscape`),t):n(r)}}var Q6={name:`characterReference`,tokenize:yPe};function yPe(e,t,n){let r=this,i=0,a,o;return s;function s(t){return e.enter(`characterReference`),e.enter(`characterReferenceMarker`),e.consume(t),e.exit(`characterReferenceMarker`),c}function c(t){return t===35?(e.enter(`characterReferenceMarkerNumeric`),e.consume(t),e.exit(`characterReferenceMarkerNumeric`),l):(e.enter(`characterReferenceValue`),a=31,o=k6,u(t))}function l(t){return t===88||t===120?(e.enter(`characterReferenceMarkerHexadecimal`),e.consume(t),e.exit(`characterReferenceMarkerHexadecimal`),e.enter(`characterReferenceValue`),a=6,o=iPe,u):(e.enter(`characterReferenceValue`),a=7,o=j6,u(t))}function u(s){if(s===59&&i){let i=e.exit(`characterReferenceValue`);return o===k6&&!x6(r.sliceSerialize(i))?n(s):(e.enter(`characterReferenceMarker`),e.consume(s),e.exit(`characterReferenceMarker`),e.exit(`characterReference`),t)}return o(s)&&i++<a?(e.consume(s),u):n(s)}}var $6={partial:!0,tokenize:bPe};function bPe(e,t,n){let r=this;return i;function i(t){return t===null?n(t):(e.enter(`lineEnding`),e.consume(t),e.exit(`lineEnding`),a)}function a(e){return r.parser.lazy[r.now().line]?n(e):t(e)}}var e8={concrete:!0,name:`codeFenced`,tokenize:xPe};function xPe(e,t,n){let r=this,i={partial:!0,tokenize:x},a=0,o=0,s;return c;function c(e){return l(e)}function l(t){let n=r.events[r.events.length-1];return a=n&&n[1].type===`linePrefix`?n[2].sliceSerialize(n[1],!0).length:0,s=t,e.enter(`codeFenced`),e.enter(`codeFencedFence`),e.enter(`codeFencedFenceSequence`),u(t)}function u(t){return t===s?(o++,e.consume(t),u):o<3?n(t):(e.exit(`codeFencedFenceSequence`),F6(t)?B6(e,d,`whitespace`)(t):d(t))}function d(n){return n===null||N6(n)?(e.exit(`codeFencedFence`),r.interrupt?t(n):e.check($6,h,b)(n)):(e.enter(`codeFencedFenceInfo`),e.enter(`chunkString`,{contentType:`string`}),f(n))}function f(t){return t===null||N6(t)?(e.exit(`chunkString`),e.exit(`codeFencedFenceInfo`),d(t)):F6(t)?(e.exit(`chunkString`),e.exit(`codeFencedFenceInfo`),B6(e,p,`whitespace`)(t)):t===96&&t===s?n(t):(e.consume(t),f)}function p(t){return t===null||N6(t)?d(t):(e.enter(`codeFencedFenceMeta`),e.enter(`chunkString`,{contentType:`string`}),m(t))}function m(t){return t===null||N6(t)?(e.exit(`chunkString`),e.exit(`codeFencedFenceMeta`),d(t)):t===96&&t===s?n(t):(e.consume(t),m)}function h(t){return e.attempt(i,b,g)(t)}function g(t){return e.enter(`lineEnding`),e.consume(t),e.exit(`lineEnding`),_}function _(t){return a>0&&F6(t)?B6(e,v,`linePrefix`,a+1)(t):v(t)}function v(t){return t===null||N6(t)?e.check($6,h,b)(t):(e.enter(`codeFlowValue`),y(t))}function y(t){return t===null||N6(t)?(e.exit(`codeFlowValue`),v(t)):(e.consume(t),y)}function b(n){return e.exit(`codeFenced`),t(n)}function x(e,t,n){let i=0;return a;function a(t){return e.enter(`lineEnding`),e.consume(t),e.exit(`lineEnding`),c}function c(t){return e.enter(`codeFencedFence`),F6(t)?B6(e,l,`linePrefix`,r.parser.constructs.disable.null.includes(`codeIndented`)?void 0:4)(t):l(t)}function l(t){return t===s?(e.enter(`codeFencedFenceSequence`),u(t)):n(t)}function u(t){return t===s?(i++,e.consume(t),u):i>=o?(e.exit(`codeFencedFenceSequence`),F6(t)?B6(e,d,`whitespace`)(t):d(t)):n(t)}function d(r){return r===null||N6(r)?(e.exit(`codeFencedFence`),t(r)):n(r)}}}var t8={name:`codeIndented`,tokenize:CPe},SPe={partial:!0,tokenize:wPe};function CPe(e,t,n){return r;function r(t){return e.enter(`codeIndented`),V6(e,i,n,`linePrefix`,4,4)(t)}function i(t){return t===null?o(t):N6(t)?e.attempt(SPe,i,o)(t):(e.enter(`codeFlowValue`),a(t))}function a(t){return t===null||N6(t)?(e.exit(`codeFlowValue`),i(t)):(e.consume(t),a)}function o(n){return e.exit(`codeIndented`),t(n)}}function wPe(e,t,n){let r=this;return i;function i(o){return r.parser.lazy[r.now().line]?n(o):N6(o)?(e.enter(`lineEnding`),e.consume(o),e.exit(`lineEnding`),i):V6(e,t,a,`linePrefix`,4,4)(o)}function a(e){return N6(e)?i(e):n(e)}}var TPe={name:`codeText`,previous:DPe,resolve:EPe,tokenize:OPe};function EPe(e){let t=e.length-4,n=3,r,i;if((e[n][1].type===`lineEnding`||e[n][1].type===`space`)&&(e[t][1].type===`lineEnding`||e[t][1].type===`space`)){for(r=n;++r<t;)if(e[r][1].type===`codeTextData`){e[n][1].type=`codeTextPadding`,e[t][1].type=`codeTextPadding`,n+=2,t-=2;break}}for(r=n-1,t++;++r<=t;)i===void 0?r!==t&&e[r][1].type!==`lineEnding`&&(i=r):(r===t||e[r][1].type===`lineEnding`)&&(e[i][1].type=`codeTextData`,r!==i+2&&(e[i][1].end=e[r-1][1].end,e.splice(i+2,r-i-2),t-=r-i-2,r=i+2),i=void 0);return e}function DPe(e){return e!==96||this.events[this.events.length-1][1].type===`characterEscape`}function OPe(e,t,n){let r=0,i,a;return o;function o(t){return e.enter(`codeText`),e.enter(`codeTextSequence`),s(t)}function s(t){return t===96?(e.consume(t),r++,s):(e.exit(`codeTextSequence`),c(t))}function c(t){return t===null?n(t):t===32?(e.enter(`space`),e.consume(t),e.exit(`space`),c):t===96?(a=e.enter(`codeTextSequence`),i=0,u(t)):N6(t)?(e.enter(`lineEnding`),e.consume(t),e.exit(`lineEnding`),c):(e.enter(`codeTextData`),l(t))}function l(t){return t===null||t===32||t===96||N6(t)?(e.exit(`codeTextData`),c(t)):(e.consume(t),l)}function u(n){return n===96?(e.consume(n),i++,u):i===r?(e.exit(`codeTextSequence`),e.exit(`codeText`),t(n)):(a.type=`codeTextData`,l(n))}}var kPe=class{constructor(e){this.left=e?[...e]:[],this.right=[]}get(e){if(e<0||e>=this.left.length+this.right.length)throw RangeError("Cannot access index `"+e+"` in a splice buffer of size `"+(this.left.length+this.right.length)+"`");return e<this.left.length?this.left[e]:this.right[this.right.length-e+this.left.length-1]}get length(){return this.left.length+this.right.length}shift(){return this.setCursor(0),this.right.pop()}slice(e,t){let n=t??1/0;return n<this.left.length?this.left.slice(e,n):e>this.left.length?this.right.slice(this.right.length-n+this.left.length,this.right.length-e+this.left.length).reverse():this.left.slice(e).concat(this.right.slice(this.right.length-n+this.left.length).reverse())}splice(e,t,n){let r=t||0;this.setCursor(Math.trunc(e));let i=this.right.splice(this.right.length-r,1/0);return n&&n8(this.left,n),i.reverse()}pop(){return this.setCursor(1/0),this.left.pop()}push(e){this.setCursor(1/0),this.left.push(e)}pushMany(e){this.setCursor(1/0),n8(this.left,e)}unshift(e){this.setCursor(0),this.right.push(e)}unshiftMany(e){this.setCursor(0),n8(this.right,e.reverse())}setCursor(e){if(!(e===this.left.length||e>this.left.length&&this.right.length===0||e<0&&this.left.length===0))if(e<this.left.length){let t=this.left.splice(e,1/0);n8(this.right,t.reverse())}else{let t=this.right.splice(this.left.length+this.right.length-e,1/0);n8(this.left,t.reverse())}}};function n8(e,t){let n=0;if(t.length<1e4)e.push(...t);else for(;n<t.length;)e.push(...t.slice(n,n+1e4)),n+=1e4}function r8(e){let t={},n=-1,r,i,a,o,s,c,l,u=new kPe(e);for(;++n<u.length;){for(;n in t;)n=t[n];if(r=u.get(n),n&&r[1].type===`chunkFlow`&&u.get(n-1)[1].type===`listItemPrefix`&&(c=r[1]._tokenizer.events,a=0,a<c.length&&c[a][1].type===`lineEndingBlank`&&(a+=2),a<c.length&&c[a][1].type===`content`))for(;++a<c.length&&c[a][1].type!==`content`;)c[a][1].type===`chunkText`&&(c[a][1]._isInFirstContentOfListItem=!0,a++);if(r[0]===`enter`)r[1].contentType&&(Object.assign(t,APe(u,n)),n=t[n],l=!0);else if(r[1]._container){for(a=n,i=void 0;a--;)if(o=u.get(a),o[1].type===`lineEnding`||o[1].type===`lineEndingBlank`)o[0]===`enter`&&(i&&(u.get(i)[1].type=`lineEndingBlank`),o[1].type=`lineEnding`,i=a);else if(o[1].type!==`linePrefix`&&o[1].type!==`listItemIndent`)break;i&&(r[1].end={...u.get(i)[1].start},s=u.slice(i,n),s.unshift(r),u.splice(i,n-i+1,s))}}return S6(e,0,1/0,u.slice(0)),!l}function APe(e,t){let n=e.get(t)[1],r=e.get(t)[2],i=t-1,a=[],o=n._tokenizer;o||(o=r.parser[n.contentType](n.start),n._contentTypeTextTrailing&&(o._contentTypeTextTrailing=!0));let s=o.events,c=[],l={},u,d,f=-1,p=n,m=0,h=0,g=[h];for(;p;){for(;e.get(++i)[1]!==p;);a.push(i),p._tokenizer||(u=r.sliceStream(p),p.next||u.push(null),d&&o.defineSkip(p.start),p._isInFirstContentOfListItem&&(o._gfmTasklistFirstContentOfListItem=!0),o.write(u),p._isInFirstContentOfListItem&&(o._gfmTasklistFirstContentOfListItem=void 0)),d=p,p=p.next}for(p=n;++f<s.length;)s[f][0]===`exit`&&s[f-1][0]===`enter`&&s[f][1].type===s[f-1][1].type&&s[f][1].start.line!==s[f][1].end.line&&(h=f+1,g.push(h),p._tokenizer=void 0,p.previous=void 0,p=p.next);for(o.events=[],p?(p._tokenizer=void 0,p.previous=void 0):g.pop(),f=g.length;f--;){let t=s.slice(g[f],g[f+1]),n=a.pop();c.push([n,n+t.length-1]),e.splice(n,2,t)}for(c.reverse(),f=-1;++f<c.length;)l[m+c[f][0]]=m+c[f][1],m+=c[f][1]-c[f][0]-1;return l}var jPe={resolve:NPe,tokenize:PPe},MPe={partial:!0,tokenize:FPe};function NPe(e){return r8(e),e}function PPe(e,t){let n;return r;function r(t){return e.enter(`content`),n=e.enter(`chunkContent`,{contentType:`content`}),i(t)}function i(t){return t===null?a(t):N6(t)?e.check(MPe,o,a)(t):(e.consume(t),i)}function a(n){return e.exit(`chunkContent`),e.exit(`content`),t(n)}function o(t){return e.consume(t),e.exit(`chunkContent`),n.next=e.enter(`chunkContent`,{contentType:`content`,previous:n}),n=n.next,i}}function FPe(e,t,n){let r=this;return i;function i(t){return e.exit(`chunkContent`),e.enter(`lineEnding`),e.consume(t),e.exit(`lineEnding`),B6(e,a,`linePrefix`)}function a(i){if(i===null||N6(i))return n(i);let a=r.events[r.events.length-1];return!r.parser.constructs.disable.null.includes(`codeIndented`)&&a&&a[1].type===`linePrefix`&&a[2].sliceSerialize(a[1],!0).length>=4?t(i):e.interrupt(r.parser.constructs.flow,n,t)(i)}}function i8(e,t,n,r,i,a,o,s,c){let l=c||1/0,u=0;return d;function d(t){return t===60?(e.enter(r),e.enter(i),e.enter(a),e.consume(t),e.exit(a),f):t===null||t===32||t===41||A6(t)?n(t):(e.enter(r),e.enter(o),e.enter(s),e.enter(`chunkString`,{contentType:`string`}),h(t))}function f(n){return n===62?(e.enter(a),e.consume(n),e.exit(a),e.exit(i),e.exit(r),t):(e.enter(s),e.enter(`chunkString`,{contentType:`string`}),p(n))}function p(t){return t===62?(e.exit(`chunkString`),e.exit(s),f(t)):t===null||t===60||N6(t)?n(t):(e.consume(t),t===92?m:p)}function m(t){return t===60||t===62||t===92?(e.consume(t),p):p(t)}function h(i){return!u&&(i===null||i===41||P6(i))?(e.exit(`chunkString`),e.exit(s),e.exit(o),e.exit(r),t(i)):u<l&&i===40?(e.consume(i),u++,h):i===41?(e.consume(i),u--,h):i===null||i===32||i===40||A6(i)?n(i):(e.consume(i),i===92?g:h)}function g(t){return t===40||t===41||t===92?(e.consume(t),h):h(t)}}function a8(e,t,n,r,i,a){let o=this,s=0,c;return l;function l(t){return e.enter(r),e.enter(i),e.consume(t),e.exit(i),e.enter(a),u}function u(l){return s>999||l===null||l===91||l===93&&!c||l===94&&!s&&`_hiddenFootnoteSupport`in o.parser.constructs?n(l):l===93?(e.exit(a),e.enter(i),e.consume(l),e.exit(i),e.exit(r),t):N6(l)?(e.enter(`lineEnding`),e.consume(l),e.exit(`lineEnding`),u):(e.enter(`chunkString`,{contentType:`string`}),d(l))}function d(t){return t===null||t===91||t===93||N6(t)||s++>999?(e.exit(`chunkString`),u(t)):(e.consume(t),c||=!F6(t),t===92?f:d)}function f(t){return t===91||t===92||t===93?(e.consume(t),s++,d):d(t)}}function o8(e,t,n,r,i,a){let o;return s;function s(t){return t===34||t===39||t===40?(e.enter(r),e.enter(i),e.consume(t),e.exit(i),o=t===40?41:t,c):n(t)}function c(n){return n===o?(e.enter(i),e.consume(n),e.exit(i),e.exit(r),t):(e.enter(a),l(n))}function l(t){return t===o?(e.exit(a),c(o)):t===null?n(t):N6(t)?(e.enter(`lineEnding`),e.consume(t),e.exit(`lineEnding`),B6(e,l,`linePrefix`)):(e.enter(`chunkString`,{contentType:`string`}),u(t))}function u(t){return t===o||t===null||N6(t)?(e.exit(`chunkString`),l(t)):(e.consume(t),t===92?d:u)}function d(t){return t===o||t===92?(e.consume(t),u):u(t)}}function s8(e,t){let n;return r;function r(i){return N6(i)?(e.enter(`lineEnding`),e.consume(i),e.exit(`lineEnding`),n=!0,r):F6(i)?B6(e,r,n?`linePrefix`:`lineSuffix`)(i):t(i)}}var IPe={name:`definition`,tokenize:RPe},LPe={partial:!0,tokenize:zPe};function RPe(e,t,n){let r=this,i;return a;function a(t){return e.enter(`definition`),o(t)}function o(t){return a8.call(r,e,s,n,`definitionLabel`,`definitionLabelMarker`,`definitionLabelString`)(t)}function s(t){return i=D6(r.sliceSerialize(r.events[r.events.length-1][1]).slice(1,-1)),t===58?(e.enter(`definitionMarker`),e.consume(t),e.exit(`definitionMarker`),c):n(t)}function c(t){return P6(t)?s8(e,l)(t):l(t)}function l(t){return i8(e,u,n,`definitionDestination`,`definitionDestinationLiteral`,`definitionDestinationLiteralMarker`,`definitionDestinationRaw`,`definitionDestinationString`)(t)}function u(t){return e.attempt(LPe,d,d)(t)}function d(t){return F6(t)?B6(e,f,`whitespace`)(t):f(t)}function f(a){return a===null||N6(a)?(e.exit(`definition`),r.parser.defined.push(i),t(a)):n(a)}}function zPe(e,t,n){return r;function r(t){return P6(t)?s8(e,i)(t):n(t)}function i(t){return o8(e,a,n,`definitionTitle`,`definitionTitleMarker`,`definitionTitleString`)(t)}function a(t){return F6(t)?B6(e,o,`whitespace`)(t):o(t)}function o(e){return e===null||N6(e)?t(e):n(e)}}var BPe={name:`hardBreakEscape`,tokenize:VPe};function VPe(e,t,n){return r;function r(t){return e.enter(`hardBreakEscape`),e.consume(t),i}function i(r){return N6(r)?(e.exit(`hardBreakEscape`),t(r)):n(r)}}var HPe={name:`headingAtx`,resolve:UPe,tokenize:WPe};function UPe(e,t){let n=e.length-2,r=3;if(e[r][1].type===`whitespace`&&(r+=2),n-2>r&&e[n][1].type===`whitespace`&&(n-=2),e[n][1].type===`atxHeadingSequence`&&(r===n-1||n-4>r&&e[n-2][1].type===`whitespace`)&&(n-=r+1===n?2:4),n>r){let i={type:`atxHeadingText`,start:e[r][1].start,end:e[n][1].end},a={type:`chunkText`,start:e[r][1].start,end:e[n][1].end,contentType:`text`};S6(e,r,n-r+1,[[`enter`,i,t],[`enter`,a,t],[`exit`,a,t],[`exit`,i,t]])}return e}function WPe(e,t,n){let r=0;return i;function i(t){return e.enter(`atxHeading`),a(t)}function a(t){return e.enter(`atxHeadingSequence`),o(t)}function o(t){return t===35&&r++<6?(e.consume(t),o):t===null||P6(t)?(e.exit(`atxHeadingSequence`),s(t)):n(t)}function s(n){return n===35?(e.enter(`atxHeadingSequence`),c(n)):n===null||N6(n)?(e.exit(`atxHeading`),t(n)):F6(n)?B6(e,s,`whitespace`)(n):(e.enter(`atxHeadingText`),l(n))}function c(t){return t===35?(e.consume(t),c):(e.exit(`atxHeadingSequence`),s(t))}function l(t){return t===null||t===35||P6(t)?(e.exit(`atxHeadingText`),s(t)):(e.consume(t),l)}}var c8=`address.article.aside.base.basefont.blockquote.body.caption.center.col.colgroup.dd.details.dialog.dir.div.dl.dt.fieldset.figcaption.figure.footer.form.frame.frameset.h1.h2.h3.h4.h5.h6.head.header.hr.html.iframe.legend.li.link.main.menu.menuitem.nav.noframes.ol.optgroup.option.p.param.search.section.summary.table.tbody.td.tfoot.th.thead.title.tr.track.ul`.split(`.`),l8=[`pre`,`script`,`style`,`textarea`],GPe={concrete:!0,name:`htmlFlow`,resolveTo:qPe,tokenize:JPe},KPe={partial:!0,tokenize:YPe};function qPe(e){let t=e.length;for(;t--&&(e[t][0]!==`enter`||e[t][1].type!==`htmlFlow`););return t>1&&e[t-2][1].type===`linePrefix`&&(e[t][1].start=e[t-2][1].start,e[t+1][1].start=e[t-2][1].start,e.splice(t-2,2)),e}function JPe(e,t,n){let r=this,i,a,o,s,c;return l;function l(e){return u(e)}function u(t){return e.enter(`htmlFlow`),e.enter(`htmlFlowData`),e.consume(t),d}function d(s){return s===33?(e.consume(s),f):s===47?(e.consume(s),a=!0,h):s===63?(e.consume(s),i=3,r.interrupt?t:I):O6(s)?(e.consume(s),o=String.fromCharCode(s),g):n(s)}function f(a){return a===45?(e.consume(a),i=2,p):a===91?(e.consume(a),i=5,s=0,m):O6(a)?(e.consume(a),i=4,r.interrupt?t:I):n(a)}function p(i){return i===45?(e.consume(i),r.interrupt?t:I):n(i)}function m(i){return i===`CDATA[`.charCodeAt(s++)?(e.consume(i),s===6?r.interrupt?t:O:m):n(i)}function h(t){return O6(t)?(e.consume(t),o=String.fromCharCode(t),g):n(t)}function g(s){if(s===null||s===47||s===62||P6(s)){let c=s===47,l=o.toLowerCase();return!c&&!a&&l8.includes(l)?(i=1,r.interrupt?t(s):O(s)):c8.includes(o.toLowerCase())?(i=6,c?(e.consume(s),_):r.interrupt?t(s):O(s)):(i=7,r.interrupt&&!r.parser.lazy[r.now().line]?n(s):a?v(s):y(s))}return s===45||k6(s)?(e.consume(s),o+=String.fromCharCode(s),g):n(s)}function _(i){return i===62?(e.consume(i),r.interrupt?t:O):n(i)}function v(t){return F6(t)?(e.consume(t),v):E(t)}function y(t){return t===47?(e.consume(t),E):t===58||t===95||O6(t)?(e.consume(t),b):F6(t)?(e.consume(t),y):E(t)}function b(t){return t===45||t===46||t===58||t===95||k6(t)?(e.consume(t),b):x(t)}function x(t){return t===61?(e.consume(t),S):F6(t)?(e.consume(t),x):y(t)}function S(t){return t===null||t===60||t===61||t===62||t===96?n(t):t===34||t===39?(e.consume(t),c=t,C):F6(t)?(e.consume(t),S):w(t)}function C(t){return t===c?(e.consume(t),c=null,T):t===null||N6(t)?n(t):(e.consume(t),C)}function w(t){return t===null||t===34||t===39||t===47||t===60||t===61||t===62||t===96||P6(t)?x(t):(e.consume(t),w)}function T(e){return e===47||e===62||F6(e)?y(e):n(e)}function E(t){return t===62?(e.consume(t),D):n(t)}function D(t){return t===null||N6(t)?O(t):F6(t)?(e.consume(t),D):n(t)}function O(t){return t===45&&i===2?(e.consume(t),M):t===60&&i===1?(e.consume(t),N):t===62&&i===4?(e.consume(t),L):t===63&&i===3?(e.consume(t),I):t===93&&i===5?(e.consume(t),F):N6(t)&&(i===6||i===7)?(e.exit(`htmlFlowData`),e.check(KPe,R,k)(t)):t===null||N6(t)?(e.exit(`htmlFlowData`),k(t)):(e.consume(t),O)}function k(t){return e.check($6,A,R)(t)}function A(t){return e.enter(`lineEnding`),e.consume(t),e.exit(`lineEnding`),j}function j(t){return t===null||N6(t)?k(t):(e.enter(`htmlFlowData`),O(t))}function M(t){return t===45?(e.consume(t),I):O(t)}function N(t){return t===47?(e.consume(t),o=``,P):O(t)}function P(t){if(t===62){let n=o.toLowerCase();return l8.includes(n)?(e.consume(t),L):O(t)}return O6(t)&&o.length<8?(e.consume(t),o+=String.fromCharCode(t),P):O(t)}function F(t){return t===93?(e.consume(t),I):O(t)}function I(t){return t===62?(e.consume(t),L):t===45&&i===2?(e.consume(t),I):O(t)}function L(t){return t===null||N6(t)?(e.exit(`htmlFlowData`),R(t)):(e.consume(t),L)}function R(n){return e.exit(`htmlFlow`),t(n)}}function YPe(e,t,n){return r;function r(r){return e.enter(`lineEnding`),e.consume(r),e.exit(`lineEnding`),e.attempt(Y6,t,n)}}var XPe={name:`htmlText`,tokenize:ZPe};function ZPe(e,t,n){let r=this,i,a,o;return s;function s(t){return e.enter(`htmlText`),e.enter(`htmlTextData`),e.consume(t),c}function c(t){return t===33?(e.consume(t),l):t===47?(e.consume(t),x):t===63?(e.consume(t),y):O6(t)?(e.consume(t),w):n(t)}function l(t){return t===45?(e.consume(t),u):t===91?(e.consume(t),a=0,m):O6(t)?(e.consume(t),v):n(t)}function u(t){return t===45?(e.consume(t),p):n(t)}function d(t){return t===null?n(t):t===45?(e.consume(t),f):N6(t)?(o=d,N(t)):(e.consume(t),d)}function f(t){return t===45?(e.consume(t),p):d(t)}function p(e){return e===62?M(e):e===45?f(e):d(e)}function m(t){return t===`CDATA[`.charCodeAt(a++)?(e.consume(t),a===6?h:m):n(t)}function h(t){return t===null?n(t):t===93?(e.consume(t),g):N6(t)?(o=h,N(t)):(e.consume(t),h)}function g(t){return t===93?(e.consume(t),_):h(t)}function _(t){return t===62?M(t):t===93?(e.consume(t),_):h(t)}function v(t){return t===null||t===62?M(t):N6(t)?(o=v,N(t)):(e.consume(t),v)}function y(t){return t===null?n(t):t===63?(e.consume(t),b):N6(t)?(o=y,N(t)):(e.consume(t),y)}function b(e){return e===62?M(e):y(e)}function x(t){return O6(t)?(e.consume(t),S):n(t)}function S(t){return t===45||k6(t)?(e.consume(t),S):C(t)}function C(t){return N6(t)?(o=C,N(t)):F6(t)?(e.consume(t),C):M(t)}function w(t){return t===45||k6(t)?(e.consume(t),w):t===47||t===62||P6(t)?T(t):n(t)}function T(t){return t===47?(e.consume(t),M):t===58||t===95||O6(t)?(e.consume(t),E):N6(t)?(o=T,N(t)):F6(t)?(e.consume(t),T):M(t)}function E(t){return t===45||t===46||t===58||t===95||k6(t)?(e.consume(t),E):D(t)}function D(t){return t===61?(e.consume(t),O):N6(t)?(o=D,N(t)):F6(t)?(e.consume(t),D):T(t)}function O(t){return t===null||t===60||t===61||t===62||t===96?n(t):t===34||t===39?(e.consume(t),i=t,k):N6(t)?(o=O,N(t)):F6(t)?(e.consume(t),O):(e.consume(t),A)}function k(t){return t===i?(e.consume(t),i=void 0,j):t===null?n(t):N6(t)?(o=k,N(t)):(e.consume(t),k)}function A(t){return t===null||t===34||t===39||t===60||t===61||t===96?n(t):t===47||t===62||P6(t)?T(t):(e.consume(t),A)}function j(e){return e===47||e===62||P6(e)?T(e):n(e)}function M(r){return r===62?(e.consume(r),e.exit(`htmlTextData`),e.exit(`htmlText`),t):n(r)}function N(t){return e.exit(`htmlTextData`),e.enter(`lineEnding`),e.consume(t),e.exit(`lineEnding`),P}function P(t){return F6(t)?B6(e,F,`linePrefix`,r.parser.constructs.disable.null.includes(`codeIndented`)?void 0:4)(t):F(t)}function F(t){return e.enter(`htmlTextData`),o(t)}}var u8={name:`labelEnd`,resolveAll:tFe,resolveTo:nFe,tokenize:rFe},QPe={tokenize:iFe},$Pe={tokenize:aFe},eFe={tokenize:oFe};function tFe(e){let t=-1,n=[];for(;++t<e.length;){let r=e[t][1];if(n.push(e[t]),r.type===`labelImage`||r.type===`labelLink`||r.type===`labelEnd`){let e=r.type===`labelImage`?4:2;r.type=`data`,t+=e}}return e.length!==n.length&&S6(e,0,e.length,n),e}function nFe(e,t){let n=e.length,r=0,i,a,o;for(;n--;){let t=e[n][1];if(i){if(t.type===`link`||t.type===`labelLink`&&t._inactive)break;e[n][0]===`enter`&&t.type===`labelLink`&&(t._inactive=!0)}else if(a){if(e[n][0]===`enter`&&(t.type===`labelImage`||t.type===`labelLink`)&&!t._balanced&&(i=n,t.type!==`labelLink`)){r=2;break}}else t.type===`labelEnd`&&(a=n)}let s={type:e[i][1].type===`labelLink`?`link`:`image`,start:{...e[i][1].start},end:{...e[e.length-1][1].end}},c={type:`label`,start:{...e[i][1].start},end:{...e[a][1].end}},l={type:`labelText`,start:{...e[i+r+2][1].end},end:{...e[a-2][1].start}};return o=[[`enter`,s,t],[`enter`,c,t]],o=C6(o,e.slice(i+1,i+r+3)),o=C6(o,[[`enter`,l,t]]),o=C6(o,K6(t.parser.constructs.insideSpan.null,e.slice(i+r+4,a-3),t)),o=C6(o,[[`exit`,l,t],e[a-2],e[a-1],[`exit`,c,t]]),o=C6(o,e.slice(a+1)),o=C6(o,[[`exit`,s,t]]),S6(e,i,e.length,o),e}function rFe(e,t,n){let r=this,i=r._labelStarts,a,o;if(i){for(;i.length>0&&i[i.length-1]._balanced;)i.pop();a=i[i.length-1]}return s;function s(t){return a?a._inactive?d(t):(o=r.parser.defined.includes(D6(r.sliceSerialize({start:a.end,end:r.now()}))),e.enter(`labelEnd`),e.enter(`labelMarker`),e.consume(t),e.exit(`labelMarker`),e.exit(`labelEnd`),c):n(t)}function c(t){return t===40?e.attempt(QPe,u,o?u:d)(t):t===91?e.attempt($Pe,u,o?l:d)(t):o?u(t):d(t)}function l(t){return e.attempt(eFe,u,d)(t)}function u(e){return i.pop(),t(e)}function d(e){return a._balanced=!0,n(e)}}function iFe(e,t,n){return r;function r(t){return e.enter(`resource`),e.enter(`resourceMarker`),e.consume(t),e.exit(`resourceMarker`),i}function i(t){return P6(t)?s8(e,a)(t):a(t)}function a(t){return t===41?u(t):i8(e,o,s,`resourceDestination`,`resourceDestinationLiteral`,`resourceDestinationLiteralMarker`,`resourceDestinationRaw`,`resourceDestinationString`,32)(t)}function o(t){return P6(t)?s8(e,c)(t):u(t)}function s(e){return n(e)}function c(t){return t===34||t===39||t===40?o8(e,l,n,`resourceTitle`,`resourceTitleMarker`,`resourceTitleString`)(t):u(t)}function l(t){return P6(t)?s8(e,u)(t):u(t)}function u(r){return r===41?(e.enter(`resourceMarker`),e.consume(r),e.exit(`resourceMarker`),e.exit(`resource`),t):n(r)}}function aFe(e,t,n){let r=this;return i;function i(t){return a8.call(r,e,a,o,`reference`,`referenceMarker`,`referenceString`)(t)}function a(e){return r.parser.defined.includes(D6(r.sliceSerialize(r.events[r.events.length-1][1]).slice(1,-1)))?t(e):n(e)}function o(e){return n(e)}}function oFe(e,t,n){return r;function r(t){return e.enter(`reference`),e.enter(`referenceMarker`),e.consume(t),e.exit(`referenceMarker`),i}function i(r){return r===93?(e.enter(`referenceMarker`),e.consume(r),e.exit(`referenceMarker`),e.exit(`reference`),t):n(r)}}var sFe={name:`labelStartImage`,resolveAll:u8.resolveAll,tokenize:cFe};function cFe(e,t,n){let r=this,i;return a;function a(t){return e.enter(`labelImage`),e.enter(`labelImageMarker`),e.consume(t),e.exit(`labelImageMarker`),o}function o(t){return t===91?(e.enter(`labelMarker`),e.consume(t),e.exit(`labelMarker`),i=e.exit(`labelImage`),s):n(t)}function s(e){return e===94&&`_hiddenFootnoteSupport`in r.parser.constructs?n(e):(r._labelStarts=r._labelStarts||[],r._labelStarts.push(i),t(e))}}var lFe={name:`labelStartLink`,resolveAll:u8.resolveAll,tokenize:uFe};function uFe(e,t,n){let r=this,i;return a;function a(t){return e.enter(`labelLink`),e.enter(`labelMarker`),e.consume(t),e.exit(`labelMarker`),i=e.exit(`labelLink`),o}function o(e){return e===94&&`_hiddenFootnoteSupport`in r.parser.constructs?n(e):(r._labelStarts=r._labelStarts||[],r._labelStarts.push(i),t(e))}}var d8={name:`lineEnding`,tokenize:dFe};function dFe(e,t){return n;function n(n){return e.enter(`lineEnding`),e.consume(n),e.exit(`lineEnding`),B6(e,t,`linePrefix`)}}var f8={name:`thematicBreak`,tokenize:fFe};function fFe(e,t,n){let r=0,i;return a;function a(t){return e.enter(`thematicBreak`),o(t)}function o(e){return i=e,s(e)}function s(a){return a===i?(e.enter(`thematicBreakSequence`),c(a)):r>=3&&(a===null||N6(a))?(e.exit(`thematicBreak`),t(a)):n(a)}function c(t){return t===i?(e.consume(t),r++,c):(e.exit(`thematicBreakSequence`),F6(t)?B6(e,s,`whitespace`)(t):s(t))}}var p8={continuation:{tokenize:gFe},exit:vFe,name:`list`,tokenize:hFe},pFe={partial:!0,tokenize:yFe},mFe={partial:!0,tokenize:_Fe};function hFe(e,t,n){let r=this,i=r.events[r.events.length-1],a=i&&i[1].type===`linePrefix`?i[2].sliceSerialize(i[1],!0).length:0,o=0;return s;function s(t){let i=r.containerState.type||(t===42||t===43||t===45?`listUnordered`:`listOrdered`);if(i===`listUnordered`?!r.containerState.marker||t===r.containerState.marker:j6(t)){if(r.containerState.type||(r.containerState.type=i,e.enter(i,{_container:!0})),i===`listUnordered`)return e.enter(`listItemPrefix`),t===42||t===45?e.check(f8,n,l)(t):l(t);if(!r.interrupt||t===49)return e.enter(`listItemPrefix`),e.enter(`listItemValue`),c(t)}return n(t)}function c(t){return j6(t)&&++o<10?(e.consume(t),c):(!r.interrupt||o<2)&&(r.containerState.marker?t===r.containerState.marker:t===41||t===46)?(e.exit(`listItemValue`),l(t)):n(t)}function l(t){return e.enter(`listItemMarker`),e.consume(t),e.exit(`listItemMarker`),r.containerState.marker=r.containerState.marker||t,e.check(Y6,r.interrupt?n:u,e.attempt(pFe,f,d))}function u(e){return r.containerState.initialBlankLine=!0,a++,f(e)}function d(t){return F6(t)?(e.enter(`listItemPrefixWhitespace`),e.consume(t),e.exit(`listItemPrefixWhitespace`),f):n(t)}function f(n){return r.containerState.size=a+r.sliceSerialize(e.exit(`listItemPrefix`),!0).length,t(n)}}function gFe(e,t,n){let r=this;return r.containerState._closeFlow=void 0,e.check(Y6,i,a);function i(n){return r.containerState.furtherBlankLines=r.containerState.furtherBlankLines||r.containerState.initialBlankLine,B6(e,t,`listItemIndent`,r.containerState.size+1)(n)}function a(n){return r.containerState.furtherBlankLines||!F6(n)?(r.containerState.furtherBlankLines=void 0,r.containerState.initialBlankLine=void 0,o(n)):(r.containerState.furtherBlankLines=void 0,r.containerState.initialBlankLine=void 0,e.attempt(mFe,t,o)(n))}function o(i){return r.containerState._closeFlow=!0,r.interrupt=void 0,B6(e,e.attempt(p8,t,n),`linePrefix`,r.parser.constructs.disable.null.includes(`codeIndented`)?void 0:4)(i)}}function _Fe(e,t,n){let r=this;return B6(e,i,`listItemIndent`,r.containerState.size+1);function i(e){let i=r.events[r.events.length-1];return i&&i[1].type===`listItemIndent`&&i[2].sliceSerialize(i[1],!0).length===r.containerState.size?t(e):n(e)}}function vFe(e){e.exit(this.containerState.type)}function yFe(e,t,n){let r=this;return B6(e,i,`listItemPrefixWhitespace`,r.parser.constructs.disable.null.includes(`codeIndented`)?void 0:5);function i(e){let i=r.events[r.events.length-1];return!F6(e)&&i&&i[1].type===`listItemPrefixWhitespace`?t(e):n(e)}}var m8={name:`setextUnderline`,resolveTo:bFe,tokenize:xFe};function bFe(e,t){let n=new H6,r=e.length,i,a,o;for(;r--;)if(e[r][0]===`enter`){if(e[r][1].type===`content`){i=r;break}e[r][1].type===`paragraph`&&(a=r)}else e[r][1].type===`content`&&n.add(r,1,[]),!o&&e[r][1].type===`definition`&&(o=r);let s={type:`setextHeading`,start:{...e[i][1].start},end:{...e[e.length-1][1].end}};return e[a][1].type=`setextHeadingText`,o?(n.add(a,0,[[`enter`,s,t]]),n.add(o+1,0,[[`exit`,e[i][1],t]]),e[i][1].end={...e[o][1].end}):e[i][1]=s,n.add(e.length,0,[[`exit`,s,t]]),n.consume(e),e}function xFe(e,t,n){let r=this,i;return a;function a(t){let a=r.events.length,s;for(;a--;)if(r.events[a][1].type!==`lineEnding`&&r.events[a][1].type!==`linePrefix`&&r.events[a][1].type!==`content`){s=r.events[a][1].type===`paragraph`;break}return!r.parser.lazy[r.now().line]&&(r.interrupt||s)?(e.enter(`setextHeadingLine`),i=t,o(t)):n(t)}function o(t){return e.enter(`setextHeadingLineSequence`),s(t)}function s(t){return t===i?(e.consume(t),s):(e.exit(`setextHeadingLineSequence`),F6(t)?B6(e,c,`lineSuffix`)(t):c(t))}function c(r){return r===null||N6(r)?(e.exit(`setextHeadingLine`),t(r)):n(r)}}var SFe={tokenize:CFe};function CFe(e){let t=this,n=e.attempt(Y6,r,e.attempt(this.parser.constructs.flowInitial,i,B6(e,e.attempt(this.parser.constructs.flow,i,e.attempt(jPe,i)),`linePrefix`)));return n;function r(r){if(r===null){e.consume(r);return}return e.enter(`lineEndingBlank`),e.consume(r),e.exit(`lineEndingBlank`),t.currentConstruct=void 0,n}function i(r){if(r===null){e.consume(r);return}return e.enter(`lineEnding`),e.consume(r),e.exit(`lineEnding`),t.currentConstruct=void 0,n}}var wFe={resolveAll:g8()},TFe=h8(`string`),EFe=h8(`text`);function h8(e){return{resolveAll:g8(e===`text`?DFe:void 0),tokenize:t};function t(t){let n=this,r=this.parser.constructs[e],i=t.attempt(r,a,o);return a;function a(e){return c(e)?i(e):o(e)}function o(e){if(e===null){t.consume(e);return}return t.enter(`data`),t.consume(e),s}function s(e){return c(e)?(t.exit(`data`),i(e)):(t.consume(e),s)}function c(e){if(e===null)return!0;let t=r[e],i=-1;if(t)for(;++i<t.length;){let e=t[i];if(!e.previous||e.previous.call(n,n.previous))return!0}return!1}}}function g8(e){return t;function t(t,n){let r=-1,i;for(;++r<=t.length;)i===void 0?t[r]&&t[r][1].type===`data`&&(i=r,r++):(!t[r]||t[r][1].type!==`data`)&&(r!==i+2&&(t[i][1].end=t[r-1][1].end,t.splice(i+2,r-i-2),r=i+2),i=void 0);return e?e(t,n):t}}function DFe(e,t){let n=new H6,r=0;for(;++r<=e.length;)if((r===e.length||e[r][1].type===`lineEnding`)&&e[r-1][1].type===`data`){let i=e[r-1][1],a=t.sliceStream(i),o=a.length,s=-1,c=0,l;for(;o--;){let e=a[o];if(typeof e==`string`){for(s=e.length;e.charCodeAt(s-1)===32;)c++,s--;if(s)break;s=-1}else if(e===-2)l=!0,c++;else if(e!==-1){o++;break}}if(t._contentTypeTextTrailing&&r===e.length&&(c=0),c){let a={type:r===e.length||l||c<2?`lineSuffix`:`hardBreakTrailing`,start:{_bufferIndex:o?s:i.start._bufferIndex+s,_index:i.start._index+o,line:i.end.line,column:i.end.column-c,offset:i.end.offset-c},end:{...i.end}};i.end={...a.start},i.start.offset===i.end.offset?Object.assign(i,a):n.add(r,0,[[`enter`,a,t],[`exit`,a,t]])}r++}return n.consume(e),e}var OFe=s({attentionMarkers:()=>IFe,contentInitial:()=>AFe,disable:()=>LFe,document:()=>kFe,flow:()=>MFe,flowInitial:()=>jFe,insideSpan:()=>FFe,string:()=>NFe,text:()=>PFe}),kFe={42:p8,43:p8,45:p8,48:p8,49:p8,50:p8,51:p8,52:p8,53:p8,54:p8,55:p8,56:p8,57:p8,62:X6},AFe={91:IPe},jFe={[-2]:t8,[-1]:t8,32:t8},MFe={35:HPe,42:f8,45:[m8,f8],60:GPe,61:m8,95:f8,96:e8,126:e8},NFe={38:Q6,92:Z6},PFe={[-5]:d8,[-4]:d8,[-3]:d8,33:sFe,38:Q6,42:q6,60:[fPe,XPe],91:lFe,92:[BPe,Z6],93:u8,95:q6,96:TPe},FFe={null:[q6,wFe]},IFe={null:[42,95]},LFe={null:[]};function RFe(e,t,n){let r={_bufferIndex:-1,_index:0,line:n&&n.line||1,column:n&&n.column||1,offset:n&&n.offset||0},i={},a=[],o=[],s=[],c={attempt:C(x),check:C(S),consume:v,enter:y,exit:b,interrupt:C(S,{interrupt:!0})},l={code:null,containerState:{},defineSkip:h,events:[],now:m,parser:e,previous:null,sliceSerialize:f,sliceStream:p,write:d},u=t.tokenize.call(l,c);return t.resolveAll&&a.push(t),l;function d(e){return o=C6(o,e),g(),o[o.length-1]===null?(w(t,0),l.events=K6(a,l.events,l),l.events):[]}function f(e,t){return BFe(p(e),t)}function p(e){return zFe(o,e)}function m(){let{_bufferIndex:e,_index:t,line:n,column:i,offset:a}=r;return{_bufferIndex:e,_index:t,line:n,column:i,offset:a}}function h(e){i[e.line]=e.column,E()}function g(){for(;r._index<o.length;){let e=o[r._index];if(typeof e==`string`){let t=r._index;for(r._bufferIndex<0&&(r._bufferIndex=0);r._index===t&&r._bufferIndex<e.length;)_(e.charCodeAt(r._bufferIndex))}else _(e)}}function _(e){u=u(e)}function v(e){N6(e)?(r.line++,r.column=1,r.offset+=e===-3?2:1,E()):e!==-1&&(r.column++,r.offset++),r._bufferIndex<0?r._index++:(r._bufferIndex++,r._bufferIndex===o[r._index].length&&(r._bufferIndex=-1,r._index++)),l.previous=e}function y(e,t){let n=t||{};return n.type=e,n.start=m(),l.events.push([`enter`,n,l]),s.push(n),n}function b(e){let t=s.pop();return t.end=m(),l.events.push([`exit`,t,l]),t}function x(e,t){w(e,t.from)}function S(e,t){t.restore()}function C(e,t){return n;function n(n,r,i){let a,o,s,u;return Array.isArray(n)?f(n):`tokenize`in n?f([n]):d(n);function d(e){return t;function t(t){let n=t!==null&&e[t],r=t!==null&&e.null;return f([...Array.isArray(n)?n:n?[n]:[],...Array.isArray(r)?r:r?[r]:[]])(t)}}function f(e){return a=e,o=0,e.length===0?i:p(e[o])}function p(e){return n;function n(n){return u=T(),s=e,e.partial||(l.currentConstruct=e),e.name&&l.parser.constructs.disable.null.includes(e.name)?h(n):e.tokenize.call(t?Object.assign(Object.create(l),t):l,c,m,h)(n)}}function m(t){return e(s,u),r}function h(e){return u.restore(),++o<a.length?p(a[o]):i}}}function w(e,t){e.resolveAll&&!a.includes(e)&&a.push(e),e.resolve&&S6(l.events,t,l.events.length-t,e.resolve(l.events.slice(t),l)),e.resolveTo&&(l.events=e.resolveTo(l.events,l))}function T(){let e=m(),t=l.previous,n=l.currentConstruct,i=l.events.length,a=Array.from(s);return{from:i,restore:o};function o(){r=e,l.previous=t,l.currentConstruct=n,l.events.length=i,s=a,E()}}function E(){r.line in i&&r.column<2&&(r.column=i[r.line],r.offset+=i[r.line]-1)}}function zFe(e,t){let n=t.start._index,r=t.start._bufferIndex,i=t.end._index,a=t.end._bufferIndex,o;if(n===i)o=[e[n].slice(r,a)];else{if(o=e.slice(n,i),r>-1){let e=o[0];typeof e==`string`?o[0]=e.slice(r):o.shift()}a>0&&o.push(e[i].slice(0,a))}return o}function BFe(e,t){let n=-1,r=[],i;for(;++n<e.length;){let a=e[n],o;if(typeof a==`string`)o=a;else switch(a){case-5:o=`\r`;break;case-4:o=`
 `;break;case-3:o=`\r
 `;break;case-2:o=t?` `:`	`;break;case-1:if(!t&&i)continue;o=` `;break;default:o=String.fromCharCode(a)}i=a===-2,r.push(o)}return r.join(``)}function VFe(e){let t={constructs:T6([OFe,...(e||{}).extensions||[]]),content:n(aPe),defined:[],document:n(sPe),flow:n(SFe),lazy:{},string:n(TFe),text:n(EFe)};return t;function n(e){return n;function n(n){return RFe(t,e,n)}}}function HFe(e){for(;!r8(e););return e}var _8=/[\0\t\n\r]/g;function UFe(){let e=1,t=``,n=!0,r;return i;function i(i,a,o){i=t+(typeof i==`string`?i.toString():new TextDecoder(a||void 0).decode(i));let s=[],c=0;for(t=``,n&&=(i.charCodeAt(0)===65279&&c++,void 0);c<i.length;){_8.lastIndex=c;let n=_8.exec(i),a=n&&n.index!==void 0?n.index:i.length,o=i.charCodeAt(a);if(!n){t=i.slice(c);break}if(o===10&&c===a&&r)s.push(-3),r=void 0;else switch(r&&=(s.push(-5),void 0),c<a&&(s.push(i.slice(c,a)),e+=a-c),o){case 0:s.push(65533),e++;break;case 9:{let t=Math.ceil(e/4)*4;for(s.push(-2);e++<t;)s.push(-1);break}case 10:s.push(-4),e=1;break;default:r=!0,e=1}c=a+1}return o&&(r&&s.push(-5),t&&s.push(t),s.push(null)),s}}var WFe=/\\([!-/:-@[-`{-~])|&(#(?:\d{1,7}|x[\da-f]{1,6})|[\da-z]{1,31});/gi;function GFe(e){return e.replace(WFe,KFe)}function KFe(e,t,n){if(t)return t;if(n.charCodeAt(0)===35){let e=n.charCodeAt(1),t=e===120||e===88;return E6(n.slice(t?2:1),t?16:10)}return x6(n)||e}var v8={}.hasOwnProperty;function qFe(e,t,n){return t&&typeof t==`object`&&(n=t,t=void 0),JFe(n)(HFe(VFe(n).document().write(UFe()(e,t,!0))))}function JFe(e){let t={afterExit:[],beforeEnter:[],transforms:[],canContainEols:[`emphasis`,`fragment`,`heading`,`paragraph`,`strong`],enter:{autolink:o(ge),autolinkProtocol:E,autolinkEmail:E,atxHeading:o(fe),blockQuote:o(se),characterEscape:E,characterReference:E,codeFenced:o(ce),codeFencedFenceInfo:s,codeFencedFenceMeta:s,codeIndented:o(ce,s),codeText:o(le,s),codeTextData:E,data:E,codeFlowValue:E,definition:o(ue),definitionDestinationString:s,definitionLabelString:s,definitionTitleString:s,emphasis:o(de),hardBreakEscape:o(pe),hardBreakTrailing:o(pe),htmlFlow:o(me,s),htmlFlowData:E,htmlText:o(me,s),htmlTextData:E,image:o(he),label:s,link:o(ge),listItem:o(ve),listItemValue:p,listOrdered:o(_e,f),listUnordered:o(_e),paragraph:o(ye),reference:z,referenceString:s,resourceDestinationString:s,resourceTitleString:s,setextHeading:o(fe),strong:o(be),thematicBreak:o(Se)},exit:{atxHeading:l(),atxHeadingSequence:S,autolink:l(),autolinkEmail:oe,autolinkProtocol:ae,blockQuote:l(),characterEscapeValue:D,characterReferenceMarkerHexadecimal:ne,characterReferenceMarkerNumeric:ne,characterReferenceValue:re,characterReference:ie,codeFenced:l(_),codeFencedFence:g,codeFencedFenceInfo:m,codeFencedFenceMeta:h,codeFlowValue:D,codeIndented:l(v),codeText:l(M),codeTextData:D,data:D,definition:l(),definitionDestinationString:x,definitionLabelString:y,definitionTitleString:b,emphasis:l(),hardBreakEscape:l(k),hardBreakTrailing:l(k),htmlFlow:l(A),htmlFlowData:D,htmlText:l(j),htmlTextData:D,image:l(P),label:I,labelText:F,lineEnding:O,link:l(N),listItem:l(),listOrdered:l(),listUnordered:l(),paragraph:l(),referenceString:te,resourceDestinationString:L,resourceTitleString:R,resource:ee,setextHeading:l(T),setextHeadingLineSequence:w,setextHeadingText:C,strong:l(),thematicBreak:l()}};b8(t,(e||{}).mdastExtensions||[]);let n={};return r;function r(e){let r={type:`root`,children:[],position:void 0},o={stack:[r],tokenStack:[],config:t,enter:c,exit:u,buffer:s,resume:d,data:n},l=[],f=[],p=-1;for(;++p<e.length;)f.push(e[p]),(e[p][1].type===`listOrdered`||e[p][1].type===`listUnordered`)&&(e[p][0]===`enter`?l.push(f.length-1):a(f,l.pop()));for(e=f,p=-1;++p<e.length;){let n=t[e[p][0]];e[p][0]===`enter`&&t.beforeEnter.length>0&&i(t.beforeEnter,{...o,sliceSerialize:e[p][2].sliceSerialize},e[p][1]),v8.call(n,e[p][1].type)&&n[e[p][1].type].call({...o,sliceSerialize:e[p][2].sliceSerialize},e[p][1]),e[p][0]===`exit`&&t.afterExit.length>0&&i(t.afterExit,{...o,sliceSerialize:e[p][2].sliceSerialize},e[p][1])}if(o.tokenStack.length>0){let e=o.tokenStack[o.tokenStack.length-1];(e[1]||x8).call(o,void 0,e[0])}for(r.position={start:y8(e.length>0?e[0][1].start:{line:1,column:1,offset:0}),end:y8(e.length>0?e[e.length-2][1].end:{line:1,column:1,offset:0})},p=-1;++p<t.transforms.length;)r=t.transforms[p](r)||r;return r}function i(e,t,n){let r=-1;for(;++r<e.length;)e[r].call(t,n)}function a(e,t){let n=e.length-1,r=t-1,i=-1,a=!1,o,s,c,l,u=[];for(;++r<=n;){let t=e[r];switch(t[1].type){case`listUnordered`:case`listOrdered`:case`blockQuote`:t[0]===`enter`?i++:i--,l=void 0;break;case`lineEndingBlank`:t[0]===`enter`&&(o&&!l&&!i&&!c&&(c=r),l=void 0);break;case`linePrefix`:case`listItemValue`:case`listItemMarker`:case`listItemPrefix`:case`listItemPrefixWhitespace`:break;default:l=void 0}if(!i&&t[0]===`enter`&&t[1].type===`listItemPrefix`||i===-1&&t[0]===`exit`&&(t[1].type===`listUnordered`||t[1].type===`listOrdered`)){if(o){let n=r;for(s=void 0;n--;){let t=e[n];if(t[1].type===`lineEnding`||t[1].type===`lineEndingBlank`){if(t[0]===`exit`)continue;s&&(e[s][1].type=`lineEndingBlank`,a=!0),t[1].type=`lineEnding`,s=n}else if(t[1].type!==`linePrefix`&&t[1].type!==`blockQuotePrefix`&&t[1].type!==`blockQuotePrefixWhitespace`&&t[1].type!==`blockQuoteMarker`&&t[1].type!==`listItemIndent`)break}c&&(!s||c<s)&&(o._spread=!0),o.end=Object.assign({},s?e[s][1].start:t[1].end),u.push({at:s||r,event:[`exit`,o,t[2]]})}if(t[1].type===`listItemPrefix`){let e={type:`listItem`,_spread:!1,start:Object.assign({},t[1].start),end:void 0};o=e,u.push({at:r,event:[`enter`,e,t[2]]}),c=void 0,l=!0}}}let d=e.splice(t),f=0;for(r=-1;++r<d.length;){for(;f<u.length&&u[f].at===t+r;)e.push(u[f++].event);e.push(d[r])}e[t][1]._spread=a}function o(e,t){return n;function n(n){c.call(this,e(n),n),t&&t.call(this,n)}}function s(){this.stack.push({type:`fragment`,children:[]})}function c(e,t,n){this.stack[this.stack.length-1].children.push(e),this.stack.push(e),this.tokenStack.push([t,n||void 0]),e.position={start:y8(t.start),end:void 0}}function l(e){return t;function t(t){e&&e.call(this,t),u.call(this,t)}}function u(e,t){let n=this.stack.pop(),r=this.tokenStack.pop();if(!r)throw Error("Cannot close `"+e.type+"` ("+i6({start:e.start,end:e.end})+`): it’s not open`);r[0].type!==e.type&&(t?t.call(this,e,r[0]):(r[1]||x8).call(this,e,r[0])),n.position.end=y8(e.end)}function d(){return _6(this.stack.pop())}function f(){this.data.expectingFirstListItemValue=!0}function p(e){if(this.data.expectingFirstListItemValue){let t=this.stack[this.stack.length-2];t.start=Number.parseInt(this.sliceSerialize(e),10),this.data.expectingFirstListItemValue=void 0}}function m(){let e=this.resume(),t=this.stack[this.stack.length-1];t.lang=e}function h(){let e=this.resume(),t=this.stack[this.stack.length-1];t.meta=e}function g(){this.data.flowCodeInside||(this.buffer(),this.data.flowCodeInside=!0)}function _(){let e=this.resume(),t=this.stack[this.stack.length-1];t.value=e.replace(/^(\r?\n|\r)|(\r?\n|\r)$/g,``),this.data.flowCodeInside=void 0}function v(){let e=this.resume(),t=this.stack[this.stack.length-1];t.value=e.replace(/(\r?\n|\r)$/g,``)}function y(e){let t=this.resume(),n=this.stack[this.stack.length-1];n.label=t,n.identifier=D6(this.sliceSerialize(e)).toLowerCase()}function b(){let e=this.resume(),t=this.stack[this.stack.length-1];t.title=e}function x(){let e=this.resume(),t=this.stack[this.stack.length-1];t.url=e}function S(e){let t=this.stack[this.stack.length-1];t.depth||=this.sliceSerialize(e).length}function C(){this.data.setextHeadingSlurpLineEnding=!0}function w(e){let t=this.stack[this.stack.length-1];t.depth=this.sliceSerialize(e).codePointAt(0)===61?1:2}function T(){this.data.setextHeadingSlurpLineEnding=void 0}function E(e){let t=this.stack[this.stack.length-1].children,n=t[t.length-1];(!n||n.type!==`text`)&&(n=xe(),n.position={start:y8(e.start),end:void 0},t.push(n)),this.stack.push(n)}function D(e){let t=this.stack.pop();t.value+=this.sliceSerialize(e),t.position.end=y8(e.end)}function O(e){let n=this.stack[this.stack.length-1];if(this.data.atHardBreak){let t=n.children[n.children.length-1];t.position.end=y8(e.end),this.data.atHardBreak=void 0;return}!this.data.setextHeadingSlurpLineEnding&&t.canContainEols.includes(n.type)&&(E.call(this,e),D.call(this,e))}function k(){this.data.atHardBreak=!0}function A(){let e=this.resume(),t=this.stack[this.stack.length-1];t.value=e}function j(){let e=this.resume(),t=this.stack[this.stack.length-1];t.value=e}function M(){let e=this.resume(),t=this.stack[this.stack.length-1];t.value=e}function N(){let e=this.stack[this.stack.length-1];if(this.data.inReference){let t=this.data.referenceType||`shortcut`;e.type+=`Reference`,e.referenceType=t,delete e.url,delete e.title}else delete e.identifier,delete e.label;this.data.referenceType=void 0}function P(){let e=this.stack[this.stack.length-1];if(this.data.inReference){let t=this.data.referenceType||`shortcut`;e.type+=`Reference`,e.referenceType=t,delete e.url,delete e.title}else delete e.identifier,delete e.label;this.data.referenceType=void 0}function F(e){let t=this.sliceSerialize(e),n=this.stack[this.stack.length-2];n.label=GFe(t),n.identifier=D6(t).toLowerCase()}function I(){let e=this.stack[this.stack.length-1],t=this.resume(),n=this.stack[this.stack.length-1];this.data.inReference=!0,n.type===`link`?n.children=e.children:n.alt=t}function L(){let e=this.resume(),t=this.stack[this.stack.length-1];t.url=e}function R(){let e=this.resume(),t=this.stack[this.stack.length-1];t.title=e}function ee(){this.data.inReference=void 0}function z(){this.data.referenceType=`collapsed`}function te(e){let t=this.resume(),n=this.stack[this.stack.length-1];n.label=t,n.identifier=D6(this.sliceSerialize(e)).toLowerCase(),this.data.referenceType=`full`}function ne(e){this.data.characterReferenceType=e.type}function re(e){let t=this.sliceSerialize(e),n=this.data.characterReferenceType,r;n?(r=E6(t,n===`characterReferenceMarkerNumeric`?10:16),this.data.characterReferenceType=void 0):r=x6(t);let i=this.stack[this.stack.length-1];i.value+=r}function ie(e){let t=this.stack.pop();t.position.end=y8(e.end)}function ae(e){D.call(this,e);let t=this.stack[this.stack.length-1];t.url=this.sliceSerialize(e)}function oe(e){D.call(this,e);let t=this.stack[this.stack.length-1];t.url=`mailto:`+this.sliceSerialize(e)}function se(){return{type:`blockquote`,children:[],position:void 0}}function ce(){return{type:`code`,lang:null,meta:null,value:``,position:void 0}}function le(){return{type:`inlineCode`,value:``,position:void 0}}function ue(){return{type:`definition`,identifier:``,label:null,title:null,url:``,position:void 0}}function de(){return{type:`emphasis`,children:[],position:void 0}}function fe(){return{type:`heading`,depth:0,children:[],position:void 0}}function pe(){return{type:`break`,position:void 0}}function me(){return{type:`html`,value:``,position:void 0}}function he(){return{type:`image`,title:null,url:``,alt:null,position:void 0}}function ge(){return{type:`link`,title:null,url:``,children:[],position:void 0}}function _e(e){return{type:`list`,ordered:e.type===`listOrdered`,start:null,spread:e._spread,children:[],position:void 0}}function ve(e){return{type:`listItem`,spread:e._spread,checked:null,children:[],position:void 0}}function ye(){return{type:`paragraph`,children:[],position:void 0}}function be(){return{type:`strong`,children:[],position:void 0}}function xe(){return{type:`text`,value:``,position:void 0}}function Se(){return{type:`thematicBreak`,position:void 0}}}function y8(e){return{line:e.line,column:e.column,offset:e.offset}}function b8(e,t){let n=-1;for(;++n<t.length;){let r=t[n];Array.isArray(r)?b8(e,r):YFe(e,r)}}function YFe(e,t){let n;for(n in t)if(v8.call(t,n))switch(n){case`canContainEols`:{let r=t[n];r&&e[n].push(...r);break}case`transforms`:{let r=t[n];r&&e[n].push(...r);break}case`afterExit`:case`beforeEnter`:{let r=t[n];r&&e[n].push(r);break}case`enter`:case`exit`:{let r=t[n];r&&Object.assign(e[n],r);break}}}function x8(e,t){throw Error(e?"Cannot close `"+e.type+"` ("+i6({start:e.start,end:e.end})+"): a different token (`"+t.type+"`, "+i6({start:t.start,end:t.end})+`) is open`:"Cannot close document, a token (`"+t.type+"`, "+i6({start:t.start,end:t.end})+`) is still open`)}function XFe(e){let t=this;t.parser=n;function n(n){return qFe(n,{...t.data(`settings`),...e,extensions:t.data(`micromarkExtensions`)||[],mdastExtensions:t.data(`fromMarkdownExtensions`)||[]})}}function ZFe(e,t){let n={type:`element`,tagName:`blockquote`,properties:{},children:e.wrap(e.all(t),!0)};return e.patch(t,n),e.applyData(t,n)}function QFe(e,t){let n={type:`element`,tagName:`br`,properties:{},children:[]};return e.patch(t,n),[e.applyData(t,n),{type:`text`,value:`
