@@ -2709,7 +2709,7 @@ that the existing unique index covers this.\r
 Question (Jan, 28 Nov 2026): can the Marketing Hub become a product for trainers, a tool to manage their own social
 media? How much work is it on my side, what does it cost, and can everything be automated through the Hub?
 
-**Short answer:** yes, technically, for Instagram, Facebook Pages and LinkedIn personal profiles. TikTok stays half
+**Short answer:** yes, for Instagram Creator/Business accounts and Facebook Pages that trainers connect themselves (personal accounts and profiles are not possible). TikTok stays half
 manual (drafts). It is not worth building before launch:
 
 - the Hub serves one owner today, and multi-tenancy is about 80-130 h of work;
@@ -2718,6 +2718,33 @@ manual (drafts). It is not worth building before launch:
 
 The version worth selling is **posts generated from the trainer's Ramvo data**, which nobody else has. Validate demand
 with the Founding Trainers first and start Meta Business Verification early, because it costs nothing.
+
+## Scope (updated 28 Nov 2026): trainers connect their own accounts, no LinkedIn
+
+The idea is a connector: each trainer opens **their own Marketing Hub** in Ramvo and connects **their own** Instagram,
+Facebook and TikTok. LinkedIn is out of scope.
+
+| Trainer's account | Can the Hub publish to it? | How the trainer connects |
+|---|---|---|
+| Instagram **personal** account | **No.** Meta has no publishing API for personal accounts | The trainer switches to Creator or Business first: Settings → Account type and tools → Switch to professional account. It's free, takes a minute and keeps followers and posts |
+| Instagram **Creator / Business** | **Yes:** photo, carousel, reel, story, first comment, stats | "Connect" → Instagram login → Allow |
+| Facebook **personal profile** | **No.** Posting to profiles via API was removed in 2018 | Not possible; the trainer needs a Page |
+| Facebook **Page** | **Yes:** text, photo, carousel, video, reel, first comment, stats | "Connect" → Facebook login → choose the Page |
+| TikTok (any account, personal too) | **Draft only.** The trainer taps "Post" in TikTok | "Connect" → TikTok login; needs TikTok's app review before it works for other people |
+
+**Self-connect already exists** (the Connect button on the Accounts page). It works for other people's accounts only
+once Meta approves the app (App Review + Business Verification of Ramvo Ltd).
+
+**Beta without waiting for Meta:** in development mode, a trainer can be added as a tester of the app.
+- Instagram: App roles → Instagram Testers; the trainer accepts in Instagram → Settings → Apps and websites → Tester
+  invites.
+- Facebook: an app role for the trainer's Facebook account.
+
+Their accounts then work straight away. That is fine for 5-20 Founding Trainers, but not for hundreds, so the
+public launch still needs App Review.
+
+Without LinkedIn the build is about **70-110 h** instead of 80-130 h. Multi-tenancy (separate accounts, data and
+alerts per trainer) is still the biggest part.
 
 ## 1. What the Hub is today
 
@@ -2816,16 +2843,22 @@ responsibility than the core app.
       name and address.
    4. Confirm the e-mail or phone code. Wait for the result (usually days, sometimes 2+ weeks).
    5. Connect the "Ramvo Marketing Hub" app to this portfolio (App settings → Basic → Business portfolio).
-4. **If validated, phase 1 (about 6-8 weeks including review):**
-   - Instagram, Facebook Page and LinkedIn profile, plus TikTok drafts;
-   - the trainer Hub in the web panel;
-   - post templates from Ramvo data;
-   - sold as the "Ramvo Social" add-on at **£5.99/mo**, or included in Studio.
+4. **If validated, phase 1:**
+   1. **Tester beta** with the Founding Trainers who said yes:
+      - each trainer added as an app tester;
+      - Instagram (Creator/Business) and Facebook Page;
+      - the trainer Hub in the web panel;
+      - post templates from Ramvo data.
+   2. **Meanwhile, App Review** with the beta as the screencast material.
+   3. **After approval:** open it to everyone as the "Ramvo Social" add-on at **£5.99/mo** (or included in Studio),
+      with TikTok drafts once TikTok approves the app.
+   4. **Time:** about 6-8 weeks including review.
 5. **Phase 2:** posting from the mobile app; social stats in the trainer's monthly recap.
 6. **Never promise:**
    - the voice-over (it runs on Jan's PC);
    - fully automatic TikTok;
-   - LinkedIn company pages (unless the separate Community Management review is approved).
+   - posting to personal Instagram accounts or personal Facebook profiles (not possible);
+   - LinkedIn (out of scope).
 
 ## Sources (checked 28 Nov 2026)
 - [Meta: App Review for Instagram API](https://developers.facebook.com/docs/instagram-platform/app-review)
@@ -4909,7 +4942,7 @@ Sprawdź, czy istniejący indeks unikalny to obejmuje.
 Pytanie (Jan, 28 lis 2026): czy Marketing Hub może być narzędziem dla trenerów do prowadzenia ich social mediów? Ile
 to pracy po mojej stronie, jakie koszty i czy wszystko da się zautomatyzować przez Hub?
 
-**Krótko:** technicznie tak, dla Instagrama, stron na Facebooku i prywatnych profili LinkedIn. TikTok zostaje
+**Krótko:** tak, dla kont Twórca/Firma na Instagramie i stron na Facebooku, które trenerzy podłączają sami (konta i profile prywatne odpadają). TikTok zostaje
 półautomatyczny (szkice). Przed startem nie warto tego budować:
 
 - Hub obsługuje dziś jednego właściciela, a obsługa wielu kont to ok. 80–130 h pracy;
@@ -4918,6 +4951,33 @@ półautomatyczny (szkice). Przed startem nie warto tego budować:
 
 Warto sprzedawać wersję z **postami generowanymi z danych trenera w Ramvo**, których nikt inny nie ma. Najpierw
 sprawdź popyt u Founding Trainerów, a weryfikację firmy w Mecie zacznij od razu, bo nic nie kosztuje.
+
+## Zakres (aktualizacja 28 lis 2026): trenerzy łączą własne konta, bez LinkedIna
+
+Chodzi o connector: każdy trener otwiera **swój Marketing Hub** w Ramvo i podłącza **swoje** konta na Instagramie,
+Facebooku i TikToku. LinkedIn odpada.
+
+| Konto trenera | Czy Hub może na nim publikować? | Jak trener je podłącza |
+|---|---|---|
+| **Prywatne** konto na Instagramie | **Nie.** Meta nie ma API do publikowania na kontach prywatnych | Trener najpierw przełącza się na konto Twórca albo Firma: Ustawienia → Typ konta i narzędzia → Przełącz na konto profesjonalne. Darmowe, trwa minutę, zostają obserwujący i posty |
+| Instagram **Twórca / Firma** | **Tak:** zdjęcie, karuzela, rolka, relacja, pierwszy komentarz, statystyki | „Połącz” → logowanie do Instagrama → Zezwól |
+| **Prywatny profil** na Facebooku | **Nie.** Publikowanie na profilach przez API zniknęło w 2018 r. | Nie da się; trener potrzebuje strony |
+| **Strona** na Facebooku | **Tak:** tekst, zdjęcie, karuzela, film, rolka, pierwszy komentarz, statystyki | „Połącz” → logowanie do Facebooka → wybór strony |
+| TikTok (każde konto, także prywatne) | **Tylko szkic.** Trener klika „Opublikuj” w TikToku | „Połącz” → logowanie do TikToka; dla innych osób zadziała po zatwierdzeniu aplikacji przez TikToka |
+
+**Samodzielne podłączanie już istnieje** (przycisk „Połącz” w Kontach). Dla cudzych kont zadziała dopiero, gdy Meta
+zatwierdzi aplikację (App Review i weryfikacja Ramvo Ltd).
+
+**Wersja testowa bez czekania na Metę:** w trybie deweloperskim można dodać trenera jako testera aplikacji.
+- Instagram: App roles → Instagram Testers; trener akceptuje w Instagramie → Ustawienia → Aplikacje i witryny →
+  Zaproszenia testerów.
+- Facebook: rola w aplikacji dla konta trenera na Facebooku.
+
+Wtedy jego konta działają od razu. To wystarczy dla 5–20 Founding Trainerów, ale nie dla setek, więc publiczny start
+nadal wymaga App Review.
+
+Bez LinkedIna budowa to ok. **70–110 h** zamiast 80–130 h. Największa część to nadal obsługa wielu trenerów (osobne
+konta, dane i alerty dla każdego).
 
 ## 1. Czym jest Hub dziś
 
@@ -5017,16 +5077,22 @@ i ryzyko recenzji.
       i adresem.
    4. Potwierdź kod z e-maila lub SMS-a. Czekaj na wynik (zwykle kilka dni, czasem 2+ tygodnie).
    5. Podłącz aplikację „Ramvo Marketing Hub” do tego portfolio (App settings → Basic → Business portfolio).
-4. **Jeśli popyt się potwierdzi, faza 1 (ok. 6–8 tygodni z recenzją):**
-   - Instagram, strona na Facebooku i profil LinkedIn, plus szkice na TikToku;
-   - Hub dla trenera w panelu w przeglądarce;
-   - szablony postów z danych Ramvo;
-   - sprzedaż jako dodatek „Ramvo Social” za **5,99 £/mies.** albo w planie Studio.
+4. **Jeśli popyt się potwierdzi, faza 1:**
+   1. **Wersja testowa** z Founding Trainerami, którzy powiedzieli „tak”:
+      - każdy trener dodany jako tester aplikacji;
+      - Instagram (Twórca lub Firma) i strona na Facebooku;
+      - Hub dla trenera w panelu w przeglądarce;
+      - szablony postów z danych Ramvo.
+   2. **W tym czasie App Review**, z wersją testową jako materiałem do nagrań.
+   3. **Po zatwierdzeniu:** otwarcie dla wszystkich jako dodatek „Ramvo Social” za **5,99 £/mies.** (albo w planie
+      Studio), ze szkicami na TikToku, gdy TikTok zatwierdzi aplikację.
+   4. **Czas:** ok. 6–8 tygodni z recenzją.
 5. **Faza 2:** publikacja z aplikacji mobilnej; statystyki social mediów w miesięcznym podsumowaniu trenera.
 6. **Nigdy nie obiecywać:**
    - Lektora (działa na komputerze Jana);
    - w pełni automatycznego TikToka;
-   - stron firmowych LinkedIn (chyba że osobna recenzja Community Management przejdzie).
+   - publikowania na prywatnych kontach Instagrama ani prywatnych profilach Facebooka (niemożliwe);
+   - LinkedIna (poza zakresem).
 
 ## Źródła (sprawdzone 28 lis 2026)
 - [Meta: App Review for Instagram API](https://developers.facebook.com/docs/instagram-platform/app-review)
